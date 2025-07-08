@@ -445,9 +445,10 @@
         "fb81d2b5-38b4-4322-93fc-cd722f8758f3": {
           "type": "collection_item",
           "settings": {
-            "collection": "watch",
-            "collection_title": "Watches",
-            "collection_link": ""
+            "collection": "balmain",
+            "image": "shopify://shop_images/balmain-homme-100ml-edt-spray-m-716295.jpg",
+            "collection_title": "{{ block.settings.collection.title }}",
+            "collection_link": "{{ block.settings.collection.url }}"
           }
         }
       },
