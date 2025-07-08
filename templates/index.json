@@ -544,6 +544,7 @@
         },
         "164603622209bd8d44-1": {
           "type": "custom_text",
+          "disabled": true,
           "settings": {
             "text": "LOOKBOOK 2023",
             "remove_br_tag": true,
@@ -635,6 +636,7 @@
         },
         "164603622209bd8d44-4": {
           "type": "custom_text",
+          "disabled": true,
           "settings": {
             "text": "SUMMER SALE",
             "remove_br_tag": false,
@@ -658,6 +660,7 @@
         },
         "164603622209bd8d44-5": {
           "type": "custom_text",
+          "disabled": true,
           "settings": {
             "text": "UP TO 70%",
             "remove_br_tag": false,
