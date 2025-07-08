@@ -16,6 +16,7 @@
           "type": "image_parent",
           "settings": {
             "image": "shopify://shop_images/istockphoto-1284296433-612x612.jpg",
+            "image_mb": "shopify://shop_images/istockphoto-1284296433-612x612.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "",
