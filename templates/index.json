@@ -15,7 +15,7 @@
         "image_parent_TYR9cT": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify://shop_images/3355aa_1024x1024_ddbfcbda-d23c-43f8-9660-2d3d4d628df3.webp",
+            "image": "shopify://shop_images/240109-D-YE683-1001-ezgif.com-webp-to-png-converter.png",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "",
@@ -77,6 +77,7 @@
         },
         "custom_text_Xh7bVW": {
           "type": "custom_text",
+          "disabled": true,
           "settings": {
             "text": "Discover the Art of Scent",
             "remove_br_tag": false,
