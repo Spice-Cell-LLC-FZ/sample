@@ -2273,14 +2273,12 @@
           },
           "758ddd07-8ea5-4c0e-80a1-e7eef279fa5f": {
             "type": "mega",
-            "disabled": true,
             "settings": {
               "id": 5
             }
           },
           "5665b9cc-d2a6-42e0-b267-e4b36da8a05e": {
             "type": "link",
-            "disabled": true,
             "settings": {
               "tt_hd": "BLOG LAYOUT",
               "url": "https://demo-kalles-4-1.myshopify.com/blogs/fashion?preview_theme_id=",
@@ -2293,7 +2291,6 @@
           },
           "552902be-02b1-40ca-8475-982bbdb75ed7": {
             "type": "blogs",
-            "disabled": true,
             "settings": {
               "blog": "fashion",
               "post_des": "1",
