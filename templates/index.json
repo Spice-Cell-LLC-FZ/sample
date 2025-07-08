@@ -261,8 +261,8 @@
       "settings": {
         "se_height": "t4s_ratio_cuspx",
         "custom_dk": true,
-        "height_dk": 700,
-        "custom_tb": true,
+        "height_dk": 600,
+        "custom_tb": false,
         "height_tb": 500,
         "custom_mb": true,
         "height_mb": 400,
