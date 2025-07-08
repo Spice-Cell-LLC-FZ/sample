@@ -1149,9 +1149,9 @@
           "mega_dCXFTP"
         ],
         "settings": {
-          "layout": "logo_left",
+          "layout": "logo_center",
           "full_header": true,
-          "height": 60,
+          "height": 120,
           "arrow": true,
           "align": "center",
           "hover": "hover_sideup",
