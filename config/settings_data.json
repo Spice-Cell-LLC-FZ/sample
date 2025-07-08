@@ -814,7 +814,7 @@
           "link_active_cl": "#222222",
           "border_cl": "#56cfe1",
           "layout": "t4s-container-wrap",
-          "cl_bg": "#000000",
+          "cl_bg": "#ddd",
           "cl_bg_gradient": "",
           "mg": "",
           "pd": "75px,,75px,",
