@@ -298,8 +298,92 @@
         "code_cus_css": ""
       }
     },
+    "164603504020ce33da": {
+      "type": "collections-list-manual",
+      "blocks": {
+        "1646035040fee424aa-0": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "ella",
+            "image": "shopify://shop_images/musc-k-100ml-edp-by-ella-k-157292.png",
+            "collection_title": "{{ block.settings.collection.title }}",
+            "collection_link": "{{ block.settings.collection.url }}"
+          }
+        },
+        "1646035040fee424aa-1": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "acqua-di-parma",
+            "image": "shopify://shop_images/150ml-mirt-di-panarea-edt-by-acqua-di-parma-blu-mediterraneo-121235.png",
+            "collection_title": "{{ block.settings.collection.title }}",
+            "collection_link": "{{ block.settings.collection.url }}"
+          }
+        },
+        "1646035040fee424aa-2": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "afnan",
+            "image": "shopify://shop_images/9pm-100ml-edp-for-men-by-afnan-perfumes-296812.webp",
+            "collection_title": "{{ block.settings.collection.title }}",
+            "collection_link": "{{ block.settings.collection.url }}"
+          }
+        },
+        "fb81d2b5-38b4-4322-93fc-cd722f8758f3": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "balmain",
+            "image": "shopify://shop_images/balmain-homme-100ml-edt-spray-m-716295.jpg",
+            "collection_title": "{{ block.settings.collection.title }}",
+            "collection_link": "{{ block.settings.collection.url }}"
+          }
+        }
+      },
+      "block_order": [
+        "1646035040fee424aa-0",
+        "1646035040fee424aa-1",
+        "1646035040fee424aa-2",
+        "fb81d2b5-38b4-4322-93fc-cd722f8758f3"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "OUR COLLECTION",
+        "icon_heading": "gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "collection_des": "1",
+        "title_cl": "#ffffff",
+        "title_cl_hover": "#222222",
+        "subtitle_cl": "#878787",
+        "count_cl": "#222222",
+        "border_cl": "#e5e5e5",
+        "collection_subtitle": "Products",
+        "open_link": "_self",
+        "space_bottom": 20,
+        "space_bottom_mb": 10,
+        "border": false,
+        "item_rd": 0,
+        "item_rd_unit": "%",
+        "img_effect": "zoom",
+        "b_effect": "none",
+        "image_position": "7",
+        "coll_layout": "1",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,110px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,50px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
     "featured_collection_kTNHBx": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "Featured collection",
       "settings": {
         "design_heading": "1",
@@ -719,90 +803,6 @@
         "code_cus_css": ""
       }
     },
-    "164603504020ce33da": {
-      "type": "collections-list-manual",
-      "blocks": {
-        "1646035040fee424aa-0": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "ella",
-            "image": "shopify://shop_images/musc-k-100ml-edp-by-ella-k-157292.png",
-            "collection_title": "{{ block.settings.collection.title }}",
-            "collection_link": "{{ block.settings.collection.url }}"
-          }
-        },
-        "1646035040fee424aa-1": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "acqua-di-parma",
-            "image": "shopify://shop_images/150ml-mirt-di-panarea-edt-by-acqua-di-parma-blu-mediterraneo-121235.png",
-            "collection_title": "{{ block.settings.collection.title }}",
-            "collection_link": "{{ block.settings.collection.url }}"
-          }
-        },
-        "1646035040fee424aa-2": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "afnan",
-            "image": "shopify://shop_images/9pm-100ml-edp-for-men-by-afnan-perfumes-296812.webp",
-            "collection_title": "{{ block.settings.collection.title }}",
-            "collection_link": "{{ block.settings.collection.url }}"
-          }
-        },
-        "fb81d2b5-38b4-4322-93fc-cd722f8758f3": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "balmain",
-            "image": "shopify://shop_images/balmain-homme-100ml-edt-spray-m-716295.jpg",
-            "collection_title": "{{ block.settings.collection.title }}",
-            "collection_link": "{{ block.settings.collection.url }}"
-          }
-        }
-      },
-      "block_order": [
-        "1646035040fee424aa-0",
-        "1646035040fee424aa-1",
-        "1646035040fee424aa-2",
-        "fb81d2b5-38b4-4322-93fc-cd722f8758f3"
-      ],
-      "disabled": true,
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "collection_des": "1",
-        "title_cl": "#ffffff",
-        "title_cl_hover": "#222222",
-        "subtitle_cl": "#878787",
-        "count_cl": "#222222",
-        "border_cl": "#e5e5e5",
-        "collection_subtitle": "Products",
-        "open_link": "_self",
-        "space_bottom": 20,
-        "space_bottom_mb": 10,
-        "border": false,
-        "item_rd": 0,
-        "item_rd_unit": "%",
-        "img_effect": "zoom",
-        "b_effect": "none",
-        "image_position": "7",
-        "coll_layout": "1",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,110px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,50px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
-      }
-    },
     "16460362229768af39": {
       "type": "banner",
       "blocks": {
@@ -1119,11 +1119,11 @@
   },
   "order": [
     "slideshow_YXfH4W",
+    "164603504020ce33da",
     "featured_collection_kTNHBx",
     "hero_image_dRfqzm",
     "164603686708691778",
     "hero_image_WQt9VT",
-    "164603504020ce33da",
     "16460362229768af39",
     "164620932069107a3a"
   ]
