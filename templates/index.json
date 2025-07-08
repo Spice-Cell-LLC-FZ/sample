@@ -132,6 +132,7 @@
         "aca13d02-fdca-4dd7-b455-cc71ffabb08a": {
           "type": "image_parent",
           "settings": {
+            "image": "shopify://shop_images/DSK_PLP_Banner__VersacePerf.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "",

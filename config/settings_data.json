@@ -2030,7 +2030,6 @@
           },
           "3abb98a1-837d-46af-b195-f5c43e7c88ee": {
             "type": "link",
-            "disabled": true,
             "settings": {
               "tt_hd": "HOME PAGES",
               "url": "",
@@ -2043,7 +2042,6 @@
           },
           "2ceac397-4b2b-4740-a477-707dd2680e02": {
             "type": "link",
-            "disabled": true,
             "settings": {
               "tt_hd": "HOME PAGES",
               "url": "",
@@ -2056,7 +2054,6 @@
           },
           "1f90cea5-04fb-4ef3-822b-5f987845e5c4": {
             "type": "link",
-            "disabled": true,
             "settings": {
               "tt_hd": "HEADER LAYOUTS",
               "url": "",
@@ -2069,7 +2066,6 @@
           },
           "6122e966-0272-4c46-a1a0-051bdc2ae08c": {
             "type": "link",
-            "disabled": true,
             "settings": {
               "tt_hd": "FEATURES",
               "url": "",
@@ -2082,14 +2078,12 @@
           },
           "45fa281e-2be5-4727-bd01-942824713769": {
             "type": "mega",
-            "disabled": true,
             "settings": {
               "id": 2
             }
           },
           "02beea21-3cb9-41ce-a1ab-04ae44b7f47e": {
             "type": "link",
-            "disabled": true,
             "settings": {
               "tt_hd": "SHOP PAGES",
               "url": "",
@@ -2102,7 +2096,6 @@
           },
           "ff494243-e58b-40e9-a2ea-e64ccd58a624": {
             "type": "link",
-            "disabled": true,
             "settings": {
               "tt_hd": "FEATURES",
               "url": "",
@@ -2171,14 +2164,12 @@
           },
           "5bdb6eec-e820-4415-ac9b-9c6096eb20c1": {
             "type": "mega",
-            "disabled": true,
             "settings": {
               "id": 3
             }
           },
           "cc1a7875-8010-421e-b69c-efc19a6043d6": {
             "type": "link",
-            "disabled": true,
             "settings": {
               "tt_hd": "PRODUCT LAYOUTS",
               "url": "",
@@ -2191,7 +2182,6 @@
           },
           "e17e717c-01e0-4704-92bc-92c339ee6148": {
             "type": "link",
-            "disabled": true,
             "settings": {
               "tt_hd": "PRODUCT DETAILS",
               "url": "",
@@ -2204,7 +2194,6 @@
           },
           "27ca598d-2e3f-44fc-a790-64783d37de5e": {
             "type": "link",
-            "disabled": true,
             "settings": {
               "tt_hd": "PRODUCT SWATCH",
               "url": "",
@@ -2217,7 +2206,6 @@
           },
           "bdfaa837-86a3-4159-805a-668060142b0d": {
             "type": "link",
-            "disabled": true,
             "settings": {
               "tt_hd": "PRODUCT FEATURES",
               "url": "",
@@ -2230,14 +2218,12 @@
           },
           "5952e385-42a5-4603-9be9-64b76f15ef48": {
             "type": "mega",
-            "disabled": true,
             "settings": {
               "id": 4
             }
           },
           "400a038a-cb32-4aae-a66d-7d4cd404ccd6": {
             "type": "link2",
-            "disabled": true,
             "settings": {
               "col": "2",
               "menu": "",
