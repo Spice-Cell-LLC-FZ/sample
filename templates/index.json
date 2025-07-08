@@ -929,6 +929,7 @@
         },
         "custom_button_4hQUXB": {
           "type": "custom_button",
+          "disabled": true,
           "settings": {
             "button_text": "Button label",
             "button_link": "",
