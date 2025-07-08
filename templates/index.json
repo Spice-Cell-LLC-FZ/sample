@@ -719,8 +719,8 @@
         "custom_button_k48kxz": {
           "type": "custom_button",
           "settings": {
-            "button_text": "Button label",
-            "button_link": "",
+            "button_text": "SEE ALL",
+            "button_link": "shopify://collections/best-selling-products",
             "target_link": "_self",
             "fontf": "inherit",
             "button_icon_w": 0,
