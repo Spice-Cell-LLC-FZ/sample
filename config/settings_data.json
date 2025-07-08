@@ -2497,7 +2497,7 @@
           "pr_item_config-1": {
             "type": "2",
             "settings": {
-              "heading": "Product desgin 02",
+              "heading": "",
               "addtocart_color": "#ffffff",
               "addtocart_color_hover": "#222222",
               "quickview_color": "#ffffff",
