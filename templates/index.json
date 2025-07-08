@@ -852,12 +852,12 @@
         "custom_text_c6zDRE": {
           "type": "custom_text",
           "settings": {
-            "text": "",
+            "text": "Ahmed Al Maghribi",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
             "text_cl": "#fff",
-            "text_fs": 16,
+            "text_fs": 24,
             "text_lh": 0,
             "text_fw": 400,
             "text_ls": 1,
