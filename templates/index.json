@@ -724,7 +724,7 @@
       ],
       "name": "Hero image",
       "settings": {
-        "se_height": "t4s_ratioadapt",
+        "se_height": "t4s_ratio_cuspx",
         "custom_dk": true,
         "height_dk": 550,
         "custom_tb": true,
@@ -936,7 +936,7 @@
       ],
       "name": "Hero image",
       "settings": {
-        "se_height": "t4s_ratioadapt",
+        "se_height": "t4s_ratio_cuspx",
         "custom_dk": true,
         "height_dk": 500,
         "custom_tb": true,
