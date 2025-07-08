@@ -427,8 +427,8 @@
         "1646035040fee424aa-1": {
           "type": "collection_item",
           "settings": {
-            "collection": "4711-echt-kolnisch-wasser",
-            "image": "shopify://shop_images/4711-by-echt-kolnisch-wasser-wm-581070.jpg",
+            "collection": "acqua-di-parma",
+            "image": "shopify://shop_images/150ml-mirt-di-panarea-edt-by-acqua-di-parma-blu-mediterraneo-121235.png",
             "collection_title": "{{ block.settings.collection.title }}",
             "collection_link": "{{ block.settings.collection.url }}"
           }
