@@ -133,13 +133,13 @@
         "image_parent_4FB9e9": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify://shop_images/Mens-Banner-copy.jpg",
+            "image": "shopify://shop_images/TFW_comp_06_1_1000x_7f86921e-91a9-4718-8487-406f3b069abf.webp",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "",
             "open_link": "_blank",
             "animate_slide": "none",
-            "text_align": "center",
+            "text_align": "start",
             "text_align_mb": "center",
             "content_width": "container",
             "cv_pos": 50,
