@@ -132,23 +132,22 @@
             "animation": "fadeInUp"
           }
         },
-        "164602873867eb3815-4": {
+        "aca13d02-fdca-4dd7-b455-cc71ffabb08a": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify://shop_images/110846.jpg",
-            "image_mb": "shopify://shop_images/110846.jpg",
+            "image": "shopify://shop_images/DSK_PLP_Banner__VersacePerf.jpg",
             "image_position": "8",
             "cl_img": "",
-            "link_img1": "shopify://collections/all",
+            "link_img1": "",
             "open_link": "_blank",
             "animate_slide": "none",
             "text_align": "start",
-            "text_align_mb": "center",
+            "text_align_mb": "end",
             "content_width": "container",
             "cv_pos": 50,
-            "ch_pos": 0,
+            "ch_pos": 100,
             "cv_pos_mb": 50,
-            "ch_pos_mb": 0,
+            "ch_pos_mb": 100,
             "bg_overlay": "#000000",
             "bg_opacity": 0,
             "bg_content_cl": "#ffffff",
@@ -249,22 +248,23 @@
             "animation": "fadeInRight"
           }
         },
-        "aca13d02-fdca-4dd7-b455-cc71ffabb08a": {
+        "164602873867eb3815-4": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify://shop_images/DSK_PLP_Banner__VersacePerf.jpg",
+            "image": "shopify://shop_images/110846.jpg",
+            "image_mb": "shopify://shop_images/110846.jpg",
             "image_position": "8",
             "cl_img": "",
-            "link_img1": "",
+            "link_img1": "shopify://collections/all",
             "open_link": "_blank",
             "animate_slide": "none",
             "text_align": "start",
-            "text_align_mb": "end",
+            "text_align_mb": "center",
             "content_width": "container",
             "cv_pos": 50,
-            "ch_pos": 100,
+            "ch_pos": 0,
             "cv_pos_mb": 50,
-            "ch_pos_mb": 100,
+            "ch_pos_mb": 0,
             "bg_overlay": "#000000",
             "bg_opacity": 0,
             "bg_content_cl": "#ffffff",
@@ -371,11 +371,11 @@
         "164602873867eb3815-1",
         "164602873867eb3815-2",
         "390cb6f8-c5fc-44ed-badf-074a03818e5a",
-        "164602873867eb3815-4",
+        "aca13d02-fdca-4dd7-b455-cc71ffabb08a",
         "b069b77f-6f77-41d8-839e-5f21d12217db",
         "ff196d3a-1239-4855-9969-90603c8cb52d",
         "efa3ea83-c43c-48b4-85ed-90ed7642e2f7",
-        "aca13d02-fdca-4dd7-b455-cc71ffabb08a",
+        "164602873867eb3815-4",
         "164602873867eb3815-5",
         "164602873867eb3815-6",
         "164602873867eb3815-7"
