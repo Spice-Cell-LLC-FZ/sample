@@ -719,8 +719,8 @@
         "custom_button_k48kxz": {
           "type": "custom_button",
           "settings": {
-            "button_text": "SEE ALL",
-            "button_link": "shopify://collections/best-selling-products",
+            "button_text": "SHOP NOW",
+            "button_link": "shopify://collections/perfumes",
             "target_link": "_self",
             "fontf": "inherit",
             "button_icon_w": 0,
