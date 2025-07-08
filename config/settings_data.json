@@ -787,7 +787,7 @@
           "33eb929e-a001-4d96-82a0-5aab1aaabaea"
         ],
         "settings": {
-          "sticky": false,
+          "sticky": true,
           "collapse": true,
           "border_top": true,
           "enable_follow_on_shop": true,
@@ -816,7 +816,6 @@
           "layout": "t4s-container-wrap",
           "cl_bg": "#000000",
           "cl_bg_gradient": "",
-          "image_bg": "shopify://shop_images/bckground.png",
           "mg": "",
           "pd": "75px,,75px,",
           "mg_tb": "",
