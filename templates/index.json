@@ -14,6 +14,7 @@
       "blocks": {
         "164602873867eb3815-0": {
           "type": "image_parent",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/istockphoto-1284296433-612x612.jpg",
             "image_mb": "shopify://shop_images/istockphoto-1284296433-612x612.jpg",
@@ -54,6 +55,7 @@
         },
         "164602873867eb3815-1": {
           "type": "custom_text",
+          "disabled": true,
           "settings": {
             "text": "SUMMER 2023",
             "remove_br_tag": false,
@@ -77,6 +79,7 @@
         },
         "164602873867eb3815-2": {
           "type": "custom_text",
+          "disabled": true,
           "settings": {
             "text": "New Arrival Collection",
             "remove_br_tag": false,
@@ -131,6 +134,7 @@
         },
         "aca13d02-fdca-4dd7-b455-cc71ffabb08a": {
           "type": "image_parent",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/DSK_PLP_Banner__VersacePerf.jpg",
             "image_position": "8",
@@ -217,7 +221,7 @@
         "efa3ea83-c43c-48b4-85ed-90ed7642e2f7": {
           "type": "custom_button",
           "settings": {
-            "button_text": "Explore Now",
+            "button_text": "SHOP NOW",
             "button_link": "shopify://collections",
             "target_link": "_self",
             "fontf": "inherit",
