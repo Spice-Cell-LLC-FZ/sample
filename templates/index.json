@@ -141,7 +141,7 @@
             "link_img1": "",
             "open_link": "_blank",
             "animate_slide": "none",
-            "text_align": "end",
+            "text_align": "start",
             "text_align_mb": "end",
             "content_width": "container",
             "cv_pos": 50,
