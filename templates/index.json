@@ -304,8 +304,8 @@
         "1646035040fee424aa-0": {
           "type": "collection_item",
           "settings": {
-            "collection": "ella",
-            "image": "shopify://shop_images/musc-k-100ml-edp-by-ella-k-157292.png",
+            "collection": "best-selling-products",
+            "image": "shopify://shop_images/oscar-de-la-renta-alibi-eau-sensuelle-100ml-edp-spray-w-783025.png",
             "collection_title": "{{ block.settings.collection.title }}",
             "collection_link": "{{ block.settings.collection.url }}"
           }
@@ -313,8 +313,8 @@
         "1646035040fee424aa-1": {
           "type": "collection_item",
           "settings": {
-            "collection": "acqua-di-parma",
-            "image": "shopify://shop_images/150ml-mirt-di-panarea-edt-by-acqua-di-parma-blu-mediterraneo-121235.png",
+            "collection": "perfumes",
+            "image": "shopify://shop_images/luxury-travel-spray-5mls-refillable-960343.png",
             "collection_title": "{{ block.settings.collection.title }}",
             "collection_link": "{{ block.settings.collection.url }}"
           }
@@ -330,6 +330,7 @@
         },
         "fb81d2b5-38b4-4322-93fc-cd722f8758f3": {
           "type": "collection_item",
+          "disabled": true,
           "settings": {
             "collection": "balmain",
             "image": "shopify://shop_images/balmain-homme-100ml-edt-spray-m-716295.jpg",
