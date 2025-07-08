@@ -567,8 +567,8 @@
         "164603622209bd8d44-2": {
           "type": "custom_text",
           "settings": {
-            "text": "MAKE LOVE THIS LOOK",
-            "remove_br_tag": false,
+            "text": "",
+            "remove_br_tag": true,
             "tag": "p",
             "fontf": "inherit",
             "text_cl": "#ffffff",
