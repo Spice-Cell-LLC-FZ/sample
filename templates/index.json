@@ -514,7 +514,7 @@
       "settings": {
         "design_heading": "2",
         "heading_align": "t4s-text-center",
-        "top_heading": "BEST SELLING",
+        "top_heading": "",
         "icon_heading": "gem",
         "top_subheading": "SORT BY POPULARITY",
         "tophead_mb": 30,
