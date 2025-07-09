@@ -3092,7 +3092,7 @@
       },
       "15228915764312614800": {
         "type": "shopify://apps/markets-currency-changer/blocks/popup-1/126e4f0f-b7e5-4dfc-8757-e97a4452ad3a",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "Currency_selector_Button_bg_color": "#000000"
         }
