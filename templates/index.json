@@ -326,8 +326,8 @@
         "1646035040fee424aa-2": {
           "type": "collection_item",
           "settings": {
-            "collection": "ahmed-al-maghribi",
-            "image": "shopify://shop_images/touch-oud-552868.png",
+            "collection": "gucci",
+            "image": "shopify://shop_images/gucci-bloom-intense-50ml-edp-spray-w-348834.png",
             "collection_title": "{{ block.settings.collection.title }}",
             "collection_link": "{{ block.settings.collection.url }}"
           }
