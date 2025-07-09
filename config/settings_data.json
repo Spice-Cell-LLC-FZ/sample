@@ -3101,6 +3101,11 @@
         "type": "shopify://apps/oneloyalty/blocks/widget/6119b281-36ce-42b5-93ab-6aaf5fb224ce",
         "disabled": false,
         "settings": {}
+      },
+      "13687764805362907416": {
+        "type": "shopify://apps/omega-instafeed/blocks/app-embed-block/710f3bb4-c962-4be4-a6e2-1cee2ca38517",
+        "disabled": false,
+        "settings": {}
       }
     }
   }
