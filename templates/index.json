@@ -92,7 +92,7 @@
             "font_italic": false,
             "text_shadow": false,
             "hidden_mobile": false,
-            "text_fs_mb": 40,
+            "text_fs_mb": 10,
             "text_lh_mb": 0,
             "text_ls_mb": 0,
             "text_mgb_mobile": 10,
@@ -114,7 +114,7 @@
             "pri_cl_hover": "#ffffff",
             "second_cl_hover": "#222222",
             "fsbutton": 16,
-            "fwbutton": 400,
+            "fwbutton": 600,
             "button_ls": 0,
             "button_mh": 42,
             "button_bdr": 12,
@@ -334,10 +334,9 @@
         },
         "fb81d2b5-38b4-4322-93fc-cd722f8758f3": {
           "type": "collection_item",
-          "disabled": true,
           "settings": {
-            "collection": "balmain",
-            "image": "shopify://shop_images/balmain-homme-100ml-edt-spray-m-716295.jpg",
+            "collection": "tom-ford",
+            "image": "shopify://shop_images/tom-ford-myrrhe-mystere-50ml-edp-spray-wm-756037.png",
             "collection_title": "{{ block.settings.collection.title }}",
             "collection_link": "{{ block.settings.collection.url }}"
           }
@@ -352,7 +351,7 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "OUR  COLLECTION",
+        "top_heading": "TRENDING COLLECTION",
         "icon_heading": "",
         "top_subheading": "",
         "tophead_mb": 30,
@@ -367,11 +366,11 @@
         "space_bottom": 20,
         "space_bottom_mb": 10,
         "border": true,
-        "item_rd": 12,
+        "item_rd": 3,
         "item_rd_unit": "%",
         "img_effect": "zoom",
         "b_effect": "none",
-        "image_position": "7",
+        "image_position": "8",
         "coll_layout": "1",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
