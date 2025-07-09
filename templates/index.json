@@ -601,11 +601,11 @@
     "164603686708691778": {
       "type": "featured-collection",
       "settings": {
-        "design_heading": "6",
+        "design_heading": "2",
         "heading_align": "t4s-text-center",
-        "top_heading": "",
+        "top_heading": "Best selling products",
         "icon_heading": "",
-        "top_subheading": "Best selling products",
+        "top_subheading": "",
         "tophead_mb": 30,
         "head_btn_label": "View All",
         "head_btn_url": "shopify://collections/best-selling-products",
