@@ -1299,70 +1299,6 @@
         "use_cus_css": false,
         "code_cus_css": ".SectionID {\nbackground-color:red\n}"
       }
-    },
-    "accordion_dNmxwY": {
-      "type": "accordion",
-      "blocks": {
-        "accor_item_46cAKd": {
-          "type": "accor_item",
-          "settings": {
-            "icon": "none",
-            "title": "Tab 01",
-            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.</p>"
-          }
-        },
-        "accor_item_zRtkXa": {
-          "type": "accor_item",
-          "settings": {
-            "icon": "none",
-            "title": "Tab 02",
-            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.</p>"
-          }
-        },
-        "accor_item_KrMpYw": {
-          "type": "accor_item",
-          "settings": {
-            "icon": "none",
-            "title": "Tab 03",
-            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "accor_item_46cAKd",
-        "accor_item_zRtkXa",
-        "accor_item_KrMpYw"
-      ],
-      "name": "Accordion",
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "Accordion",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "accor_des": "1",
-        "title_cl": "#222",
-        "bg_title_cl": "#f6f6f8",
-        "title_active_cl": "#000",
-        "bg_title_active_cl": "#f6f6f8",
-        "content_cl": "#878787",
-        "bg_content_cl": "#fff",
-        "content_align": "t4s-text-start",
-        "auto_active": true,
-        "layout": "t4s-container-wrap",
-        "custom_width": 1000,
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
     }
   },
   "order": [
@@ -1375,7 +1311,6 @@
     "hero_image_NQLQbC",
     "featured_collection_yB3DbL",
     "16460362229768af39",
-    "164620932069107a3a",
-    "accordion_dNmxwY"
+    "164620932069107a3a"
   ]
 }
