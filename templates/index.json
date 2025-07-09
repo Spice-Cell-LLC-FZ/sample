@@ -488,6 +488,7 @@
         },
         "custom_text_EMCeY7": {
           "type": "custom_text",
+          "disabled": true,
           "settings": {
             "text": "Our most-loved fragrances",
             "remove_br_tag": false,
@@ -555,7 +556,7 @@
         "height_tb": 400,
         "custom_mb": true,
         "height_mb": 350,
-        "image": "shopify://shop_images/360_F_556901330_u2u48dyBnK16UozWBrlMuNmkbR3HnubL.jpg",
+        "image": "shopify://shop_images/20250709_1127_Elegant_Gift_Display_simple_compose_01jzq17s8yes881mbpfb1vcb7m_d0fa8841-336f-494a-b8fd-07b7e097ddd2.png",
         "parallax": false,
         "image_position": "0",
         "link_img1": "https://admin.shopify.com/store/kf18j6-1y/products/9355960746261",
