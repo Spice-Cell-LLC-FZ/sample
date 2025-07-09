@@ -416,6 +416,7 @@
           },
           "de84a111-3ed0-40a2-b86a-1e81488e9bff": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "link_img": "",
               "img_width": 200,
