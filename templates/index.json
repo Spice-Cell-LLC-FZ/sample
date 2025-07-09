@@ -688,7 +688,7 @@
             "text_ls": 1,
             "text_mgb": 15,
             "font_italic": false,
-            "text_shadow": false,
+            "text_shadow": true,
             "hidden_mobile": false,
             "text_fs_mb": 16,
             "text_lh_mb": 0,
@@ -700,7 +700,7 @@
         "custom_text_Fwjcgi": {
           "type": "custom_text",
           "settings": {
-            "text": "Your Scent. Your Story.",
+            "text": "Your Scent. Your Story",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
