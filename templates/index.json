@@ -263,7 +263,7 @@
       ],
       "name": "Slideshow",
       "settings": {
-        "se_height": "t4s_ratio_fh",
+        "se_height": "t4s_ratioadapt",
         "custom_dk": true,
         "height_dk": 600,
         "custom_tb": false,
