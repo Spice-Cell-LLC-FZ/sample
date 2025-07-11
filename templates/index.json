@@ -313,17 +313,18 @@
             "bgr-color-item": "#f8f5ee",
             "title": "",
             "title_cl": "#222222",
-            "show_badge": true,
-            "title_badge": "Newest",
+            "show_badge": false,
+            "title_badge": "",
             "text_badge_color": "#fff",
-            "badge_color": "#EB001B"
+            "badge_color": "#222222"
           }
         },
         "collection_item_98JiCp": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
-            "bgr-color-item": "#fefefe",
+            "collection": "maison-al-hambra",
+            "image": "shopify://shop_images/your-touch-oud-100ml-edp-by-maison-alhambra-443893.png",
+            "bgr-color-item": "#f8f5ee",
             "title": "",
             "title_cl": "#222222",
             "show_badge": false,
