@@ -364,8 +364,9 @@
         "collection_item_PCfWpQ": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
-            "bgr-color-item": "#fefefe",
+            "collection": "afnan",
+            "image": "shopify://shop_images/zukhruf-cherry-edp-100ml-648154.png",
+            "bgr-color-item": "#f8f5ee",
             "title": "",
             "title_cl": "#222222",
             "show_badge": false,
