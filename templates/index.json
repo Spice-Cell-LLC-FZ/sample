@@ -336,7 +336,7 @@
         "collection_item_9zwiMb": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
+            "collection": "mercedes-benz",
             "image": "shopify://shop_images/mercedes-benz-the-move-60ml-edt-spray-m-535121-removebg-preview.png",
             "bgr-color-item": "#f8f5ee",
             "title": "",
@@ -349,9 +349,10 @@
         },
         "collection_item_8kBYUb": {
           "type": "collection_item",
+          "disabled": true,
           "settings": {
             "collection": "",
-            "bgr-color-item": "#fefefe",
+            "bgr-color-item": "#f8f5ee",
             "title": "",
             "title_cl": "#222222",
             "show_badge": false,
