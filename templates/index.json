@@ -823,7 +823,7 @@
             "image_ratio": "ratio1_1",
             "image_size": "cover",
             "image_position": "8",
-            "content_align": "start",
+            "content_align": "center",
             "limit": 8,
             "col_dk": "3",
             "col_tb": "2",
