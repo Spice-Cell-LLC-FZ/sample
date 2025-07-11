@@ -378,8 +378,9 @@
         "collection_item_WJc393": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
-            "bgr-color-item": "#fefefe",
+            "collection": "xerjoff",
+            "image": "shopify://shop_images/xerjoff-shooting-stars-uden-overdose-edp-spray-wm-836468-removebg-preview.png",
+            "bgr-color-item": "#f8f5ee",
             "title": "",
             "title_cl": "#222222",
             "show_badge": false,
