@@ -308,8 +308,9 @@
         "collection_item_3ycWFq": {
           "type": "collection_item",
           "settings": {
-            "collection": "bcbg",
-            "bgr-color-item": "#fefefe",
+            "collection": "clive-christian",
+            "image": "shopify://shop_images/versencia-noir-100ml-785317.png",
+            "bgr-color-item": "#f8f5ee",
             "title": "",
             "title_cl": "#222222",
             "show_badge": false,
