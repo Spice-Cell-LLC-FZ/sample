@@ -1112,7 +1112,7 @@
         "settings": {
           "layout": "menu_left",
           "full_header": true,
-          "height": 120,
+          "height": 80,
           "frm_sea_mw": 700,
           "bgnav": "#ffffff",
           "opnav": 100,
