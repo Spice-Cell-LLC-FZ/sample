@@ -513,12 +513,12 @@
           "settings": {
             "txt_tr_pr": "none",
             "fnt_df_pr": "1",
-            "size_pr": 16,
-            "fw_pr": 600,
+            "size_pr": 15,
+            "fw_pr": 500,
             "lh_pr": 0,
             "ls_pr": 0,
             "pr_title_color": "#222",
-            "pr_title_color_hover": "#56cfe1"
+            "pr_title_color_hover": "#222222"
           }
         },
         "price_review_idatXX": {
@@ -572,7 +572,18 @@
             "btn_txt2": "3",
             "button_color_payment": "dark",
             "show_gift_card_recipient": true,
-            "product_list": [],
+            "product_list": [
+              "absolute-oud-m7-edp-100ml",
+              "05-domino-essence-100ml-by-maison-alhambra",
+              "nishane-fan-your-flames-u-extrait-de-parfum-50ml",
+              "abercrombie-fitch-authentic-night-100ml-edt-spray-m",
+              "abercrombie-fitch-authentic-100ml-edt-spray-m",
+              "acqua-di-parma-colonia-100ml-edc-spray-m",
+              "acqua-di-parma-quercia-100ml-edp-spray-wm",
+              "acqua-di-parma-oud-100ml-edp-spray-m",
+              "adidas-extreme-power-100ml-edt-spray-m",
+              "adidas-uefa-champions-league-victory-edition-100ml-edt-spray-m"
+            ],
             "show_product_current": true,
             "qty_val": "0",
             "advance_label": "Choose style",
@@ -610,9 +621,9 @@
           "type": "social",
           "settings": {
             "socials_align": "start",
-            "social_mode": "2",
+            "social_mode": "1",
             "social_style": "3",
-            "social_size": "medium",
+            "social_size": "extra_small",
             "bd_radius": 0,
             "use_color_set": false,
             "icon_cl": "#878787",
@@ -640,7 +651,7 @@
         "media_layout": "thumbnails_bottom",
         "media_size": "medium",
         "thumb_lr_size": "medium",
-        "image_ratio": "ratioadapt",
+        "image_ratio": "ratio1_1",
         "image_size": "cover",
         "image_position": "8",
         "main_click": "zoom",
