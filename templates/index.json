@@ -476,7 +476,7 @@
         "btn_owl": "default",
         "btn_shape": "none",
         "btn_cl": "dark",
-        "btn_size": "small",
+        "btn_size": "medium",
         "btn_hidden_mobile": true,
         "nav_dot": true,
         "dot_owl": "default",
