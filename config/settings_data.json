@@ -493,6 +493,7 @@
           },
           "custom_text_YExQNb": {
             "type": "custom_text",
+            "disabled": true,
             "settings": {
               "text": "Perfumes & Colonges",
               "remove_br_tag": true,
@@ -515,6 +516,7 @@
           },
           "custom_text_W8fQbf": {
             "type": "custom_text",
+            "disabled": true,
             "settings": {
               "text": "Air Freshners",
               "remove_br_tag": true,
@@ -537,6 +539,7 @@
           },
           "custom_text_WnK6tA": {
             "type": "custom_text",
+            "disabled": true,
             "settings": {
               "text": "Incense",
               "remove_br_tag": true,
@@ -576,92 +579,11 @@
               "padding_inner_mb": ""
             }
           },
-          "custom_text_gqURBi": {
-            "type": "custom_text",
+          "cus_menu_qtCpW4": {
+            "type": "cus_menu",
             "settings": {
-              "text": "About Us",
-              "remove_br_tag": true,
-              "tag": "p",
-              "fontf": "2",
-              "text_cl": "#ffffff",
-              "text_fs": 18,
-              "text_lh": 0,
-              "text_fw": 400,
-              "text_ls": 0,
-              "font_italic": false,
-              "text_shadow": false,
-              "text_mgb": 15,
-              "hidden_mobile": false,
-              "text_fs_mb": 16,
-              "text_lh_mb": 0,
-              "text_ls_mb": 0,
-              "text_mgb_mobile": 10
-            }
-          },
-          "custom_text_PMpRcm": {
-            "type": "custom_text",
-            "settings": {
-              "text": "Return Policy",
-              "remove_br_tag": true,
-              "tag": "p",
-              "fontf": "2",
-              "text_cl": "#ffffff",
-              "text_fs": 18,
-              "text_lh": 0,
-              "text_fw": 400,
-              "text_ls": 0,
-              "font_italic": false,
-              "text_shadow": false,
-              "text_mgb": 12,
-              "hidden_mobile": false,
-              "text_fs_mb": 18,
-              "text_lh_mb": 0,
-              "text_ls_mb": 0,
-              "text_mgb_mobile": 10
-            }
-          },
-          "custom_text_ghkVeb": {
-            "type": "custom_text",
-            "settings": {
-              "text": "Blog",
-              "remove_br_tag": true,
-              "tag": "p",
-              "fontf": "inherit",
-              "text_cl": "#ffffff",
-              "text_fs": 18,
-              "text_lh": 0,
-              "text_fw": 400,
-              "text_ls": 0,
-              "font_italic": false,
-              "text_shadow": false,
-              "text_mgb": 12,
-              "hidden_mobile": false,
-              "text_fs_mb": 16,
-              "text_lh_mb": 0,
-              "text_ls_mb": 0,
-              "text_mgb_mobile": 10
-            }
-          },
-          "custom_text_dHCxWd": {
-            "type": "custom_text",
-            "settings": {
-              "text": "Sustainibility Commitment",
-              "remove_br_tag": true,
-              "tag": "p",
-              "fontf": "2",
-              "text_cl": "#ffffff",
-              "text_fs": 18,
-              "text_lh": 0,
-              "text_fw": 400,
-              "text_ls": 0,
-              "font_italic": false,
-              "text_shadow": false,
-              "text_mgb": 18,
-              "hidden_mobile": false,
-              "text_fs_mb": 16,
-              "text_lh_mb": 0,
-              "text_ls_mb": 0,
-              "text_mgb_mobile": 10
+              "menu": "information",
+              "menu_style": "1"
             }
           },
           "footer-8": {
@@ -777,10 +699,7 @@
           "custom_text_W8fQbf",
           "custom_text_WnK6tA",
           "footer-6",
-          "custom_text_gqURBi",
-          "custom_text_PMpRcm",
-          "custom_text_ghkVeb",
-          "custom_text_dHCxWd",
+          "cus_menu_qtCpW4",
           "footer-8",
           "footer-10",
           "footer-11",
