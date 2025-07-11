@@ -308,7 +308,7 @@
         "collection_item_3ycWFq": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
+            "collection": "bcbg",
             "bgr-color-item": "#fefefe",
             "title": "",
             "title_cl": "#222222",
@@ -400,7 +400,7 @@
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
-        "font_size_item": 50,
+        "font_size_item": 16,
         "limit_desktop": 6,
         "limit_tablet": 4,
         "limit_mobile": 3,
