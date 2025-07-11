@@ -510,6 +510,7 @@
       "blocks": {
         "fb81d2b5-38b4-4322-93fc-cd722f8758f3": {
           "type": "collection_item",
+          "disabled": true,
           "settings": {
             "collection": "givenchy",
             "image": "shopify://shop_images/givenchy-gentleman-eau-de-parfum-edition-edp-spray-m-998079.jpg",
@@ -526,15 +527,6 @@
             "collection_link": "{{ block.settings.collection.url }}"
           }
         },
-        "1646035040fee424aa-2": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "gucci",
-            "image": "shopify://shop_images/gucci-bloom-intense-50ml-edp-spray-w-348834.png",
-            "collection_title": "{{ block.settings.collection.title }}",
-            "collection_link": "{{ block.settings.collection.url }}"
-          }
-        },
         "1646035040fee424aa-0": {
           "type": "collection_item",
           "settings": {
@@ -543,13 +535,22 @@
             "collection_title": "{{ block.settings.collection.title }}",
             "collection_link": "{{ block.settings.collection.url }}"
           }
+        },
+        "1646035040fee424aa-2": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "gucci",
+            "image": "shopify://shop_images/gucci-bloom-intense-50ml-edp-spray-w-348834.png",
+            "collection_title": "{{ block.settings.collection.title }}",
+            "collection_link": "{{ block.settings.collection.url }}"
+          }
         }
       },
       "block_order": [
         "fb81d2b5-38b4-4322-93fc-cd722f8758f3",
         "1646035040fee424aa-1",
-        "1646035040fee424aa-2",
-        "1646035040fee424aa-0"
+        "1646035040fee424aa-0",
+        "1646035040fee424aa-2"
       ],
       "settings": {
         "design_heading": "1",
