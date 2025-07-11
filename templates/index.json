@@ -417,7 +417,7 @@
         "dots_round": true,
         "dots_space": 10,
         "dots_hidden_mobile": false,
-        "t4s_show_item_number": false,
+        "t4s_show_item_number": true,
         "layout": "t4s-se-container",
         "cl_bg": "",
         "cl_bg_gradient": "",
