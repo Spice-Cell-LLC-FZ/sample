@@ -313,8 +313,8 @@
             "bgr-color-item": "#f8f5ee",
             "title": "",
             "title_cl": "#222222",
-            "show_badge": false,
-            "title_badge": "10% off",
+            "show_badge": true,
+            "title_badge": "Newest",
             "text_badge_color": "#fff",
             "badge_color": "#000"
           }
