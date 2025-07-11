@@ -302,90 +302,6 @@
         "code_cus_css": ""
       }
     },
-    "164603504020ce33da": {
-      "type": "collections-list-manual",
-      "blocks": {
-        "fb81d2b5-38b4-4322-93fc-cd722f8758f3": {
-          "type": "collection_item",
-          "disabled": true,
-          "settings": {
-            "collection": "givenchy",
-            "image": "shopify://shop_images/givenchy-gentleman-eau-de-parfum-edition-edp-spray-m-998079.jpg",
-            "collection_title": "{{ block.settings.collection.title }}",
-            "collection_link": "{{ block.settings.collection.url }}"
-          }
-        },
-        "1646035040fee424aa-1": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "perfumes",
-            "image": "shopify://shop_images/banana-republic-classic-red-125ml-edp-spray-wm-208253.png",
-            "collection_title": "{{ block.settings.collection.title }}",
-            "collection_link": "{{ block.settings.collection.url }}"
-          }
-        },
-        "1646035040fee424aa-0": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "best-selling-products",
-            "image": "shopify://shop_images/supremacy-incense-925756.png",
-            "collection_title": "{{ block.settings.collection.title }}",
-            "collection_link": "{{ block.settings.collection.url }}"
-          }
-        },
-        "1646035040fee424aa-2": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "gucci",
-            "image": "shopify://shop_images/gucci-bloom-intense-50ml-edp-spray-w-348834.png",
-            "collection_title": "{{ block.settings.collection.title }}",
-            "collection_link": "{{ block.settings.collection.url }}"
-          }
-        }
-      },
-      "block_order": [
-        "fb81d2b5-38b4-4322-93fc-cd722f8758f3",
-        "1646035040fee424aa-1",
-        "1646035040fee424aa-0",
-        "1646035040fee424aa-2"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "Trending Collection",
-        "icon_heading": "",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "collection_des": "4",
-        "title_cl": "#ffffff",
-        "title_cl_hover": "#222222",
-        "subtitle_cl": "#878787",
-        "count_cl": "#222222",
-        "border_cl": "#e5e5e5",
-        "collection_subtitle": "Products",
-        "open_link": "_self",
-        "space_bottom": 20,
-        "space_bottom_mb": 10,
-        "border": true,
-        "item_rd": 3,
-        "item_rd_unit": "%",
-        "img_effect": "zoom",
-        "b_effect": "none",
-        "image_position": "8",
-        "coll_layout": "1",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,110px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,50px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
-      }
-    },
     "categories_section_tBxfF8": {
       "type": "categories_section",
       "blocks": {
@@ -513,6 +429,90 @@
         "pd_mb": "",
         "use_cus_css": false,
         "code_cus_css": ""
+      }
+    },
+    "164603504020ce33da": {
+      "type": "collections-list-manual",
+      "blocks": {
+        "fb81d2b5-38b4-4322-93fc-cd722f8758f3": {
+          "type": "collection_item",
+          "disabled": true,
+          "settings": {
+            "collection": "givenchy",
+            "image": "shopify://shop_images/givenchy-gentleman-eau-de-parfum-edition-edp-spray-m-998079.jpg",
+            "collection_title": "{{ block.settings.collection.title }}",
+            "collection_link": "{{ block.settings.collection.url }}"
+          }
+        },
+        "1646035040fee424aa-1": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "perfumes",
+            "image": "shopify://shop_images/banana-republic-classic-red-125ml-edp-spray-wm-208253.png",
+            "collection_title": "{{ block.settings.collection.title }}",
+            "collection_link": "{{ block.settings.collection.url }}"
+          }
+        },
+        "1646035040fee424aa-0": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "best-selling-products",
+            "image": "shopify://shop_images/supremacy-incense-925756.png",
+            "collection_title": "{{ block.settings.collection.title }}",
+            "collection_link": "{{ block.settings.collection.url }}"
+          }
+        },
+        "1646035040fee424aa-2": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "gucci",
+            "image": "shopify://shop_images/gucci-bloom-intense-50ml-edp-spray-w-348834.png",
+            "collection_title": "{{ block.settings.collection.title }}",
+            "collection_link": "{{ block.settings.collection.url }}"
+          }
+        }
+      },
+      "block_order": [
+        "fb81d2b5-38b4-4322-93fc-cd722f8758f3",
+        "1646035040fee424aa-1",
+        "1646035040fee424aa-0",
+        "1646035040fee424aa-2"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Trending Collection",
+        "icon_heading": "",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "collection_des": "4",
+        "title_cl": "#ffffff",
+        "title_cl_hover": "#222222",
+        "subtitle_cl": "#878787",
+        "count_cl": "#222222",
+        "border_cl": "#e5e5e5",
+        "collection_subtitle": "Products",
+        "open_link": "_self",
+        "space_bottom": 20,
+        "space_bottom_mb": 10,
+        "border": true,
+        "item_rd": 3,
+        "item_rd_unit": "%",
+        "img_effect": "zoom",
+        "b_effect": "none",
+        "image_position": "8",
+        "coll_layout": "1",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,110px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,50px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
       }
     },
     "featured_collection_73Hczi": {
@@ -767,16 +767,16 @@
           "settings": {
             "title": "Tab 01",
             "icon_title": "",
-            "collection": "",
+            "collection": "versace",
             "product_des": "1",
             "show_vendor": false,
             "use_cdt": false,
-            "image_ratio": "ratioadapt",
+            "image_ratio": "ratio1_1",
             "image_size": "cover",
             "image_position": "8",
-            "content_align": "start",
+            "content_align": "center",
             "limit": 8,
-            "col_dk": "4",
+            "col_dk": "3",
             "col_tb": "2",
             "col_mb": "2",
             "space_h_item": "30",
@@ -816,16 +816,16 @@
           "settings": {
             "title": "Tab 02",
             "icon_title": "",
-            "collection": "",
+            "collection": "adidas",
             "product_des": "1",
             "show_vendor": false,
             "use_cdt": false,
-            "image_ratio": "ratioadapt",
+            "image_ratio": "ratio1_1",
             "image_size": "cover",
             "image_position": "8",
             "content_align": "start",
             "limit": 8,
-            "col_dk": "4",
+            "col_dk": "3",
             "col_tb": "2",
             "col_mb": "2",
             "space_h_item": "30",
