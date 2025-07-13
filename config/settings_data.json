@@ -453,7 +453,7 @@
           "footer-4": {
             "type": "bl_col",
             "settings": {
-              "col_heading": "Categories",
+              "col_heading": "Scentanah Powered by Spice Cell",
               "menu": "",
               "menu_style": "1",
               "col_border": "none",
@@ -472,12 +472,12 @@
           "custom_text_6JcLAp": {
             "type": "custom_text",
             "settings": {
-              "text": "Attar Oils",
+              "text": "",
               "remove_br_tag": true,
               "tag": "p",
               "fontf": "inherit",
-              "text_cl": "#222222",
-              "text_fs": 16,
+              "text_cl": "#fff",
+              "text_fs": 13,
               "text_lh": 0,
               "text_fw": 400,
               "text_ls": 0,
@@ -539,13 +539,12 @@
           },
           "custom_text_WnK6tA": {
             "type": "custom_text",
-            "disabled": true,
             "settings": {
-              "text": "Incense",
+              "text": "All products are owned and fulfilled by Spice Cell LLC FZ.",
               "remove_br_tag": true,
               "tag": "p",
               "fontf": "inherit",
-              "text_cl": "#222222",
+              "text_cl": "#fff",
               "text_fs": 16,
               "text_lh": 0,
               "text_fw": 400,
@@ -679,6 +678,7 @@
           },
           "33eb929e-a001-4d96-82a0-5aab1aaabaea": {
             "type": "payments",
+            "disabled": true,
             "settings": {
               "svg": "visa,paypal,maestro,american_express,discover",
               "height": 30,
