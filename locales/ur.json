@@ -196,6 +196,109 @@
       "tooltip": {
         "accessibility_label_context": "%{context} کے بارے میں مزید معلومات",
         "additional_payment_methods": "ادائیگی کے اضافی طریقے"
+      },
+      "shipping": {
+        "subscription_delivery_description": {
+          "recurring_order_shipping_price": "اس کے بعد %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "پہلا آرڈر شامل ہے، اس کے بعد %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} فی ڈیلیوری)، اس کے بعد %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "پہلا آرڈر مفت",
+            "other": "پہلے %{count} آرڈرز مفت"
+          },
+          "free_for_first_n_order": {
+            "one": "پہلے آرڈر کے لیے",
+            "other": "پہلے %{count} آرڈرز کے لیے"
+          }
+        },
+        "one_time_purchase_shipping": "ایک بار شپنگ",
+        "duties_and_taxes_title": "ڈیوٹی اور ٹیکس",
+        "shipping_information_required_notice": "شپنگ کی معلومات درکار ہے۔ {{link}}",
+        "shipping_information_redirect_link": "اپنی معلومات یہاں درج کریں۔",
+        "loading_progressive_rates": "مزید ریٹس تلاش کر رہے ہیں…",
+        "no_other_methods_available": "کوئی اور طریقے دستیاب نہیں ہیں۔",
+        "duties_and_taxes_options": {
+          "ddu_title": "ڈیلیوری پر ادائیگی کریں۔",
+          "ddu_caption": "اضافی فیسیں لاگو ہو سکتی ہیں۔",
+          "ddp_title": "ابھی ادائیگی کریں۔",
+          "ddp_caption": "ڈیلیوری پر کوئی اضافی فیس نہیں۔"
+        },
+        "shipping_method_combinations": {
+          "without_separator": "%{firstMethod}، %{secondMethod}",
+          "with_separator": "%{آرام}، %{موجودہ}،",
+          "combination": "%{آرام} اور %{موجودہ}"
+        },
+        "shipping_used_as_billing_notice": "اسے اس آرڈر کے لیے آپ کے بلنگ ایڈریس کے طور پر بھی استعمال کیا جائے گا۔",
+        "address_update": "پتہ اپ ڈیٹ کریں۔",
+        "shipping_address_title": "کو بھیجیں۔",
+        "add_address": "ایک مختلف پتہ استعمال کریں۔",
+        "add_delivery_instructions": "ترسیل کی ہدایات شامل کریں۔",
+        "edit": "ترمیم کریں۔",
+        "delete": "حذف کریں۔",
+        "address_more": "اس ایڈریس کے لیے مزید کارروائیاں",
+        "address_edit": "ایڈریس میں ترمیم کریں۔",
+        "address_delete": "پتہ حذف کریں۔",
+        "address_confirm": "کیا آپ واقعی یہ پتہ اپنے اکاؤنٹ سے حذف کرنا چاہتے ہیں؟",
+        "address_default": "بطور ڈیفالٹ سیٹ کریں۔",
+        "address_form": {
+          "add_address": "ایڈریس شامل کریں۔",
+          "save": "محفوظ کریں۔",
+          "cancel": "منسوخ کریں۔",
+          "generic_error": "آپ کا پتہ محفوظ کرنے میں ایک مسئلہ تھا۔ براہ کرم دوبارہ کوشش کریں۔",
+          "one_time_address_subtitle": "اس آرڈر کے لیے ایک بار کا پتہ استعمال کریں۔"
+        },
+        "different_shipping_method_summary": "دستیاب شپنگ کے طریقے دیکھنے کے لیے ایک مختلف شپنگ ایڈریس درج کریں۔",
+        "invalid_shipping_method_summary": "دستیاب شپنگ طریقوں کو دیکھنے کے لیے ایک درست ترسیل کا پتہ درج کریں۔",
+        "method_summary": {
+          "incomplete_address_entered": "دستیاب شپنگ طریقوں کو دیکھنے کے لیے ایک مکمل شپنگ ایڈریس درج کریں۔",
+          "incomplete_address_selected": "دستیاب شپنگ کے طریقے دیکھنے کے لیے ایک مکمل شپنگ ایڈریس منتخب کریں۔"
+        },
+        "local_pickup": {
+          "search_address": "پتہ تلاش کریں۔",
+          "rollup_title": "اسٹور کا مقام"
+        },
+        "missing_shipping_address": "ترسیل کا پتہ غائب ہے۔",
+        "split_shipping_merchandise_quantity_label_standard": "%{مقدار} اشیاء",
+        "split_shipping_merchandise_quantity_label_additional": "+%{مقدار} مزید",
+        "split_shipping_merchandise_shipment_number": "شپمنٹ %{number} کا %{total}",
+        "pre_order_ships_now": "اب جہاز",
+        "pre_order_ships_later": "بعد میں بحری جہاز",
+        "pre_order_ships_date": "بحری جہاز %{date}",
+        "split_shipping_shipped_by_shop": "%{shop_name} کے ذریعے بھیج دیا گیا",
+        "split_shipping_multiple_shipment_label": "متعدد ترسیل",
+        "split_shipping_shipping_label": "طریقہ",
+        "split_shipping_shipment_notice": "آپ کا آرڈر %{quantity_shipments} میں پہنچ جائے گا",
+        "split_shipping_first_shipment_notice": "آپ کا پہلا آرڈر %{quantity_shipments} میں آئے گا",
+        "split_shipping_multiple_shipment_quantity_label": "%{مقدار} ترسیل",
+        "split_shipping_multiple_shipment_notice": "آپ کا آرڈر متعدد کھیپوں میں پہنچ جائے گا۔",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "آپ کا آرڈر %{quantity} ترسیل میں پہنچ جائے گا۔",
+        "split_shipping_more_shipping_options": "مزید شپنگ کے اختیارات",
+        "split_shipping_shipment_number": "شپمنٹ %{number}",
+        "split_shipping_merchandise_quantity_label_inline_primary": "مقدار: %{quantity}",
+        "split_shipping_option_free": "مفت شپنگ",
+        "split_shipping_option_lowest_price": "سب سے کم قیمت",
+        "split_shipping_option_fastest": "تیز ترین",
+        "split_shipping_option_recommended": "تجویز کردہ",
+        "split_shipping_option_custom": "حسب ضرورت"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "اضافی معلومات",
+          "shipping_credential_kr": "ذاتی کسٹم کوڈ",
+          "shipping_credential_cn": "رہائشی شناختی نمبر",
+          "tax_credential_it": "کوڈائس مالیاتی (اختیاری)",
+          "tax_email_it": "PEC (اختیاری)",
+          "tax_credential_cr": "شناختی نمبر/RUT",
+          "shipping_credential_cr": "شناختی نمبر/RUT",
+          "tax_credential_id": "این پی ڈبلیو پی",
+          "shipping_credential_id": "این پی ڈبلیو پی",
+          "tax_credential_my": "TIN/رجسٹریشن نمبر",
+          "shipping_credential_my": "TIN/رجسٹریشن نمبر",
+          "shipping_credential_mx": "آر ایف سی",
+          "tax_credential_mx": "آر ایف سی",
+          "tax_credential_type_mx": "ریگیمن مالی",
+          "tax_credential_use_mx": "CFDI استعمال کریں۔"
+        }
       }
     },
     "pagination": {
