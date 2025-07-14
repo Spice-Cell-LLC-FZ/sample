@@ -1,0 +1,275 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "shopify": {
+    "checkout": {
+      "contact": {
+        "governorate_label": "گورنریٹ",
+        "governorate_placeholder": "گورنریٹ",
+        "emirate_label": "امارات",
+        "emirate_placeholder": "امارات",
+        "state_and_territory_label": "ریاست/علاقہ",
+        "state_and_territory_placeholder": "ریاست/علاقہ",
+        "phone_label": "فون",
+        "optional_phone_label": "فون (اختیاری)",
+        "phone_placeholder": "فون",
+        "phone_tooltip": "اگر ہمیں آپ کے آرڈر کے بارے میں آپ سے رابطہ کرنے کی ضرورت ہے۔",
+        "zip_code_label": "زپ کوڈ",
+        "optional_zip_code_label": "زپ کوڈ (اختیاری)",
+        "zip_code_placeholder": "زپ کوڈ",
+        "postal_code_label": "پوسٹل کوڈ",
+        "optional_postal_code_label": "پوسٹل کوڈ (اختیاری)",
+        "postal_code_placeholder": "پوسٹل کوڈ",
+        "postcode_label": "پوسٹ کوڈ",
+        "optional_postcode_label": "پوسٹ کوڈ (اختیاری)",
+        "postcode_placeholder": "پوسٹ کوڈ",
+        "pincode_label": "پن کوڈ",
+        "optional_pincode_label": "پن کوڈ (اختیاری)",
+        "pincode_placeholder": "پن کوڈ",
+        "civic_number_warning": "اگر آپ کے پاس گھر کا نمبر ہے تو شامل کریں۔",
+        "optional_last_name_label": "آخری نام (اختیاری)",
+        "different_shipping_address_label": "ایک مختلف پتے پر بھیجیں۔",
+        "different_shipping_address_text": "اس آرڈر کے لیے ایک بار کا پتہ استعمال کریں۔",
+        "change_company_location_link_label": "کمپنی کا مقام تبدیل کریں۔",
+        "change_location_link_label": "مقام تبدیل کریں۔",
+        "ship_to_company": "{{companyName}} کو بھیجیں"
+      },
+      "delivery_options": {
+        "free_total_label": "مفت",
+        "ship": "جہاز",
+        "ship_to_address": "ایڈریس پر بھیجیں۔",
+        "shipping_address": "شپنگ ایڈریس",
+        "pick_up": "اٹھاؤ",
+        "pick_up_from_store": "اسٹور میں پک اپ",
+        "pick_up_locations": "اسٹور کے مقامات",
+        "pick_up_in_one_hour": "عام طور پر 1 گھنٹے میں تیار ہوجاتا ہے۔",
+        "pick_up_in_two_hours": "عام طور پر 2 گھنٹے میں تیار ہوجاتا ہے۔",
+        "pick_up_in_four_hours": "عام طور پر 4 گھنٹے میں تیار ہوجاتا ہے۔",
+        "pick_up_in_twenty_four_hours": "عام طور پر 24 گھنٹوں میں تیار ہوجاتا ہے۔",
+        "pick_up_in_two_to_four_days": "عام طور پر 2-4 دنوں میں تیار ہوجاتا ہے۔",
+        "pick_up_in_five_or_more_days": "عام طور پر 5+ دنوں میں تیار ہوجاتا ہے۔",
+        "pick_up_in_zero_to_two_hours": "2 گھنٹے میں پک اپ کے لیے تیار",
+        "pick_up_in_two_to_four_hours": "4 گھنٹے میں پک اپ کے لیے تیار",
+        "pick_up_immediately": "اب پک اپ کے لیے تیار ہیں۔",
+        "pick_up_next_day": "اگلے دن پک اپ کے لیے تیار",
+        "pickup_point_method_definition": "پک اپ پوائنٹ پر بھیجیں۔",
+        "retail_method_definition": "ریٹیل شپنگ",
+        "company_location_no_address_banner": "بغیر پتہ کے مقامات پر بھیجے جانے والے آرڈرز جائزہ کے لیے جمع کرائے جائیں گے۔",
+        "none_method_definition": "کوئی شپنگ نہیں۔",
+        "subscription_pickup_information": "ڈیلیوری کا یہ طریقہ اس آرڈر میں موجود تمام آئٹمز اور اس سبسکرپشن کے مستقبل کے تمام آرڈرز پر لاگو ہوگا۔"
+      },
+      "customer_account": {
+        "not_user_label": "نہیں %{first_name}؟",
+        "have_an_account_label": "کیا آپ کا اکاؤنٹ ہے؟",
+        "sign_in_link_label": "لاگ ان کریں۔",
+        "sign_out_link_label": "لاگ آؤٹ کریں۔",
+        "save_my_information_label": "اس معلومات کو اگلی بار کے لیے محفوظ کریں۔",
+        "invalid_address": "منتخب کردہ پتہ غلط ہے۔ %{update_address_link} یا ایک مختلف پتہ منتخب کریں۔",
+        "incomplete_address": "منتخب کردہ پتہ نامکمل ہے۔ %{update_address_link} یا ایک مختلف پتہ منتخب کریں۔",
+        "rollup_label": "اکاؤنٹ",
+        "invalid_shipping_method_summary": "شپنگ کے دستیاب طریقے دیکھنے کے لیے ایک درست شپنگ ایڈریس منتخب کریں۔",
+        "saved_address_option_description": {
+          "one": "آپ کے پاس {{count}} محفوظ کردہ پتہ ہے۔",
+          "other": "آپ کے پاس {{count}} محفوظ کردہ پتے ہیں۔"
+        },
+        "saved_address_option_link": "محفوظ کردہ پتہ استعمال کریں۔",
+        "saved_address_modal_title": "میرا محفوظ کردہ پتہ استعمال کریں۔"
+      },
+      "stock": {
+        "page_title": "انوینٹری کے مسائل",
+        "title": "اسٹاک ختم",
+        "items_unavailable_notice": "کچھ آئٹمز اب دستیاب نہیں ہیں۔",
+        "product_column_header": "مصنوعات",
+        "quantity_column_header": "مقدار",
+        "price_column_header": "قیمت",
+        "status_column_header": "حیثیت",
+        "removed_from_cart_notice": "کارٹ سے ہٹا دیا گیا۔",
+        "sold_out_label": "بک گیا۔",
+        "reduced_label": "کم کر دیا",
+        "reduced_with_quantity_label": "صرف %{quantity_available} باقی ہے۔",
+        "remove_from_cart_button_label": "کارٹ سے ہٹا دیں۔",
+        "continue_shopping_button_label": "جاری رکھیں",
+        "go_back_to_cart_button_label": "میری ٹوکری پر واپس جائیں۔",
+        "remove": "ہٹا دیں۔",
+        "return_to_store_label": "اسٹور پر واپس جائیں۔",
+        "continue_cta_label": "چیک آؤٹ جاری رکھیں",
+        "item_label": {
+          "one": "{{count}} آئٹم",
+          "other": "{{count}} آئٹمز"
+        },
+        "empty_cart_label": "آپ کی ٹوکری خالی ہے۔",
+        "quantity_update": {
+          "page_title": "مقدار کی تازہ کاری",
+          "title": "مقدار کی تازہ کاری",
+          "description": "ان آئٹمز کے لیے دستیاب مقداریں بدل گئی ہیں اور آپ کی کارٹ میں اپ ڈیٹ ہو گئی ہیں۔"
+        },
+        "unpurchasable_product": {
+          "title": "ناقابل خرید پروڈکٹ",
+          "header": "آپ کے کارٹ سے کچھ آئٹمز ہٹا دیے گئے تھے۔",
+          "message": "یہ آئٹمز B2B آرڈرز کے لیے دستیاب نہیں ہیں۔",
+          "status_column_header": "دستیاب نہیں۔"
+        },
+        "unpurchasable_product_generic": {
+          "title": "ناقابل خرید پروڈکٹ",
+          "header": "آپ کے کارٹ سے کچھ آئٹمز ہٹا دیے گئے تھے۔",
+          "message": "یہ اشیاء دستیاب نہیں ہیں۔",
+          "status_column_header": "دستیاب نہیں۔"
+        },
+        "unfulfillable_product": {
+          "title": "ڈیلیوری دستیاب نہیں ہے۔",
+          "message": {
+            "one": "اس آئٹم کے لیے %{delivery_method} مزید دستیاب نہیں ہے۔",
+            "other": "%{delivery_method} اب ان اشیاء کے لیے دستیاب نہیں ہے۔"
+          },
+          "default_message": {
+            "one": "اس آئٹم کے لیے ڈیلیوری کا منتخب کردہ طریقہ مزید دستیاب نہیں ہے۔",
+            "other": "ان آئٹمز کے لیے ڈیلیوری کا منتخب کردہ طریقہ مزید دستیاب نہیں ہے۔"
+          }
+        }
+      },
+      "wallets": {
+        "errors": {
+          "missing": {
+            "province": "ایک ریاست/صوبہ منتخب کریں۔",
+            "billing_province": "بلنگ ایڈریس ریاست / صوبہ منتخب کریں۔",
+            "country": "ایک ملک/علاقہ منتخب کریں۔",
+            "zip": "زپ/پوسٹل کوڈ درج کریں۔",
+            "billing_zip": "ایک بلنگ ایڈریس زپ/پوسٹل کوڈ درج کریں۔",
+            "phone": "ایک فون نمبر درج کریں۔",
+            "contact_info": "رابطے کی معلومات درج کریں۔"
+          },
+          "formatting": {
+            "name_contains_emojis": "اپنے نام سے ایموجی ڈیلیٹ کریں۔",
+            "postal_code_contains_emoji": "اپنے پوسٹل کوڈ سے ایموجی حذف کریں۔",
+            "first_name_too_long": "پہلا نام بہت زیادہ حروف پر مشتمل ہے۔",
+            "last_name_too_long": "آخری نام بہت زیادہ حروف پر مشتمل ہے۔",
+            "address_too_long": "ایڈریس لائن بہت لمبی ہے۔"
+          },
+          "select_different_shipping_address_to_resolve_errors": "آپ کا شپنگ ایڈریس غلط ہے۔ ایک مختلف پتہ منتخب کریں یا نیا استعمال کریں۔"
+        },
+        "scrim": {
+          "continue_purchase_in_window": "{{walletName}} ونڈو میں اپنی خریداری جاری رکھیں",
+          "and_return_to_checkout": "اور چیک آؤٹ پر واپس جائیں۔",
+          "cancel": "منسوخ کریں۔"
+        }
+      },
+      "note": {
+        "length_exceeds_maximum": "نوٹ کے سائز کو 5000 یا اس سے کم حروف تک کم کریں۔"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "گفٹ کارڈ کی قیمت 0 سے زیادہ ہونی چاہیے۔",
+            "gift_card_price_must_not_exceed_limit": "گفٹ کارڈ کی قیمت %{gift_card_limit} سے زیادہ نہیں ہونی چاہیے۔",
+            "subtotal_limit_reached": "لائن آئٹمز کی زیادہ سے زیادہ قیمت تک پہنچ گئی ہے۔"
+          }
+        }
+      },
+      "units": {
+        "milligram": "ملی گرام",
+        "kilogram": "کلو",
+        "milliliter": "ملی لیٹر",
+        "millimeter": "ملی میٹر",
+        "centimeter": "سینٹی میٹر",
+        "ounce": "اوز",
+        "fluid_ounce": "فل اوز",
+        "gallon": "لڑکی",
+        "inch": "میں",
+        "foot": "فٹ",
+        "item": "آئٹم"
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "پتہ موجودہ رکنیت کے لیے تعاون یافتہ نہیں ہے۔"
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "آن لائن اسٹور پر جائیں۔"
+        }
+      },
+      "tooltip": {
+        "accessibility_label_context": "%{context} کے بارے میں مزید معلومات",
+        "additional_payment_methods": "ادائیگی کے اضافی طریقے"
+      }
+    },
+    "pagination": {
+      "previous": "پچھلا",
+      "next": "اگلا"
+    },
+    "links": {
+      "powered_by_shopify": "Shopify کے ذریعے تقویت یافتہ",
+      "learn_more": "مزید جانیں"
+    },
+    "feed": {
+      "more": "مزید"
+    },
+    "attributes": {
+      "email": "ای میل",
+      "password": "پاس ورڈ",
+      "password_confirmation": "پاس ورڈ کی تصدیق",
+      "first_name": "پہلا نام",
+      "last_name": "آخری نام",
+      "body": "جسم",
+      "signature": "پتہ"
+    },
+    "addresses": {
+      "zip_code": "زپ کوڈ",
+      "postal_code": "پوسٹل کوڈ",
+      "postcode": "پوسٹ کوڈ",
+      "pincode": "پن کوڈ",
+      "region": "علاقہ",
+      "prefecture": "پریفیکچر",
+      "province": "صوبہ",
+      "state": "ریاست",
+      "state_and_territory": "ریاست/علاقہ",
+      "county": "کاؤنٹی",
+      "emirate": "امارات",
+      "governorate": "گورنریٹ",
+      "confirm": "کیا آپ واقعی یہ پتہ حذف کرنا چاہتے ہیں؟"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "نمایاں",
+        "best_selling": "بہترین فروخت",
+        "az": "حروف تہجی کے لحاظ سے، AZ",
+        "za": "حروف تہجی کے لحاظ سے، ZA",
+        "price_ascending": "قیمت، کم سے زیادہ",
+        "price_descending": "قیمت، زیادہ سے کم",
+        "date_ascending": "تاریخ، پرانی سے نئی",
+        "date_descending": "تاریخ، نئی سے پرانی"
+      }
+    },
+    "errors": {
+      "blank": "خالی نہیں ہو سکتا",
+      "blocked_address": "یہ مقام تعاون یافتہ نہیں ہے۔",
+      "credit_card_session_expired": "کریڈٹ کارڈ کی اجازت ختم ہو گئی ہے، براہ کرم اپنی ادائیگی کی معلومات دوبارہ درج کریں۔ آپ کے کارڈ سے چارج نہیں کیا گیا ہے۔",
+      "empty": "خالی نہیں ہو سکتا",
+      "invalid_email": "ایک درست ای میل پتہ ہونا چاہیے۔",
+      "discount_disabled": "یہ رعایت غیر فعال کر دی گئی ہے۔",
+      "discount_expired": "یہ رعایت اب درست نہیں ہے۔",
+      "discount_limit_reached": "یہ رعایت استعمال کی حد تک پہنچ گئی ہے۔",
+      "discount_not_found": "درج کردہ کوڈ سے مماثل ایک درست رعایت تلاش کرنے سے قاصر",
+      "customer_already_used_once_per_customer_discount_notice": "یہ رعایت استعمال کی حد تک پہنچ گئی ہے۔",
+      "gift_card_already_applied": "کوڈ آپ کے چیک آؤٹ پر پہلے ہی لاگو ہو چکا ہے۔",
+      "gift_card_code_invalid": "کوڈ غلط ہے۔",
+      "gift_card_currency_mismatch": "آپ کا گفٹ کارڈ %{gift_card_currency} میں ہے۔ اسے %{checkout_currency} میں دوبارہ جاری کرنے کے لیے ہم سے رابطہ کریں۔",
+      "gift_card_depleted": "اس گفٹ کارڈ پر کوئی فنڈز باقی نہیں ہیں۔",
+      "gift_card_disabled": "گفٹ کارڈ غیر فعال ہے۔",
+      "gift_card_expired": "گفٹ کارڈ کی میعاد ختم ہو گئی ہے۔",
+      "invalid": "غلط ہے",
+      "bad_domain": "ایک غلط ڈومین نام پر مشتمل ہے۔",
+      "taken": "پہلے ہی لیا گیا ہے",
+      "contains_html_tags": "HTML ٹیگز پر مشتمل نہیں ہو سکتا",
+      "too_short": "بہت چھوٹا ہے (کم از کم %{count} حروف ہیں)",
+      "too_long": "بہت لمبا ہے (زیادہ سے زیادہ %{count} حروف ہیں)",
+      "password_mismatch": "فراہم کردہ پاس ورڈ سے مماثل ہونا ضروری ہے۔",
+      "contains_spaces": "خالی جگہوں کے ساتھ شروع یا ختم ہوتا ہے۔"
+    }
+  }
+}
