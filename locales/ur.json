@@ -1753,7 +1753,16 @@
       "add_to_apple_wallet": "Apple Wallet میں شامل کریں۔",
       "qr_image_alt": "QR کوڈ - گفٹ کارڈ کو چھڑانے کے لیے اسکین کریں۔",
       "copy_code": "کوڈ کاپی کریں۔",
-      "copy_code_success": "کوڈ کامیابی سے کاپی ہو گیا۔"
+      "copy_code_success": "کوڈ کامیابی سے کاپی ہو گیا۔",
+      "subtext": "آپ کا گفٹ کارڈ",
+      "gift_card_code": "گفٹ کارڈ کوڈ",
+      "disabled": "معذور",
+      "expired": "{{ expiry }} کو ختم ہو گیا",
+      "active": "{{ expiry }} کو ختم ہو جائے گا",
+      "redeem_html": "اپنے {{ value }} گفٹ کارڈ کو چھڑانے کے لیے چیک آؤٹ پر اس کوڈ کا استعمال کریں۔",
+      "shop_link": "خریداری شروع کریں۔",
+      "print": "اس گفٹ کارڈ کو پرنٹ کریں۔",
+      "remaining_html": "{{ balance }} باقی ہے۔"
     }
   },
   "recipient": {
@@ -2063,6 +2072,33 @@
         "modal_po_number_input_max_length_error": "PO نمبرز میں زیادہ سے زیادہ {{maxLength}} حروف ہوتے ہیں۔",
         "save": "محفوظ کریں۔",
         "title": "PO # {{poNumber}}"
+      },
+      "account_information": {
+        "company_card_name_label": "کمپنی کا نام",
+        "company_card_section_accessibility_label": "کمپنی"
+      },
+      "locations": {
+        "contact_email": "ای میل",
+        "contact_list_title": "لوگ",
+        "contact_name": "نام",
+        "contact_permissions": "اجازتیں",
+        "contact_phone_number": "فون نمبر",
+        "location_picker_label": "مقام کا نام",
+        "location_picker_accessibility_label": "مقام کا نام: {{locationName}}",
+        "net_payment_terms_description": "{{name}} : ادائیگیاں {{numberOfDays}} دنوں میں واجب الادا ہیں۔",
+        "deposit_percentage": "{{percentage}} جمع",
+        "own_role_contact_name": "آپ",
+        "pagination": {
+          "load_more": "مزید لوڈ کریں۔",
+          "load_more_accessibility_label": "مزید مقامات لوڈ کریں۔"
+        },
+        "payment_details_title": "ادائیگی کی تفصیلات",
+        "payment_terms": "ادائیگی کی شرائط",
+        "permissions_label": "آپ کی اجازت",
+        "permissions_title": "اجازتیں",
+        "section_title": "مقام",
+        "shipping_address_required": "آرڈر دینا شروع کرنے کے لیے اس مقام پر ایک شپنگ ایڈریس شامل کریں۔",
+        "staff_and_permissions_title": "عملہ اور اجازت"
       }
     },
     "errors": {
@@ -2123,6 +2159,103 @@
         "message": "بہت زیادہ کوششیں",
         "description": "براہ کرم چند منٹوں میں دوبارہ کوشش کریں۔"
       }
+    },
+    "order_details": {
+      "duties_and_taxes_included": "کل میں ڈیوٹیز اور ٹیکس شامل ہیں۔ ڈیلیوری پر کوئی اضافی چارجز نہیں۔",
+      "duties": "فرائض",
+      "ok_duties_tooltip": "یہ آرڈر کسی دوسرے ملک سے بھیجا جا رہا ہے، لہذا آپ کے آرڈر کے کل میں ڈیوٹی شامل کر دی گئی ہے۔",
+      "error_duties_tooltip": "یہ آرڈر دوسرے ملک سے بھیجا جا رہا ہے، اس لیے ڈیلیوری پر ڈیوٹی اور ٹیکس وصول کیے جا سکتے ہیں۔",
+      "zero_duties_tooltip": "یہ آرڈر دوسرے ملک سے بھیجا جا رہا ہے۔ اس قیمت کے آرڈر پر ڈیوٹی نہیں لی جاتی ہے۔",
+      "tip": "ٹپ",
+      "title": "آرڈر {{name}}",
+      "total": "کل",
+      "unit_price": "{{price}} /ea",
+      "pagination": {
+        "load_more": "مزید لوڈ کریں۔",
+        "load_more_accessibility_label": "مزید اشیاء لوڈ کریں۔",
+        "loading_accessibility_label": "اشیاء لوڈ ہو رہی ہیں۔"
+      },
+      "login_to_view_all_order_details": "تمام آرڈر کی تفصیلات دیکھنے کے لیے لاگ ان کریں۔",
+      "log_in": "لاگ ان کریں۔",
+      "logged_in_account_no_permission_to_order": "آپ بطور {{email}} لاگ ان ہیں۔ اس اکاؤنٹ کو اس آرڈر کا نظم کرنے کی اجازت نہیں ہے۔",
+      "log_in_to_a_different_account": "ایک مختلف اکاؤنٹ میں لاگ ان کریں۔",
+      "fees": {
+        "restocking_fee": "ری سٹاکنگ فیس",
+        "return_shipping_fee": "واپسی شپنگ"
+      },
+      "vat_invoices": {
+        "title": "VAT رسیدیں"
+      },
+      "link_sent": "لنک بھیج دیا گیا۔",
+      "cash_rounding": "کیش راؤنڈنگ",
+      "adjusted_payment": "ایڈجسٹ ادائیگی",
+      "adjusted_total": "ایڈجسٹ شدہ کل"
+    },
+    "addresses": {
+      "add_button": "ایڈریس شامل کریں۔",
+      "add_button_text": "شامل کریں۔",
+      "add_button_accessibility_label": "ایڈریس شامل کریں۔",
+      "back_button": "پیچھے",
+      "back_button_accessibility_label": "ایڈریس {{address}} پر واپس جائیں",
+      "add_address_banner": "چیک آؤٹ پر استعمال کرنے کے لیے پتے شامل کریں۔",
+      "no_addresses_banner": "کوئی پتے شامل نہیں کیے گئے۔",
+      "address_deleted_notification": "پتہ حذف کر دیا گیا۔",
+      "cancel_adding_address_accessibility_label": "پتہ شامل کرنا منسوخ کریں۔",
+      "cancel_deletion_button": "منسوخ کریں۔",
+      "cancel_deletion_button_accessibility_label": "{{address}} کو حذف کرنا منسوخ کریں",
+      "default_address": {
+        "title": "پہلے سے طے شدہ پتہ",
+        "title_accessibility_label": "طے شدہ پتہ: {{address}}"
+      },
+      "delete_button": "حذف کریں۔",
+      "delete_button_accessibility_label": "حذف کریں {{address}}",
+      "delete_confirmation_button": "پتہ حذف کریں۔",
+      "delete_confirmation_button_accessibility_label": "حذف کریں {{address}}",
+      "delete_confirmation_message": "پتہ حذف کریں؟ موجودہ آرڈرز متاثر نہیں ہوتے ہیں۔",
+      "delete_confirmation_title": "پتہ حذف کریں؟",
+      "delete_confirmation_description": "موجودہ آرڈرز متاثر نہیں ہوتے ہیں۔",
+      "edit_button": "ترمیم کریں۔",
+      "edit_button_accessibility_label": "ترمیم کریں {{address}}",
+      "edit_section_accessibility_label": "ترمیم کریں {{address}}",
+      "edit_modal_title": {
+        "default": "ایڈریس میں ترمیم کریں۔",
+        "billing": "بلنگ ایڈریس میں ترمیم کریں۔",
+        "shipping": "شپنگ ایڈریس میں ترمیم کریں۔"
+      },
+      "loading_accessibility_message": "ایڈریس لوڈ ہو رہا ہے۔",
+      "loading_addresses_accessibility_message": "پتے لوڈ ہو رہے ہیں۔",
+      "loading_billing_accessibility_message": "بلنگ ایڈریس لوڈ ہو رہا ہے۔",
+      "loading_finished_accessibility_message": "پتے کا نیا صفحہ لوڈ ہو گیا ہے۔",
+      "loading_shipping_accessibility_message": "شپنگ ایڈریس لوڈ ہو رہا ہے۔",
+      "pagination": {
+        "load_more": "مزید لوڈ کریں۔",
+        "load_more_accessibility_label": "مزید پتے لوڈ کریں۔"
+      },
+      "save_new_address_accessibility_label": "ایڈریس محفوظ کریں۔",
+      "title": "پتے",
+      "billing_address_dropdown_placeholder": "بلنگ کا پتہ"
+    },
+    "address_form": {
+      "attention": "توجہ",
+      "attention_company": "کمپنی/توجہ",
+      "attention_help_text": "کسی شخص یا محکمہ کا نام",
+      "auto_complete_close_accessibility_label": "تجاویز بند کریں۔",
+      "auto_complete_title": "تجاویز",
+      "billing_address": "بلنگ ایڈریس کے بطور استعمال کریں۔",
+      "cancel": "منسوخ کریں۔",
+      "cancel_accessibility_label": "ایڈریس کو منسوخ کریں {{address}}",
+      "creation_success_notification": "پتہ شامل کیا گیا۔",
+      "default_address": "یہ میرا ڈیفالٹ ایڈریس ہے۔",
+      "default_address_creation_success_notification": "پہلے سے طے شدہ پتہ شامل کر دیا گیا۔",
+      "default_address_update_success_notification": "ڈیفالٹ ایڈریس اپ ڈیٹ ہو گیا۔",
+      "loading_add_form_accessibility_message": "نیا ایڈریس فارم لوڈ ہو رہا ہے۔",
+      "loading_edit_form_accessibility_message": "ایڈریس کا فارم لوڈ ہو رہا ہے۔",
+      "loading_form_accessibility_message": "ایڈریس فارم لوڈ ہو رہا ہے۔",
+      "loading_finished_accessibility_message": "ایڈریس فارم لوڈ ہو گیا ہے۔",
+      "save": "محفوظ کریں۔",
+      "save_accessibility_label": "پتہ محفوظ کریں {{address}}",
+      "section_title_accessibility_label": "ایڈریس شامل کریں۔",
+      "update_success_notification": "پتہ اپ ڈیٹ ہو گیا۔"
     }
   },
   "templates": {
@@ -2204,7 +2337,121 @@
     "login": {
       "title": "لاگ ان کریں۔",
       "create_account": "نیا گاہک؟ اپنا اکاؤنٹ بنائیں",
-      "email": "ای میل"
+      "email": "ای میل",
+      "password": "پاس ورڈ",
+      "forgot_password": "اپنا پاس ورڈ بھول گئے؟",
+      "submit": "سائن ان کریں۔",
+      "sign_in": "سائن ان کریں۔",
+      "guest_title": "مہمان کے طور پر جاری رکھیں",
+      "guest_continue": "جاری رکھیں"
+    },
+    "orders": {
+      "title": "آرڈر کی سرگزشت:",
+      "order_number": "آرڈر",
+      "order_number_link": "آرڈر نمبر {{ number }}",
+      "date": "تاریخ",
+      "payment_status": "ادائیگی کی حیثیت",
+      "fulfillment_status": "تکمیل کی حیثیت",
+      "total": "کل",
+      "none": "آپ نے ابھی تک کوئی آرڈر نہیں دیا ہے۔"
+    },
+    "order": {
+      "title": "آرڈر {{ name }}",
+      "date_html": "{{ date }} کو رکھا گیا",
+      "cancelled_html": "آرڈر {{ date }} کو منسوخ کر دیا گیا",
+      "cancelled_reason": "وجہ: {{ reason }}",
+      "billing_address": "بلنگ کا پتہ",
+      "payment_status": "ادائیگی کی حیثیت",
+      "shipping_address": "شپنگ ایڈریس",
+      "fulfillment_status": "تکمیل کی حیثیت",
+      "discount": "رعایت",
+      "shipping": "شپنگ",
+      "tax": "ٹیکس",
+      "product": "پروڈکٹ",
+      "price": "قیمت",
+      "quantity": "مقدار",
+      "total": "کل",
+      "fulfilled_at_html": "پورا ہوا {{ date }}",
+      "subtotal": "ذیلی کل",
+      "track_shipment": "کھیپ کو ٹریک کریں۔",
+      "gift_note": "تحفہ پیغام",
+      "note": "بیچنے والے کے لیے خصوصی ہدایات"
+    },
+    "recover_password": {
+      "title": "اپنا پاس ورڈ دوبارہ ترتیب دیں۔",
+      "email": "ای میل ایڈریس",
+      "submit": "پاس ورڈ ری سیٹ کریں۔",
+      "save": "محفوظ کریں۔",
+      "cancel": "منسوخ کریں۔",
+      "subtext": "آپ کا پاس ورڈ کھو گیا؟ براہ کرم اپنا ای میل ایڈریس درج کریں۔ آپ کو ای میل کے ذریعے نیا پاس ورڈ بنانے کے لیے ایک لنک موصول ہوگا۔",
+      "success": "ہم نے آپ کو آپ کا پاس ورڈ اپ ڈیٹ کرنے کے لیے ایک لنک کے ساتھ ایک ای میل بھیجا ہے۔",
+      "content_success": "آپ کے اکاؤنٹ کے لیے فائل پر موجود ای میل ایڈریس پر پاس ورڈ دوبارہ ترتیب دینے والی ای میل بھیج دی گئی ہے، لیکن آپ کے ان باکس میں ظاہر ہونے میں کئی منٹ لگ سکتے ہیں۔ براہ کرم دوبارہ ترتیب دینے کی کوشش کرنے سے پہلے کم از کم 10 منٹ انتظار کریں۔"
+    },
+    "reset_password": {
+      "title": "اکاؤنٹ کا پاس ورڈ دوبارہ ترتیب دیں۔",
+      "subtext": "{{ email }} کے لیے نیا پاس ورڈ درج کریں",
+      "password": "پاس ورڈ",
+      "password_confirm": "پاس ورڈ کی تصدیق کریں۔",
+      "submit": "پاس ورڈ ری سیٹ کریں۔"
+    },
+    "register": {
+      "login_here": "پہلے سے ہی اکاؤنٹ ہے؟ یہاں لاگ ان کریں۔",
+      "title": "رجسٹر کریں۔",
+      "first_name": "پہلا نام",
+      "last_name": "آخری نام",
+      "email": "ای میل",
+      "password": "پاس ورڈ",
+      "submit": "رجسٹر کریں۔",
+      "privacy_policy": "آپ کا ذاتی ڈیٹا اس ویب سائٹ پر آپ کے تجربے کو سپورٹ کرنے، آپ کے اکاؤنٹ تک رسائی کا انتظام کرنے اور ہماری رازداری کی پالیسی میں بیان کردہ دیگر مقاصد کے لیے استعمال کیا جائے گا۔",
+      "privacy_policy_html": "آپ کا ذاتی ڈیٹا اس ویب سائٹ پر آپ کے تجربے کو سپورٹ کرنے، آپ کے اکاؤنٹ تک رسائی کا انتظام کرنے اور ہماری <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" class=\"privacy-policy-link fwm\" target=\"_blank\">رازداری کی پالیسی</a> میں بیان کردہ دیگر مقاصد کے لیے استعمال کیا جائے گا۔"
+    }
+  },
+  "password_page": {
+    "opening_soon": "جلد ہی کھل رہا ہے۔",
+    "drawer_heading": "پاس ورڈ درج کریں۔",
+    "login_form_password_label": "پاس ورڈ",
+    "login_form_password_placeholder": "آپ کا پاس ورڈ",
+    "login_form_submit": "داخل کریں۔",
+    "signup_form_success": "کھولنے سے پہلے ہم آپ کو ایک ای میل بھیجیں گے!",
+    "admin_link_html": "کیا آپ اسٹور کے مالک ہیں؟ <a href=\"/admin\" class=\"text-link\">یہاں لاگ ان کریں۔</a>",
+    "password_link": "پاس ورڈ کا استعمال کرتے ہوئے درج کریں۔"
+  },
+  "wishlist_page": {
+    "meta": "میری خواہش کی فہرست کا صفحہ",
+    "title": "خواہش کی فہرست",
+    "empty": "خواہش کی فہرست خالی ہے۔",
+    "empty_html": "آپ کے پاس ابھی تک خواہش کی فہرست میں کوئی پروڈکٹ نہیں ہے۔<br> ہمارے \"دکان\" کے صفحے پر آپ کو بہت ساری دلچسپ مصنوعات ملیں گی۔"
+  },
+  "compare_page": {
+    "meta": "میرا موازنہ صفحہ",
+    "title": "موازنہ کریں۔",
+    "empty": "موازنہ کی فہرست خالی ہے۔",
+    "empty_html": "موازنہ کی فہرست میں کوئی مصنوعات شامل نہیں کی گئی ہیں۔ آپ کو ان کا موازنہ کرنے کے لیے کچھ پروڈکٹس کو شامل کرنا چاہیے۔<br> ہمارے \"دکان\" کے صفحے پر آپ کو بہت ساری دلچسپ مصنوعات ملیں گی۔",
+    "remove": "ہٹا دیں۔",
+    "in_stock": "اسٹاک میں",
+    "outofstock": "اسٹاک ختم"
+  },
+  "compare_popup": {
+    "title": "مصنوعات کا موازنہ کریں۔",
+    "close": "بند",
+    "remove": "اس شے کو ہٹا دیں۔",
+    "clear": "تمام صاف کریں۔",
+    "button": "موازنہ کریں۔",
+    "count": {
+      "zero": "مصنوعات",
+      "one": "مصنوعات",
+      "other": "مصنوعات"
+    }
+  },
+  "store_availability": {
+    "general": {
+      "view_store_info": "اسٹور کی معلومات دیکھیں",
+      "check_other_stores": "دوسرے اسٹورز پر دستیابی چیک کریں۔",
+      "pick_up_available": "پک اپ دستیاب ہے۔",
+      "pick_up_currently_unavailable": "پک اپ فی الحال دستیاب نہیں ہے۔",
+      "pick_up_available_at_html": "پک اپ <strong>{{ location_name }}</strong> پر دستیاب ہے",
+      "pick_up_unavailable_at_html": "پک اپ فی الحال <strong>{{ location_name }}</strong> پر دستیاب نہیں ہے",
+      "check_map": "اسے گوگل میپ پر چیک کریں۔"
     }
   }
 }
