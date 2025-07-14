@@ -271,5 +271,145 @@
       "password_mismatch": "فراہم کردہ پاس ورڈ سے مماثل ہونا ضروری ہے۔",
       "contains_spaces": "خالی جگہوں کے ساتھ شروع یا ختم ہوتا ہے۔"
     }
+  },
+  "products": {
+    "product_card": {
+      "quick_shop": "فوری دکان",
+      "quick_shop_text": {
+        "replace_item_atc": "آئٹم کو تبدیل کریں۔",
+        "replace_item_pre": "آئٹم کو تبدیل کریں۔"
+      },
+      "select_option": "اختیارات منتخب کریں۔",
+      "swatch_limit": "مزید رنگ دکھائیں۔",
+      "swatch_limit_less": "کم رنگ دکھائیں۔",
+      "offer_end_in": "پیشکش اس وقت ختم ہوتی ہے:",
+      "countdown_text": {
+        "day": "دن",
+        "day_plural": "دن",
+        "hr": "گھنٹہ",
+        "hr_plural": "گھنٹے",
+        "min": "منٹ",
+        "min_plural": "منٹ",
+        "sec": "سیکنڈ",
+        "sec_plural": "سیکنڈ"
+      }
+    },
+    "product_single": {
+      "countdown_text": {
+        "day": "دن",
+        "day_plural": "دن",
+        "hr": "گھنٹہ",
+        "hr_plural": "گھنٹے",
+        "min": "منٹ",
+        "min_plural": "منٹ",
+        "sec": "سیکنڈ",
+        "sec_plural": "سیکنڈ"
+      },
+      "order_dayNames": "اتوار، پیر، منگل، بدھ، جمعرات، جمعہ، ہفتہ",
+      "order_monthNames": "جنوری، فروری، مارچ، اپریل، مئی، جون، جولائی، اگست، ستمبر، اکتوبر، نومبر، دسمبر",
+      "view_in_space": "اپنی جگہ میں دیکھیں",
+      "view_in_space_label": "اپنی جگہ میں دیکھیں، اگمینٹڈ رئیلٹی ونڈو میں آئٹم کو لوڈ کریں۔",
+      "view_360": "360 پروڈکٹ ویو",
+      "click_zoom": "بڑا کرنے کے لیے کلک کریں۔",
+      "will_not_ship_until_html": "<span data-incoming-date>{{ date }}</span> تک نہیں بھیجے جائیں گے",
+      "will_be_in_stock_after_html": "<span data-incoming-date>{{ date }}</span> کے بعد اسٹاک میں ہوں گے"
+    },
+    "fbt": {
+      "title": "اکثر ایک ساتھ خریدا جاتا ہے۔",
+      "tt_price": "کل قیمت:",
+      "add_tc": "منتخب کردہ کو کارٹ میں شامل کریں۔",
+      "this_item": "یہ آئٹم:"
+    },
+    "grouped": {
+      "tt_price": "ذیلی کل:"
+    },
+    "notify_stock": {
+      "trigger": "دستیاب ہونے پر مجھے مطلع کریں۔",
+      "title": "جب یہ آئٹم اسٹاک میں واپس آجائے تو اطلاع موصول کرنے کے لیے رجسٹر کریں۔",
+      "email": "ای میل ایڈریس",
+      "please": "جب یہ پروڈکٹ دستیاب ہو تو براہ کرم مجھے مطلع کریں۔",
+      "success": "شکریہ! یہ پروڈکٹ دستیاب ہونے پر ہم آپ کو مطلع کریں گے!",
+      "button": "دستیاب ہونے پر مجھے ای میل کریں۔"
+    },
+    "facets": {
+      "apply": "لگائیں",
+      "clear": "صاف",
+      "clear_all": "سب صاف کریں۔",
+      "from": "سے",
+      "filter_and_sort": "فلٹر اور ترتیب دیں۔",
+      "filter_title": "فلٹر",
+      "title_price": "قیمت",
+      "button_price": "فلٹر",
+      "results_with_count_html": {
+        "zero": "<span class=\"cp\">0</span> مصنوعات ملیں۔",
+        "one": "<span class=\"cp\">1</span> مصنوعات ملیں۔",
+        "other": "<span class=\"cp\">{{ count }}</span> پروڈکٹس مل گئے۔"
+      },
+      "clear_filter": "فلٹر صاف کریں۔"
+    }
+  },
+  "search": {
+    "general": {
+      "title": "ہماری سائٹ تلاش کریں۔",
+      "heading": {
+        "one": "تلاش کا نتیجہ",
+        "other": "تلاش کے نتائج"
+      },
+      "results_others": "مضمون، صفحہ سے نتائج",
+      "quick_search": "فوری تلاش:",
+      "suggestions": "تجاویز:",
+      "close_search": "تلاش بند کریں۔",
+      "suggest": "کچھ پریرتا کی ضرورت ہے؟",
+      "placeholder": "تلاش کریں۔",
+      "placeholder_products": "مصنوعات کی تلاش کریں۔",
+      "submit": "تلاش کریں",
+      "all_categories": "تمام زمرے",
+      "no_results": "کوئی نتیجہ نہیں ملا",
+      "no_product_results": "آپ کے انتخاب سے مماثل کوئی پروڈکٹس نہیں ملے۔",
+      "sort_by_label": "ترتیب دیں:",
+      "sort_button": "چھانٹنا",
+      "filter_button": "فلٹر"
+    },
+    "search_for": "تلاش کریں \" {{ terms }} \"",
+    "pagination": {
+      "view_all": "سبھی دیکھیں",
+      "load_more": "مزید لوڈ کریں۔",
+      "load_prev": "پچھلا لوڈ کریں۔",
+      "bar_with_count_html": "آپ نے <span data-current-bar>{{ current_count }}</span> {{ total_count }} مصنوعات دیکھی ہیں۔"
+    },
+    "results_with_term": {
+      "zero": "تلاش کا نتیجہ: “ {{ terms }} ”",
+      "one": "تلاش کا نتیجہ: “ {{ terms }} ”",
+      "other": "تلاش کے نتائج برائے: “ {{ terms }} ”"
+    },
+    "results_with_count_and_term": {
+      "zero": "تلاش کا نتیجہ: “ {{ terms }} ”",
+      "one": "{{ count }} تلاش کا نتیجہ برائے: “ {{ terms }} ”",
+      "other": "{{ count }} تلاش کے نتائج برائے: “ {{ terms }} ”"
+    }
+  },
+  "cart": {
+    "general": {
+      "item_cart": {
+        "zero": "اشیاء",
+        "one": "آئٹم",
+        "other": "اشیاء"
+      },
+      "cookies_required": "شاپنگ کارٹ استعمال کرنے کے لیے کوکیز کو فعال کریں۔",
+      "taxes_and_shipping_at_checkout": "چیک آؤٹ پر ٹیکس اور شپنگ کا حساب لگایا جاتا ہے۔",
+      "taxes_and_shipping_policy_at_checkout_html": "چیک آؤٹ پر ٹیکس اور <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" target=\"_blank\">شپنگ کا</a> حساب لگایا جاتا ہے۔",
+      "taxes_included_but_shipping_at_checkout": "ٹیکس شامل ہے اور شپنگ کا حساب چیک آؤٹ پر کیا جاتا ہے۔",
+      "taxes_included_and_shipping_policy_html": "ٹیکس شامل ہے۔ چیک آؤٹ پر <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" target=\"_blank\">شپنگ کا</a> حساب لگایا جاتا ہے۔",
+      "taxes_discounts_and_shipping_at_checkout": "ٹیکس، شپنگ اور ڈسکاؤنٹس کوڈز کا حساب چیک آؤٹ پر کیا جاتا ہے۔",
+      "taxes_discounts_and_shipping_policy_at_checkout_html": "ٹیکس، <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" target=\"_blank\">شپنگ</a> اور ڈسکاؤنٹس کوڈز کا حساب چیک آؤٹ پر کیا جاتا ہے۔",
+      "taxes_included_discounts_but_shipping_at_checkout": "ٹیکس شامل ہے۔ شپنگ اور ڈسکاؤنٹس کوڈز کا حساب چیک آؤٹ پر کیا جاتا ہے۔",
+      "taxes_included_discounts_and_shipping_policy_html": "ٹیکس شامل ہے۔ <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" target=\"_blank\">شپنگ</a> اور ڈسکاؤنٹس کوڈز کا حساب چیک آؤٹ پر کیا جاتا ہے۔",
+      "terms_and_conditions_html": "میں <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" target=\"_blank\">شرائط و ضوابط</a> سے متفق ہوں۔",
+      "terms_and_conditions": "میں شرائط و ضوابط سے متفق ہوں۔",
+      "edit_item": "اس آئٹم میں ترمیم کریں۔",
+      "remove_item": "اس شے کو ہٹا دیں۔",
+      "recurring_mess": "ہر {{ frequency }} {{ frequency_unit }} بار بار کی ترسیل۔ کسی بھی وقت تبدیل یا منسوخ کریں۔",
+      "agree_checkout": "چیک آؤٹ کرنے کے لیے آپ کو فروخت کی شرائط و ضوابط سے متفق ہونا ضروری ہے۔"
+    }
   }
 }
