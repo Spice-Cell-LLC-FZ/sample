@@ -702,7 +702,138 @@
         "thank_you_confirmed_order_with_draft": "اگر ہمیں مزید معلومات کی ضرورت ہو یا آپ کے آرڈر کی تصدیق ہو جائے تو ہم آپ کو بتائیں گے۔",
         "thank_you_confirmed_order_with_draft_payment": "اگر ہمیں مزید معلومات کی ضرورت ہو یا آپ کے آرڈر کی تصدیق ہو جائے تو ہم آپ کو بتائیں گے۔",
         "thank_you_confirmed_order_with_draft_pick_up": "اگر ہمیں مزید معلومات کی ضرورت ہو یا آپ کے آرڈر کی تصدیق ہو جائے تو ہم آپ کو بتائیں گے۔",
-        "thank_you_payments_app_failed_pending_payment": "آپ کے آرڈر کے لیے آپ سے معاوضہ نہیں لیا گیا۔ اپنے آرڈر کا جائزہ لینے اور دوبارہ ادائیگی کرنے کے لیے اپنی کارٹ پر واپس جائیں۔"
+        "thank_you_payments_app_failed_pending_payment": "آپ کے آرڈر کے لیے آپ سے معاوضہ نہیں لیا گیا۔ اپنے آرڈر کا جائزہ لینے اور دوبارہ ادائیگی کرنے کے لیے اپنی کارٹ پر واپس جائیں۔",
+        "attempted_delivery_local_description_html": "ہم آپ کا آرڈر ڈیلیور نہیں کر سکے۔ دوسری ڈیلیوری شیڈول کرنے کے لیے، %{contact_us}۔",
+        "delivered": "پہنچایا",
+        "delivered_title": "آپ کا آرڈر پہنچا دیا گیا ہے۔",
+        "delivered_description_html": "آپ کا آرڈر آپ کے فراہم کردہ پتے پر پہنچا دیا گیا ہے۔ اگر آپ کو یہ موصول نہیں ہوا ہے، یا اگر آپ کو کوئی اور مسئلہ ہے تو، %{contact_us}۔",
+        "delivered_local_title": "آپ کا آرڈر پہنچا دیا گیا ہے۔",
+        "delivered_local_description_html": "آپ کا آرڈر موصول نہیں ہوا؟ %{ let_us_know}۔",
+        "choose_payment_method_later": "بعد میں ادائیگی کا طریقہ منتخب کریں۔",
+        "picked_up_title": "آپ کا آرڈر لے لیا گیا ہے۔",
+        "picked_up_description_html": "آپ کا آرڈر %{location_name} پر %{date} کو اٹھایا گیا تھا۔",
+        "contact_us": "ہم سے رابطہ کریں۔",
+        "contact_us_lowercase": "ہم سے رابطہ کریں۔",
+        "contact_us_html": "مدد کی ضرورت ہے؟ %{contact_us}",
+        "updated_time": "%{time_ago} پہلے اپ ڈیٹ کیا گیا۔",
+        "failure": "نہیں پہنچایا",
+        "failed_title": "آپ کا آرڈر ڈیلیور نہیں کیا جا سکا",
+        "failed_contact_merchant": "ترسیل کا بندوبست کرنے کے لیے %{company} سے رابطہ کریں۔",
+        "failed_contact_merchant_no_company": "ڈیلیوری کا بندوبست کرنے کے لیے ہم سے رابطہ کریں۔",
+        "non_shippable_title": "آپ کا آرڈر مکمل ہو گیا ہے۔",
+        "let_us_know": "ہمیں بتائیں",
+        "login_title": "تمام آرڈر کی تفصیلات دیکھنے کے لیے لاگ ان کریں۔",
+        "login_description": "آپ اپنا آرڈر نمبر ای میل کے ذریعے موصول ہونے والی رسید میں تلاش کر سکتے ہیں۔",
+        "login_description_phone": "ٹیکسٹ میسج کے ذریعے موصول ہونے والی رسید میں آپ اپنا آرڈر نمبر تلاش کر سکتے ہیں۔",
+        "login_not_customer_html": "نہیں %{name}؟ آپ %{link} کر سکتے ہیں",
+        "login_reorder_link_text": {
+          "one": "اس پروڈکٹ کو بھی خریدیں۔",
+          "other": "یہ مصنوعات بھی خریدیں۔"
+        },
+        "customer_information_hidden_fields_message": "تمام کسٹمر کی معلومات دیکھنے کے لیے لاگ ان کریں۔",
+        "cancelled_title": "آپ کا آرڈر منسوخ کر دیا گیا ہے۔",
+        "cancelled_description": "آپ کا آرڈر %{date} کو منسوخ کر دیا گیا تھا۔ اگر آپ کے کوئی سوالات ہیں تو ہم سے رابطہ کریں۔",
+        "order_number_label": "آرڈر نمبر",
+        "customer_validation_error": "ایک درست ای میل یا آرڈر نمبر درج کریں۔",
+        "customer_validation_error_phone": "ایک درست فون یا آرڈر نمبر درج کریں۔",
+        "login": "لاگ ان کریں۔",
+        "unfulfilled_items_title": "شپنگ کے لیے تیاری کر رہا ہے۔",
+        "unfulfilled_items_description": "ہم فی الحال ان اشیاء کو شپنگ کے لیے تیار کر رہے ہیں۔",
+        "marker": {
+          "current": "موجودہ کھیپ کا مقام",
+          "shipping": "شپنگ ایڈریس"
+        },
+        "pick_up_in_store_marker": {
+          "current": "موجودہ کھیپ کا مقام",
+          "shipping": "پک اپ کا مقام"
+        },
+        "fulfillment": {
+          "fulfilled_table_title": "اس کھیپ میں اشیاء",
+          "unfulfilled_table_title": "سامان بھیجنے کی تیاری کر رہے ہیں۔",
+          "product_image_label": "مصنوعات کی تصویر",
+          "description_label": "تفصیل",
+          "quantity_label": "مقدار"
+        },
+        "order_updates_description_missing": "آپ کو شپنگ کی اپ ڈیٹس موصول نہیں ہو رہی ہیں۔",
+        "order_updates_subscribe_to_email_notifications": "ای میل کے ذریعے شپنگ اپ ڈیٹس حاصل کریں۔",
+        "order_updates_subscribe_to_email_or_phone_notifications": "ای میل یا ٹیکسٹ کے ذریعے شپنگ اپ ڈیٹس حاصل کریں۔",
+        "order_updates_subscribe_to_phone_notifications": "متن کے ذریعہ شپنگ اپ ڈیٹس حاصل کریں۔",
+        "order_updates_submit_subscription": "جمع کروائیں۔",
+        "track_shipment": "کھیپ کو ٹریک کریں۔",
+        "other_options": "دوسرے اختیارات",
+        "delivery_information_label": "ترسیل کی معلومات:",
+        "gift_card_sent_confirmation": "گفٹ کارڈز بھیجے گئے۔",
+        "qr_code": {
+          "send_link_to_phone": "یا اپنے فون پر ایک لنک بھیجیں۔",
+          "title": "اپنے فون پر ٹریک کریں۔"
+        },
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "اپنے فون سے اسکین کریں۔"
+          },
+          "sms": {
+            "title": "یا اپنے فون پر ایک لنک بھیجیں۔"
+          }
+        },
+        "view_business_customer_account": "اکاؤنٹ دیکھیں",
+        "breadcrumbs_submitted": "جمع کرایا",
+        "breadcrumbs_in_review": "جائزہ میں",
+        "breadcrumbs_confirmed": "تصدیق شدہ",
+        "missing_shipping_address_banner": {
+          "title": "آرڈر میں شپنگ ایڈریس نہیں ہے۔",
+          "text_html": "اپنا پتہ شامل کرنے کے لیے %{contact_us}",
+          "contact_us": "ہم سے رابطہ کریں۔"
+        },
+        "first_payment_complete": "پہلی ادائیگی مکمل",
+        "in_store_purchase": "دکان میں خریداری",
+        "location_title": "مقام",
+        "company_location_section_title": "کمپنی اور مقام",
+        "thank_you_ready_for_picked_up": "آپ کا آرڈر %{address} پر اٹھایا گیا تھا۔",
+        "ready_for_delivery": "ترسیل کے لیے تیار ہے۔",
+        "order_updates_subscribe_to_email_notifications_failed": "ہم اس ای میل کو اپ ڈیٹس کے لیے اسٹور نہیں کر سکتے۔ براہ کرم دوبارہ کوشش کریں یا کوئی اور ای میل استعمال کریں۔",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "آپ نے جو ای میل درج کی ہے وہ پہلے سے موجود ہے۔",
+        "subscriptions_management": {
+          "title": "رکنیت",
+          "description": "اپنے سبسکرپشنز کو دیکھنے اور ان کا نظم کرنے کے لیے اپنے اکاؤنٹ پر جاری رکھیں۔",
+          "button_label": "اپنی رکنیت کا نظم کریں۔"
+        },
+        "manage_order_label": "اپنے آرڈر کا نظم کریں۔",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "آپ کو چند منٹوں میں اپنے گفٹ کارڈ کے ساتھ ایک متن موصول ہوگا۔",
+          "other": "آپ کو چند منٹوں میں اپنے گفٹ کارڈز کے ساتھ ایک متن موصول ہوگا۔"
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "آپ کو چند منٹوں میں اپنے گفٹ کارڈ کے ساتھ ایک ای میل موصول ہوگی۔",
+          "other": "آپ کو چند منٹوں میں اپنے گفٹ کارڈز کے ساتھ ایک ای میل موصول ہوگی۔"
+        },
+        "gift_card_email_title": {
+          "one": "گفٹ کارڈ ای میل کے ذریعے بھیجا گیا تھا۔",
+          "other": "گفٹ کارڈز بذریعہ ای میل بھیجے گئے تھے۔"
+        },
+        "gift_card_text_title": {
+          "one": "گفٹ کارڈ ٹیکسٹ میسج کے ذریعے بھیجا گیا تھا۔",
+          "other": "گفٹ کارڈز ٹیکسٹ میسج کے ذریعے بھیجے گئے تھے۔"
+        },
+        "resend_gift_cards_by_email": "ای میل دوبارہ بھیجیں۔",
+        "resend_gift_cards_by_text": "ٹیکسٹ میسج دوبارہ بھیجیں۔",
+        "gift_card_resent_confirmation": {
+          "one": "گفٹ کارڈ دوبارہ بھیجا گیا۔",
+          "other": "گفٹ کارڈز دوبارہ بھیجے گئے۔"
+        },
+        "gift_card_resend_failure": {
+          "one": "آپ کا گفٹ کارڈ دوبارہ بھیجنے میں ایک مسئلہ تھا۔ دوبارہ کوشش کریں یا ہم سے رابطہ کریں۔",
+          "other": "آپ کے گفٹ کارڈز کو دوبارہ بھیجنے میں ایک مسئلہ تھا۔ دوبارہ کوشش کریں یا ہم سے رابطہ کریں۔"
+        },
+        "vat_invoices": {
+          "title": "VAT رسیدیں"
+        },
+        "verify_shop_account_title": "اپنے شاپ اکاؤنٹ کی تصدیق کریں۔",
+        "verify_shop_account_message": "آپ کی معلومات کو دکان کے ساتھ محفوظ کیا گیا تھا، لاکھوں اسٹورز پر اسے خودکار طور پر استعمال کرنے کے لیے اپنے اکاؤنٹ کی تصدیق کریں۔",
+        "verify_shop_account_cta": "اپنے اکاؤنٹ کی تصدیق کریں۔",
+        "verify_shop_account_confirmation": "چیک آؤٹ کی تفصیلات محفوظ ہو گئیں۔",
+        "announcement": {
+          "close": "بند"
+        }
       },
       "payment": {
         "network_card_payment_options": "کارڈ نیٹ ورک کا انتخاب کریں۔",
@@ -803,6 +934,15 @@
         "sofort_label": "سوفورٹ بینک ٹرانسفر",
         "paypal_label": "پے پال",
         "paypal_wallet_label": "پے پال والیٹ"
+      },
+      "vaulted": {
+        "change_button": "تبدیلی"
+      },
+      "review": {
+        "title": "جائزہ لیں",
+        "review_title": "اپنا آرڈر مکمل کریں۔",
+        "review_and_confirm_title": "جائزہ لیں اور تصدیق کریں۔",
+        "checkout_as_guest": "بطور مہمان چیک کریں۔"
       }
     },
     "pagination": {
