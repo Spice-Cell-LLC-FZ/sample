@@ -315,7 +315,26 @@
             "one": "، پھر %{count} ادائیگی %{total_price} پر",
             "other": "، پھر %{count} ادائیگیاں %{total_price} ہر ایک پر"
           }
-        }
+        },
+        "recurring_total_intervals": {
+          "day": {
+            "one": "دن",
+            "other": "%{count} دن"
+          },
+          "week": {
+            "one": "ہفتہ",
+            "other": "%{count} ہفتے"
+          },
+          "month": {
+            "one": "مہینہ",
+            "other": "%{count} مہینے"
+          },
+          "year": {
+            "one": "سال",
+            "other": "%{count} سال"
+          }
+        },
+        "recurring_totals": "%{total_price} ہر %{interval}"
       },
       "customer_payment_methods": {
         "page_title": "ادائیگی کے طریقے",
@@ -1069,7 +1088,135 @@
         "title": "جائزہ لیں",
         "review_title": "اپنا آرڈر مکمل کریں۔",
         "review_and_confirm_title": "جائزہ لیں اور تصدیق کریں۔",
-        "checkout_as_guest": "بطور مہمان چیک کریں۔"
+        "checkout_as_guest": "بطور مہمان چیک کریں۔",
+        "account_more_actions": "اس اکاؤنٹ کے لیے مزید کارروائیاں",
+        "checkout_a_different_way": "ایک مختلف طریقہ چیک کریں۔",
+        "blocks": {
+          "contact_method_title": "رابطہ کریں۔",
+          "billing_address_title": "بلنگ",
+          "shipping_address_title": "کو بھیجیں۔",
+          "shipping_method_title": "ترسیل کا طریقہ",
+          "payment_method_title": "ادائیگی کا طریقہ",
+          "change_link_label": "تبدیلی",
+          "change_contact_method_link_label": "رابطے کی معلومات کو تبدیل کریں۔",
+          "change_billing_address_link_label": "بلنگ ایڈریس تبدیل کریں۔",
+          "change_shipping_address_link_label": "شپنگ ایڈریس تبدیل کریں۔",
+          "change_shipping_method_link_label": "شپنگ کا طریقہ تبدیل کریں۔",
+          "change_payment_method_link_label": "ادائیگی کا طریقہ تبدیل کریں۔",
+          "pick_up_in_store_shipping_method_html": "اسٹور میں پک اپ · %{location_name}",
+          "purchase_order_number_title": "پی او نمبر",
+          "change_purchase_order_number_label": "PO نمبر تبدیل کریں۔",
+          "change_delivery_method_link_label": "ترسیل کا طریقہ تبدیل کریں۔",
+          "no_address": "(کوئی پتہ نہیں)",
+          "no_purchase_order_number": "(کوئی PO نمبر نہیں)",
+          "due_after_order_reviewed_html": "آرڈر کا جائزہ لینے کے بعد واجب الادا ہے۔",
+          "review_title_free_order": "اپنے آرڈر کا جائزہ لیں اور مکمل کریں۔",
+          "payment_method_saved_company_location": "اس مقام کے لیے کارڈ محفوظ کریں۔",
+          "company_location": "کمپنی کا مقام"
+        },
+        "block_title": "اپنی معلومات کا جائزہ لیں۔",
+        "item_header": {
+          "change_value": "قدر تبدیل کریں۔",
+          "section": "سیکشن",
+          "value": "قدر"
+        }
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "خبروں اور پیشکشوں کے ساتھ مجھے ای میل کریں۔",
+        "post_accept_marketing_checkbox_label": "آپ نے ای میل کی خبریں اور پیشکشیں حاصل کرنے کے لیے سبسکرائب کیا ہے۔",
+        "pending_accept_marketing_checkbox_label": "خبروں اور پیشکشوں کی اپنی رکنیت کی تصدیق کرنے کے لیے اپنا ای میل چیک کریں۔",
+        "accept_sms_checkbox_label": "خبروں اور پیشکشوں کے ساتھ مجھے ٹیکسٹ کریں۔",
+        "disclaimer": {
+          "privacy_policy": "رازداری کی پالیسی",
+          "terms_of_service": "سروس کی شرائط"
+        },
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "رازداری کی پالیسی",
+            "terms_of_service": "سروس کی شرائط",
+            "description_html": "ٹیکسٹ کے ذریعے سائن اپ کرکے، آپ فراہم کردہ فون نمبر پر بار بار آنے والے خودکار مارکیٹنگ پیغامات بشمول کارٹ ریمائنڈرز وصول کرنے سے اتفاق کرتے ہیں۔ رضامندی خریداری کی شرط نہیں ہے۔ ان سبسکرائب کرنے کے لیے STOP کا جواب دیں۔ مدد کے لیے HELP کا جواب دیں۔ پیغام کی تعدد مختلف ہوتی ہے۔ میسج اور ڈیٹا ریٹس لاگو ہو سکتے ہیں۔ ہمارا %{privacy_policy_link} اور %{terms_of_service_link} دیکھیں۔",
+            "description_transactional_html": "آپ کو آرڈر کی تصدیق اور شپنگ اپ ڈیٹس سے متعلق ٹیکسٹ پیغامات موصول ہو سکتے ہیں۔ ان سبسکرائب کرنے کے لیے STOP کا جواب دیں۔ مدد کے لیے HELP کا جواب دیں۔ پیغام کی تعدد مختلف ہوتی ہے۔ میسج اور ڈیٹا ریٹس لاگو ہو سکتے ہیں۔ ہمارا %{privacy_policy_modal_link} اور %{terms_of_service_modal_link} دیکھیں۔"
+          },
+          "mobile_phone_number": "موبائل فون نمبر",
+          "get_offers_by_text": "متن کے ذریعہ پیشکشیں حاصل کریں۔"
+        },
+        "unsubscribe": {
+          "title": "آپ نے رکنیت ختم کر دی ہے۔",
+          "description": "آپ کو ہماری طرف سے مزید کارٹ یاد دہانیاں موصول نہیں ہوں گی۔"
+        },
+        "accept_shop_pay_marketing_checkbox_label": "اس اسٹور سے خبروں اور پیشکشوں کے لیے مجھے سائن اپ کریں۔"
+      },
+      "shop_policies": {
+        "refund_policy": "رقم کی واپسی کی پالیسی",
+        "privacy_policy": "رازداری کی پالیسی",
+        "terms_of_service": "سروس کی شرائط",
+        "legal_notice": "قانونی نوٹس",
+        "shipping_policy": "شپنگ پالیسی",
+        "terms_of_sale": "فروخت کی شرائط",
+        "subscription_policy": "منسوخی کی پالیسی",
+        "purchase_options_policy": "خریداری کے اختیارات کی پالیسی",
+        "contact_information": "رابطہ کی معلومات",
+        "purchase_options_cancellation_policy": "منسوخی کی پالیسی",
+        "cookie_preferences": "کوکی کی ترجیحات"
+      },
+      "mor_policies": {
+        "terms_and_conditions": "مرچنٹ آف ریکارڈ کی شرائط و ضوابط",
+        "privacy_policy": "مرچنٹ آف ریکارڈ پرائیویسی پالیسی"
+      },
+      "markets": {
+        "invalid_market_manager_error": "ادائیگی مکمل کرنے سے پہلے اپنی رابطہ کی معلومات کا جائزہ لیں۔"
+      },
+      "notifications": {
+        "title": "اطلاعات"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "آرڈر کی ادائیگی کی رقم %{order_name}",
+        "changes_summary": {
+          "added": {
+            "one": "شامل کیا گیا۔",
+            "other": "شامل کیا گیا %{count}"
+          },
+          "removed": "ہٹا دیا گیا۔",
+          "subtracted": "ہٹا دیا گیا %{count}",
+          "returned": "واپس کیا گیا %{count}",
+          "return_line_item_removed": "واپسی سے %{count} کو ہٹا دیا گیا۔"
+        },
+        "additional_payment_requested": "%{total_outstanding} کی ادائیگی درکار ہے۔",
+        "checkout_review_and_pay": "آپ کا آرڈر %{order_name} اپ ڈیٹ کر دیا گیا تھا۔ ان تبدیلیوں کا جائزہ لیں، پھر اپنے آرڈر کی تصدیق کے لیے ادائیگی کریں۔",
+        "order_updated_on": "آپ کا آرڈر %{last_edited_at} کو اپ ڈیٹ کیا گیا تھا۔",
+        "order_review_and_pay": "آپ کا آرڈر اپ ڈیٹ کر دیا گیا تھا۔ اپنے آرڈر کی تصدیق کے لیے جائزہ لیں اور ادائیگی کریں۔",
+        "pay_now": "ابھی ادائیگی کریں۔"
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "آپ کے کریڈٹ کارڈ سے چارج کیا جائے گا %{amount}",
+        "payment_total_label": "کل ادائیگی",
+        "change_currency_link": "%{currency_name} میں تبدیل کریں",
+        "card_provider_fx_charges_warning": "آپ کا کارڈ فراہم کنندہ %{currency_code} ٹرانزیکشنز پر فیس وصول کر سکتا ہے۔",
+        "currency_not_supported_by_shop": "آپ کی منتخب کردہ کرنسی اب دستیاب نہیں ہے۔ تمام قیمتیں اب %{currency_code} میں ہیں۔"
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "آپ کی کارٹ کو آپ کے شپنگ ملک کی بنیاد پر اپ ڈیٹ کر دیا گیا ہے۔",
+        "cart_and_currency_updated_based_on_country": "آپ کی کارٹ اور کرنسی کو آپ کے شپنگ ملک کی بنیاد پر اپ ڈیٹ کر دیا گیا ہے۔"
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "آپ کا ملک/علاقہ اپ ڈیٹ کر دیا گیا ہے۔ چیک آؤٹ جاری رکھنے کے لیے اپنا شپنگ ایڈریس درج کریں۔"
+      },
+      "tips": {
+        "title": "ٹپ شامل کریں۔",
+        "description": "%{shop_name} پر ٹیم کے لیے اپنی حمایت دکھائیں",
+        "presets_description": "ٹپ فیصد منتخب کریں۔",
+        "custom_label": "حسب ضرورت ٹپ",
+        "add_tip": "ٹپ شامل کریں۔",
+        "update_tip": "اپ ڈیٹ ٹپ",
+        "message": "آپ کا شکریہ، ہم اس کی تعریف کرتے ہیں۔",
+        "no_tip_label": "کوئی نہیں۔"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "خریدیں %{product_name}",
+          "one": "%{product_name} اور %{count} دیگر آئٹم خریدیں۔",
+          "other": "%{product_name} اور %{count} دیگر آئٹمز خریدیں۔"
+        }
       }
     },
     "pagination": {
