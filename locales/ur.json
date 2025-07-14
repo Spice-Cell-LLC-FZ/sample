@@ -933,7 +933,134 @@
         "generic_incorrect_card_info": "آپ کی ادائیگی کی تفصیلات کی تصدیق نہیں ہو سکی۔ اپنے کارڈ کی تفصیلات چیک کریں اور دوبارہ کوشش کریں۔",
         "sofort_label": "سوفورٹ بینک ٹرانسفر",
         "paypal_label": "پے پال",
-        "paypal_wallet_label": "پے پال والیٹ"
+        "paypal_wallet_label": "پے پال والیٹ",
+        "shop_pay_installments_label": "خریداری کی ادائیگی کی قسطیں۔",
+        "paypal_modal": {
+          "order_contains_subscriptions": "رکنیت",
+          "order_contains_fixed_selling_plans": "کل ٹیکسز، شپنگ، ڈیفرڈ چارجز، اور کچھ رعایتیں شامل نہیں ہو سکتی ہیں۔ آج ہی واجب الادا رقم کے لیے چیک آؤٹ کرنا جاری رکھیں۔"
+        },
+        "klarna_label": "کلارنا",
+        "klarna_pay_later_label": "Klarna کے ساتھ بعد میں ادائیگی کریں۔",
+        "klarna_pay_now_label": "کلارنا کے ساتھ ابھی ادائیگی کریں۔",
+        "bancontact_label": "بینک رابطہ",
+        "giropay_label": "گیروپے",
+        "multibanco_label": "ملٹی بینکو",
+        "klarna_slice_it_label": "کلارنا کے ساتھ مالیات",
+        "ideal_label": "آئیڈیل",
+        "bank_picker_label": "بینک",
+        "afterpay_label": "ادائیگی کے بعد",
+        "cashapppay_label": "کیش ایپ پے",
+        "blik_label": "بلک",
+        "twint_label": "ٹوئنٹ",
+        "mobilepay_label": "موبائل پے",
+        "swish_label": "سویش",
+        "vipps_label": "وی پی پیز",
+        "grabpay_label": "گراب پے",
+        "kcp_creditcard_label": "KCP کریڈٹ کارڈ",
+        "purchase_options_card_update_agreement_label_html": "اپنے ادائیگی کے طریقے کو اپ ڈیٹ کر کے، آپ اس اسٹور کی <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">منسوخی کی پالیسی</a> کے مطابق کسی بھی اعادی یا موخر خریداری کے لیے ادائیگیوں کی اجازت دیتے ہیں۔",
+        "subscription_card_update_agreement_label": "ادائیگی کا طریقہ تبدیل کرنے سے آپ کی رکنیت اور آئندہ اعادی ادائیگیوں کو اپ ڈیٹ کر دیا جائے گا۔",
+        "subscription_agreement_label": "آپ کی کارٹ میں ایک یا زیادہ آئٹمز ایک موخر یا سبسکرپشن خریداری ہے۔ اپنی ادائیگی جاری رکھ کر، آپ اس بات سے اتفاق کرتے ہیں کہ آپ کا ادائیگی کا طریقہ خود بخود اس صفحہ پر درج قیمت اور فریکوئنسی کے حساب سے وصول کیا جائے گا جب تک کہ یہ ختم نہ ہو جائے یا آپ منسوخ کر دیں۔ تمام منسوخیاں %{cancelled} کے تابع ہیں۔",
+        "subscription_agreement_cancelled": "منسوخی کی پالیسی",
+        "subscription_heading": "رکنیت کا معاہدہ",
+        "subscription_agreement_label_html": "میں سمجھتا ہوں کہ میں سبسکرپشن سے اتفاق کر رہا ہوں۔ اس کی تجدید درج قیمت اور تعدد پر ہو گی جب تک کہ یہ ختم نہ ہو جائے یا ہو جائے۔\n <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">منسوخ</a>\n",
+        "purchase_options_agreement_label": "آپ کی کارٹ میں ایک یا زیادہ آئٹمز ایک موخر یا اعادی خریداری ہے۔ اپنی ادائیگی جاری رکھ کر، آپ اس بات سے اتفاق کرتے ہیں کہ آپ کا ادائیگی کا طریقہ خود بخود اس صفحہ پر درج قیمت اور فریکوئنسی کے حساب سے وصول کیا جائے گا جب تک کہ یہ ختم نہ ہو جائے یا آپ منسوخ کر دیں۔ تمام منسوخیاں %{cancellation_policy_label} کے تابع ہیں۔",
+        "purchase_options_agreement_label_html": "میں سمجھتا ہوں کہ میری کارٹ میں ایک یا زیادہ آئٹمز ایک موخر یا اعادی خریداری ہے۔ جاری رکھ کر، میں اس سے اتفاق کرتا ہوں۔\n <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">منسوخی کی پالیسی</a>\n اور آپ کو اس صفحہ پر درج قیمتوں، فریکوئنسی اور تاریخوں پر میرے ادائیگی کے طریقے سے چارج کرنے کی اجازت دیتا ہوں\n حکم پورا ہو جائے یا اجازت ہو تو میں منسوخ کر دوں گا۔\n",
+        "purchase_options_agreement_label_wallets": "اپنی ادائیگی جاری رکھ کر، آپ اس صفحہ پر درج مستقبل کے چارجز اور منسوخی کی پالیسی سے اتفاق کرتے ہیں۔",
+        "change_currency_section_description": "کرنسی کا اختیار منتخب کریں۔",
+        "no_real_orders_dev_store": "یہ اسٹور حقیقی آرڈرز یا حقیقی ادائیگیاں قبول نہیں کر سکتا۔",
+        "waiting_on_payment_methods": "دستیاب ادائیگی کے طریقے حاصل کر رہے ہیں...",
+        "apple_pay_payment_error": "آپ کی ادائیگی مکمل نہیں ہو سکی۔ دوبارہ کوشش کریں یا ادائیگی کا کوئی دوسرا طریقہ استعمال کریں۔",
+        "taxes_not_included": "ٹیکس شامل نہیں ہیں۔",
+        "no_taxes_banner_content": "اس آرڈر پر ٹیکس نہیں لیا جائے گا۔ ایک بار جب آپ ادائیگی جمع کر لیتے ہیں، تو ٹیکس مزید شامل نہیں کیا جا سکتا۔",
+        "paypal": {
+          "connect": "اپنے پے پال اکاؤنٹ کو جوڑنے کے لیے کلک کریں۔"
+        },
+        "apple": {
+          "connect": "اپنے ایپل پے اکاؤنٹ کو جوڑنے کے لیے کلک کریں۔",
+          "not_available": "ایپل پے اس براؤزر میں دستیاب نہیں ہے۔ اپنا Apple Pay اکاؤنٹ منسلک کرنے کے لیے آپ کو ایپل ڈیوائس پر Safari استعمال کرنے کی ضرورت ہوگی۔"
+        },
+        "google": {
+          "connect": "اپنے Google Pay اکاؤنٹ سے جڑنے کے لیے کلک کریں۔",
+          "error_authorizing": "ادائیگی کی اجازت دینے میں خرابی۔"
+        },
+        "account_connected": "اکاؤنٹ منسلک ہے۔",
+        "mor_disclaimer_html": "نیچے کلک کر کے اور اپنا آرڈر مکمل کر کے، آپ ریکارڈ کے مرچنٹ کے طور پر Global-e سے اپنے آئٹمز خریدنے پر اتفاق کرتے ہیں\n اس لین دین کے لیے، Global-e کی <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">شرائط و ضوابط</a> پر \nاور <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">رازداری کی پالیسی</a> ۔ Global-e ایک بین الاقوامی ہے۔\n %{shop_name} کو تکمیل سروس فراہم کنندہ\n",
+        "pending_payment": {
+          "due_notice": "آپ کی %{amount_due} کی ادائیگی %{due_date} کو واجب الادا ہے۔",
+          "multibanco": {
+            "buyer_action_info": "آپ کی %{amount_due} کی ادائیگی واجب الادا ہے۔",
+            "instruction_html": "ذیل کی تفصیلات کا استعمال کرتے ہوئے Multibanco یا آن لائن پر اپنی ادائیگی کریں۔ سوالات کے لیے یا ادائیگی کی تفصیلات کو اپ ڈیٹ کرنے کے لیے، %{contact_us}۔",
+            "entity": "ہستی",
+            "reference": "حوالہ",
+            "amount": "رقم",
+            "find_nearest_atm": "قریب ترین ATM تلاش کریں۔"
+          }
+        },
+        "update_payment_method": "ادائیگی کا طریقہ اپ ڈیٹ کریں۔",
+        "order_covered_by_store_credit_notice": "آپ کے آرڈر کا احاطہ آپ کے اسٹور کریڈٹ سے ہوتا ہے۔",
+        "order_covered_by_redeemables_notice": "آپ کے آرڈر کا احاطہ کیا گیا ہے۔",
+        "store_credit": {
+          "label": "سٹور کریڈٹ",
+          "apply_label": "اسٹور کریڈٹ اپلائی کریں۔",
+          "add_label": "اسٹور کریڈٹ شامل کریں۔",
+          "manage_label": "اسٹور کریڈٹ کا نظم کریں۔",
+          "buying_gift_card": "آپ گفٹ کارڈ خریدنے کے لیے اسٹور کریڈٹ استعمال نہیں کر سکتے",
+          "no_fixed_selling_plans": "آپ موخر خریداری کے اختیارات کے ساتھ اسٹور کریڈٹ استعمال نہیں کر سکتے ہیں۔"
+        },
+        "clear": "صاف",
+        "billing_must_match_shipping_notice": "آپ کے ادائیگی کے طریقے کا بلنگ پتہ شپنگ ایڈریس سے مماثل ہونا چاہیے۔",
+        "same_billing_address_checkbox_label": "شپنگ ایڈریس کو بلنگ ایڈریس کے طور پر استعمال کریں۔",
+        "location_billing_address_label": "مقام کا بلنگ پتہ",
+        "fact_billing_address_label": "بلنگ کا پتہ",
+        "location_shipping_address_label": "مقام کی ترسیل کا پتہ",
+        "use_order_billing_address_label": "آرڈر بلنگ ایڈریس استعمال کریں۔",
+        "use_location_billing_address_label": "مقام کا بلنگ پتہ استعمال کریں۔",
+        "use_location_shipping_address_label": "مقام کی ترسیل کا پتہ استعمال کریں۔",
+        "no_working_method_error": "یہ اسٹور ابھی ادائیگی قبول نہیں کر سکتا۔ اس صفحہ کو ریفریش کریں یا بعد میں واپس آئیں۔",
+        "brand_not_available": "یہ اسٹور {{brand}} قبول نہیں کرتا ہے۔ ادائیگی کے لیے براہ کرم ایک مختلف کارڈ استعمال کریں۔",
+        "shipping_rate_updated": "دستیاب شپنگ کے طریقوں کو اپ ڈیٹ کر دیا گیا ہے۔ چیک آؤٹ کرنے سے پہلے اپنی پسند کی تصدیق کریں۔",
+        "billing_address_invalid_phone": "جاری رکھنے کے لیے {{label}} {{last_digits}} کے لیے اپنے بلنگ ایڈریس میں فون نمبر اپ ڈیٹ کریں۔",
+        "billing_address_invalid_phone_no_card": "جاری رکھنے کے لیے اپنے بلنگ ایڈریس میں فون نمبر اپ ڈیٹ کریں۔",
+        "preview_not_available": {
+          "title": "پیش نظارہ دستیاب نہیں ہے۔",
+          "content": "پریشان نہ ہوں، یہ ایکسپریس چیک آؤٹ آپ کے صارفین کے لیے کام کرتا ہے۔",
+          "button": "ٹھیک ہے"
+        },
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_date": "ایک درست ایشو کی تاریخ درج کریں۔",
+              "issue_number": "ایک درست شمارہ نمبر درج کریں۔"
+            },
+            "invalid": {
+              "verification_value": "ایک درست CVV یا سیکیورٹی کوڈ درج کریں۔"
+            }
+          }
+        },
+        "simulated_checkout": "پیش نظارہ جلد آرہا ہے۔",
+        "simulated_express_checkout": "آپ کے علاقے یا براؤزر کی وجہ سے ایڈیٹر کے پیش نظارہ میں بٹوے دستیاب نہیں ہیں۔",
+        "vaulting_agreement_label": "تیز چیک آؤٹ کے لیے میری ادائیگی کی معلومات کو %{company} کے ساتھ محفوظ کریں۔",
+        "business_customer_vaulting_payment_label": "چیک آؤٹ پر اس کارڈ کو محفوظ کریں اور %{company} کو اس مقام کے لیے مستقبل کی خریداریوں کے لیے اسے چارج کرنے کی اجازت دیں۔ اس مقام پر تفویض کردہ تمام رابطے کارڈ استعمال کر سکتے ہیں۔",
+        "purchase_options_and_vaulting_agreement_label": "آپ کی کارٹ میں ایک یا زیادہ آئٹمز ایک موخر یا سبسکرپشن خریداری ہے۔ اپنی ادائیگی جاری رکھ کر، آپ اس بات سے اتفاق کرتے ہیں کہ آپ کا ادائیگی کا طریقہ خود بخود اس صفحہ پر درج قیمت اور فریکوئنسی کے حساب سے وصول کیا جائے گا جب تک کہ یہ ختم نہ ہو جائے یا آپ منسوخ کر دیں۔ تمام منسوخیاں %{cancellation_policy_label} کے تابع ہیں۔",
+        "purchase_options_cancellation_policy_label": "منسوخی کی پالیسی",
+        "use_different_credit_card_label": "ایک مختلف کارڈ استعمال کریں۔",
+        "saved_credit_card": "آپ کا محفوظ کردہ کریڈٹ کارڈ",
+        "saved_credit_card_info": "آخری چار ہندسے",
+        "saved_credit_card_cvv_verification": "تصدیقی مقاصد کے لیے، براہ کرم اپنے کارڈ کا سیکیورٹی کوڈ درج کریں۔",
+        "saved_credit_card_actions": {
+          "edit": "ترمیم کریں۔",
+          "delete": "حذف کریں۔"
+        },
+        "saved_credit_cards_modal": {
+          "view_all_label": "تمام محفوظ کردہ کارڈز دیکھیں",
+          "done": "ہو گیا",
+          "cancel": "منسوخ کریں۔"
+        },
+        "add_credit_card_modal": {
+          "title": "کارڈ شامل کریں۔",
+          "save": "محفوظ کریں۔",
+          "cancel": "منسوخ کریں۔"
+        }
       },
       "vaulted": {
         "change_button": "تبدیلی"
@@ -1301,6 +1428,58 @@
       "remove_item": "اس شے کو ہٹا دیں۔",
       "recurring_mess": "ہر {{ frequency }} {{ frequency_unit }} بار بار کی ترسیل۔ کسی بھی وقت تبدیل یا منسوخ کریں۔",
       "agree_checkout": "چیک آؤٹ کرنے کے لیے آپ کو فروخت کی شرائط و ضوابط سے متفق ہونا ضروری ہے۔"
+    },
+    "tool": {
+      "save": "محفوظ کریں۔",
+      "cancel": "منسوخ کریں۔",
+      "note": "آرڈر نوٹ شامل کریں۔",
+      "edit_note": "آرڈر نوٹ میں ترمیم کریں۔",
+      "placeholder_note": "ہم آپ کی مدد کیسے کر سکتے ہیں؟",
+      "gift_wrap_html": "<span class=\"cd\">کیا آپ گفٹ لپیٹنا چاہتے ہیں؟</span> صرف {{ money }}",
+      "add_gift_wrap": "گفٹ ریپ شامل کریں۔",
+      "coupon": "کوپن:",
+      "add_coupon": "ایک کوپن شامل کریں۔",
+      "info_coupon": "کوپن کوڈ چیک آؤٹ پیج پر کام کرے گا۔",
+      "placeholder_coupon": "کوپن کوڈ"
+    },
+    "shipping_estimator": {
+      "title": "شپنگ کا تخمینہ لگائیں۔",
+      "country": "ملک",
+      "province": "صوبہ",
+      "zip_code": "زپ کوڈ",
+      "estimate": "اندازہ لگانا",
+      "multiple_rates": "ہمیں معلوم ہوا کہ [نمبر_آف_ریٹ] شپنگ ریٹس [پتہ] کے لیے دستیاب ہیں، جو [ریٹ] سے شروع ہوتے ہیں۔",
+      "one_rate": "ہم نے [پتہ] کے لیے ایک شپنگ ریٹ دستیاب پایا۔",
+      "no_rates": "معذرت، ہم اس منزل پر نہیں بھیجتے۔",
+      "errors": "کچھ غلطیاں ہیں:"
+    },
+    "shipping_threshold": {
+      "text_1_html": "<span class=\"t4s-cr\">{{ money }}</span> سے زیادہ کے تمام آرڈرز کے لیے مفت ترسیل",
+      "text_2_html": "تقریباً ہو گیا، <span class=\"t4s-ch\">مفت شپنگ</span> حاصل کرنے کے لیے مزید <span class=\"t4s-cr\">{{ money }}</span> شامل کریں!",
+      "text_3": "[مبارک ہو!] آپ کو مفت شپنگ مل گئی ہے!"
+    },
+    "mini_cart": {
+      "title": "خریداری کی ٹوکری",
+      "close_cart": "کارٹ بند کریں۔",
+      "empty": "آپ کی ٹوکری خالی ہے۔",
+      "subtotal": "ذیلی کل:",
+      "checkout": "چیک آؤٹ",
+      "view": "کارٹ دیکھیں",
+      "title_recommendations": "آپ بھی پسند کر سکتے ہیں۔"
+    },
+    "cart_page": {
+      "title": "خریداری کی ٹوکری",
+      "label": {
+        "product": "پروڈکٹ",
+        "price": "قیمت",
+        "quantity": "مقدار",
+        "total": "کل"
+      },
+      "empty": "آپ کی ٹوکری خالی ہے۔",
+      "empty_html": "چیک آؤٹ پر آگے بڑھنے سے پہلے آپ کو اپنی خریداری کی ٹوکری میں کچھ مصنوعات شامل کرنا ہوں گی۔<br> ہمارے \"دکان\" کے صفحے پر آپ کو بہت ساری دلچسپ مصنوعات ملیں گی۔",
+      "subtotal": "ذیلی کل:",
+      "checkout": "چیک آؤٹ",
+      "update": "اپ ڈیٹ کی ٹوکری"
     }
   },
   "gift_cards": {
@@ -1678,6 +1857,88 @@
         "message": "بہت زیادہ کوششیں",
         "description": "براہ کرم چند منٹوں میں دوبارہ کوشش کریں۔"
       }
+    }
+  },
+  "templates": {
+    "404": {
+      "subtext": "معذرت! آپ جو صفحہ تلاش کر رہے ہیں وہ نہیں مل سکا۔",
+      "link_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" rel=\"home\">ہوم پیج</a> پر واپس جائیں۔"
+    },
+    "contact": {
+      "form": {
+        "name": "آپ کا نام (ضروری)",
+        "email": "آپ کا ای میل (ضروری)",
+        "phone": "آپ کا فون نمبر",
+        "message": "آپ کا پیغام",
+        "submit": "بھیجیں۔",
+        "post_success": "ہم سے رابطہ کرنے کا شکریہ۔ ہم جلد از جلد آپ سے رابطہ کریں گے۔",
+        "error_heading": "براہ کرم درج ذیل کو ایڈجسٹ کریں:"
+      }
+    }
+  },
+  "customer": {
+    "form": {
+      "error_heading": "براہ کرم درج ذیل کو ایڈجسٹ کریں:"
+    },
+    "account": {
+      "title": "میرا اکاؤنٹ",
+      "make_order": "اپنا پہلا آرڈر کریں۔",
+      "none": "آپ نے ابھی تک کوئی آرڈر نہیں دیا ہے۔",
+      "hello_html": "ہیلو <strong>{{ name }}</strong> ( <strong>{{ name }}</strong> نہیں؟ <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">لاگ آؤٹ کریں</a> )",
+      "manage_subs": "سبسکرپشنز کا نظم کریں۔",
+      "dashboard": "ڈیش بورڈ",
+      "wishlist": "خواہش کی فہرست",
+      "details": "اکاؤنٹ کی تفصیلات:",
+      "log_out": "لاگ آؤٹ",
+      "name": "نام:",
+      "email": "ای میل:",
+      "address": "پتہ:",
+      "address_2": "پتہ 2:",
+      "country": "ملک:",
+      "zip": "زپ:",
+      "phone": "فون:",
+      "company": "کمپنی:"
+    },
+    "menu": {
+      "dashboard": "ڈیش بورڈ",
+      "addresses": "پتے",
+      "logout": "لاگ آؤٹ"
+    },
+    "activate_account": {
+      "title": "اکاؤنٹ کو چالو کریں۔",
+      "subtext": "اپنے اکاؤنٹ کو چالو کرنے کے لیے اپنا پاس ورڈ بنائیں۔",
+      "password": "پاس ورڈ",
+      "password_confirm": "پاس ورڈ کی تصدیق کریں۔",
+      "submit": "اکاؤنٹ کو چالو کریں۔",
+      "cancel": "دعوت نامے کو مسترد کریں۔"
+    },
+    "addresses": {
+      "title": "پتے",
+      "default": "طے شدہ",
+      "add_new": "نیا پتہ شامل کریں۔",
+      "edit_address": "ایڈریس میں ترمیم کریں۔",
+      "first_name": "پہلا نام",
+      "last_name": "آخری نام",
+      "company": "کمپنی",
+      "address1": "پتہ",
+      "address2": "اپارٹمنٹ، سویٹ، وغیرہ",
+      "city": "شہر",
+      "country": "ملک/علاقہ",
+      "province": "صوبہ",
+      "zip": "پوسٹل/زپ کوڈ",
+      "phone": "فون",
+      "set_default": "ڈیفالٹ ایڈریس کے طور پر سیٹ کریں۔",
+      "add": "ایڈریس شامل کریں۔",
+      "update": "پتہ اپ ڈیٹ کریں۔",
+      "cancel": "منسوخ کریں۔",
+      "edit": "ترمیم کریں۔",
+      "delete": "حذف کریں۔",
+      "delete_confirm": "کیا آپ واقعی یہ پتہ حذف کرنا چاہتے ہیں؟"
+    },
+    "login": {
+      "title": "لاگ ان کریں۔",
+      "create_account": "نیا گاہک؟ اپنا اکاؤنٹ بنائیں",
+      "email": "ای میل"
     }
   }
 }
