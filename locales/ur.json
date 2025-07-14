@@ -467,6 +467,119 @@
           "title": "آپ کے آرڈر پر کارروائی کرنے میں ایک مسئلہ تھا۔",
           "body": "آپ کو چارج نہیں کیا گیا ہے۔ دوبارہ کوشش کریں یا ادائیگی کا مختلف طریقہ استعمال کریں۔"
         }
+      },
+      "address_management": {
+        "confirm_address_deletion": "کیا آپ واقعی پتہ {{address}} حذف کرنا چاہتے ہیں؟"
+      },
+      "general": {
+        "page_title": "چیک آؤٹ",
+        "error_page_title": "خرابی",
+        "skip_to_content": "مواد پر جائیں۔",
+        "breadcrumb": "بریڈ کرمب",
+        "continue_button_label": "جاری رکھیں",
+        "complete_purchase_button_label": "مکمل آرڈر",
+        "pay_now_button_label": "ابھی ادائیگی کریں۔",
+        "authenticate_purchase_button_label": "ادائیگی کی تصدیق کریں۔",
+        "edit_link_label": "ترمیم کریں۔",
+        "all_rights_reserved": "جملہ حقوق محفوظ ہیں %{shop_name}",
+        "print_policies_link_label": "پرنٹ",
+        "cart": "ٹوکری",
+        "close_modal_label": "بند",
+        "close_notice_label": "بند",
+        "expand_notice_label": "مزید دیکھیں",
+        "continue_to_shipping_method": "شپنگ جاری رکھیں",
+        "continue_to_payment_method": "ادائیگی جاری رکھیں",
+        "continue_to_review": "آرڈر کا جائزہ لیں۔",
+        "back_to_cart": "کارٹ پر واپس جائیں۔",
+        "back_to_contact_information": "معلومات پر واپس جائیں۔",
+        "back_to_shipping_method": "شپنگ پر واپس جائیں۔",
+        "back_to_payment_method": "ادائیگی پر واپس جائیں۔",
+        "choose_shipping_method": "شپنگ کا طریقہ منتخب کریں۔",
+        "choose_payment_method": "ادائیگی کا طریقہ منتخب کریں۔",
+        "choose_billing_address": "ایک بلنگ پتہ منتخب کریں۔",
+        "contact_us_html": "مزید معلومات کے لیے ہم سے رابطہ کریں۔",
+        "autocomplete_title": "تجاویز",
+        "autocomplete_single_item": "1 آئٹم دستیاب ہے۔",
+        "autocomplete_multi_item": "{{number}} آئٹمز دستیاب ہیں۔",
+        "autocomplete_close": "تجاویز بند کریں۔",
+        "forwarding_indicator": {
+          "new_window": "ایک نئی ونڈو میں کھلتا ہے۔",
+          "external": "بیرونی ویب سائٹ کھولتا ہے۔",
+          "external_and_new_window": "بیرونی ویب سائٹ کو ایک نئی ونڈو میں کھولتا ہے۔"
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} - چیک آؤٹ"
+        },
+        "tooltip_accessibility_label": "مزید معلومات",
+        "qr_code": "کیو آر کوڈ",
+        "errors": {
+          "only_empty_terms_accepted": "یہ پالیسی صرف خالی شرائط کو قبول کرتی ہے۔",
+          "session_identifier_not_unique_error": "آپ کے آرڈر میں کچھ غلط ہو گیا، براہ کرم دوبارہ چیک آؤٹ کرنے کی کوشش کریں۔",
+          "line_item_limit_reached": "لائن آئٹمز کی زیادہ سے زیادہ تعداد تک پہنچ گئی ہے۔",
+          "session_is_already_finished": "اس چیک آؤٹ سیشن کو پہلے ہی حتمی شکل دی جا چکی ہے۔",
+          "merchandise": {
+            "only_value_constraint": "تجارتی سامان کے ان پٹ میں صرف درست اقدار کی اجازت ہے۔",
+            "merchandise_not_found": "پروڈکٹ نہیں ملا۔",
+            "merchandise_variant_not_found": "پروڈکٹ ویرینٹ نہیں ملا۔",
+            "merchandise_not_applicable": "پروڈکٹ ویرینٹ خریدا نہیں جا سکتا۔",
+            "mixed_currencies": "چیک آؤٹ مختلف کرنسیوں کے ساتھ لائن آئٹمز پر مشتمل ہے۔",
+            "bundle_products_not_supported_for_b2b": "بنڈل شدہ آئٹمز کو اس مقام کے لیے B2B آرڈرز میں شامل نہیں کیا جا سکتا۔",
+            "gift_card_quantity_mismatch": "گفٹ کارڈ کے کوڈز کی وضاحت کرتے وقت، لائن آئٹم کی مقدار اور گفٹ کارڈ کے کوڈز کی تعداد مماثل ہونی چاہیے۔",
+            "gift_card_not_supported": "اس چیک آؤٹ پر گفٹ کارڈز تعاون یافتہ نہیں ہیں۔",
+            "gift_card_not_unique": "کوڈ {{code}} کے ساتھ گفٹ کارڈ اس چیک آؤٹ میں ایک سے زیادہ بار آتا ہے۔ کوڈز کو موازنہ کرنے سے پہلے فارمیٹ کیا جاتا ہے۔",
+            "gift_card_used": "گفٹ کارڈ کوڈ {{code}} پہلے ہی گفٹ کارڈ کو تفویض کیا گیا ہے۔ کوڈز کو موازنہ کرنے سے پہلے فارمیٹ کیا جاتا ہے۔",
+            "gift_card_invalid": "گفٹ کارڈ کوڈ {{code}} غلط ہے۔",
+            "gift_card_code_changed": "گفٹ کارڈ کوڈ {{proposed_code}} کو تبدیل کر کے {{formatted_code}} کر دیا گیا تاکہ فارمیٹنگ کے اصولوں کے مطابق ہو۔",
+            "gift_card_with_attributes_not_supported": "حسب ضرورت خصوصیات والے گفٹ کارڈز اس چیک آؤٹ پر تعاون یافتہ نہیں ہیں۔",
+            "gift_card_with_components_not_supported": "اجزاء کے ساتھ گفٹ کارڈز اس چیک آؤٹ پر تعاون یافتہ نہیں ہیں۔",
+            "selling_plan_mismatch": "سبسکرپشن کو اپ ڈیٹ کر دیا گیا ہے۔",
+            "selling_plan_not_supported": "سبسکرپشنز تعاون یافتہ نہیں ہیں۔",
+            "selling_plan_not_supported_b2b": "سبسکرپشنز B2B چیک آؤٹ کے لیے تعاون یافتہ نہیں ہیں۔",
+            "price_mismatch": "اس تجارتی مال کی پہلے تجویز کردہ قیمت غلط تھی اور اسے اپ ڈیٹ کر دیا گیا ہے۔",
+            "inventory_not_found": "اس تجارتی مال کے لیے کوئی انوینٹری نہیں ملی۔",
+            "product_not_published": "پروڈکٹ شائع نہیں ہوا ہے۔",
+            "product_not_published_in_buyer_location": "پروڈکٹ خریدار کے مقام پر شائع نہیں کی گئی ہے۔",
+            "duplicated_stable_id": "اس تجارتی لائن میں دوسری لائن جیسی مستحکم ID ہے۔",
+            "minimum_quantity_not_met": "کچھ اشیاء کی مقدار کم از کم مطلوبہ مقدار کو پورا نہیں کرتی ہے۔",
+            "maximum_quantity_exceeded": "کچھ اشیاء کی مقدار زیادہ سے زیادہ اجازت سے زیادہ ہے۔",
+            "quantity_increment_not_met": "کچھ اشیاء کی مقدار آرڈر کی حد کو پورا نہیں کرتی ہے۔",
+            "quantity_rules_not_met": "کچھ اشیاء کی مقدار آرڈر کی حد کو پورا نہیں کرتی ہے۔",
+            "bundle_requires_components": "اس بنڈل تجارتی مال میں کوئی اجزاء نہیں ہیں۔",
+            "title_too_long": "تجارتی سامان کا عنوان بہت طویل ہے۔",
+            "title_empty": "تجارتی سامان کا عنوان خالی ہے۔"
+          },
+          "buyer_identity": {
+            "business_customer_does_not_match_company": "کمپنی کے رابطے کو کمپنی تک رسائی حاصل نہیں ہے۔",
+            "customer_account_required": "گاہک کو جاری رکھنے کے لیے لاگ ان کرنا ضروری ہے۔",
+            "company_location_required": "گاہک کو جاری رکھنے کے لیے کمپنی کے مقام کا انتخاب کرنا چاہیے۔",
+            "company_purchase_permission_required": "گاہک کو کمپنی کے آرڈر دینے کی اجازت نہیں ہے۔",
+            "personal_order_not_allowed": "اس دکان کے لیے ذاتی آرڈرز کی اجازت نہیں ہے۔",
+            "lost_access_to_company": "گاہک کسی بھی کمپنی تک رسائی کھو دیتا ہے۔",
+            "contact_info_does_not_match_customer_account": "کسٹمر کی مخصوص معلومات لاگ ان کردہ کسٹمر اکاؤنٹ سے مماثل ہونی چاہیے۔",
+            "phone_number_does_not_match_expected_pattern": "متعین فون نمبر متوقع پیٹرن سے مماثل نہیں ہے۔",
+            "email_required": "جب سبسکرپشن کا استعمال کرتے ہوئے تجارتی سامان خریدا جاتا ہے تو ایک ای میل کی ضرورت ہوتی ہے۔",
+            "email_domain_is_invalid": "اس مخصوص ڈومین کو حل نہیں کیا جا سکتا۔",
+            "missing_contact_method": "رابطہ کا درست طریقہ غائب ہے۔",
+            "checkout_completion_target_is_missing": "چیک آؤٹ مکمل کرنے کا ہدف غائب ہے۔",
+            "invalid_customer_profile": "ایک غلط کسٹمر پروفائل فراہم کیا گیا تھا۔",
+            "customer_profile_access_restricted": "چیک آؤٹ کو کسٹمر پروفائل تک رسائی کی اجازت نہیں ہے۔",
+            "checkout_completion_target_is_invalid_proc": "چیک آؤٹ کی تکمیل کا غلط ہدف۔",
+            "buyer_identity_presentment_currency_does_not_match": "آپ کے آرڈر پر کارروائی کرنے میں ایک مسئلہ تھا۔ چند منٹوں میں دوبارہ کوشش کریں۔"
+          },
+          "delivery": {
+            "only_one_delivery_line_allowed": "کارٹ میں صرف ایک ڈیلیوری لائن ہونی چاہیے۔",
+            "wrong_number_of_delivery_lines": "سامان کے ہر گروپ کے لیے ڈیلیوری لائن کا تعین ہونا چاہیے۔",
+            "external_delivery_promise_error": "ایک بیرونی ڈیلیوری کے وعدے کی بازیافت کی خرابی۔",
+            "options_instructions_invalid": "متعین ہدایات متوقع پیٹرن سے مماثل نہیں ہیں۔",
+            "destination_address_required": "جاری رکھنے کے لیے ایک منزل کا پتہ درکار ہے۔",
+            "pickup_points_unavailable": "پک اپ پوائنٹس فی الحال دستیاب نہیں ہیں۔",
+            "local_pickup_delivery_line_detail_changed": "جاری رکھنے کے لیے موجودہ مقامی پک اپ ڈیلیوری کی حکمت عملی کو تبدیل کرنا ضروری ہے۔",
+            "local_pickup_no_delivery_strategy_available": "کوئی دستیاب مقامی پک اپ ڈیلیوری حکمت عملی نہیں ملی۔",
+            "origin_location_id_required": "جب RETAIL ڈیلیوری کے طریقہ کی درخواست کی جاتی ہے تو اصل مقام کی شناخت درکار ہوتی ہے۔",
+            "invalid_origin_location_id": "اصل مقام ID سے مماثل مقام نہیں مل سکا۔",
+            "origin_location_id_not_allowed": "درخواست کردہ ترسیل کے طریقے اصل مقام کی شناخت کو سپورٹ نہیں کرتے ہیں۔"
+          }
+        }
       }
     },
     "pagination": {
@@ -681,6 +794,10 @@
         "invalid_input": "%{parameter} پیرامیٹر غلط ہے۔",
         "product_not_available": "پروڈکٹ دستیاب نہیں ہے۔"
       }
+    },
+    "sentence": {
+      "two_words_connector": " اور ",
+      "last_word_connector": "، اور "
     }
   },
   "products": {
@@ -913,8 +1030,27 @@
           "pagination": {
             "load_more_label": "مزید لوڈ کریں۔",
             "load_more_accessibility_label": "مزید میعاد ختم ہونے والی مقداریں لوڈ کریں۔"
+          },
+          "title": "ختم ہونے والا اسٹور کریڈٹ",
+          "balance_label": "توازن",
+          "expiration_date_label": "میعاد ختم ہونے کی تاریخ",
+          "amount_label": "رقم",
+          "date_label": "تاریخ",
+          "event_label": "واقعہ",
+          "events": {
+            "adjustment": "ایڈجسٹمنٹ",
+            "order_payment": "آرڈر کی ادائیگی",
+            "order_refund": "رقم کی واپسی کا آرڈر دیں۔",
+            "payment_failure": "ادائیگی میں ناکامی۔",
+            "payment_returned": "ادائیگی واپس آ گئی۔",
+            "order_cancellation": "آرڈر کینسل کرنا",
+            "tax_finalization": "ٹیکس کو حتمی شکل دینا"
           }
-        }
+        },
+        "label": "اسٹور کریڈٹ",
+        "accesibility_label": "اسٹور کریڈٹ - {{formattedBalance}}",
+        "expirable_amounts_button": "میعاد ختم ہونے والی رقم دیکھیں",
+        "expirable_amounts_label": "ختم ہونے والی رقم"
       },
       "payment_details": {
         "title": "ادائیگی کے طریقہ کار کی تفصیلات",
@@ -1021,6 +1157,46 @@
       },
       "three_d_secure": {
         "title": "3D سیکیور"
+      },
+      "title": "ادائیگی کے طریقے",
+      "add_payment_method_button": "ادائیگی کا طریقہ شامل کریں۔",
+      "add_payment_method_banner": "تیز چیک آؤٹ یا پہلے سے مجاز خدمات کے لیے ادائیگی کا طریقہ شامل کریں۔",
+      "no_payment_methods_banner": "ادائیگی کا کوئی طریقہ شامل نہیں کیا گیا۔",
+      "edit_payment_method_button_accessibility_label": "{{paymentMethodName}} میں ترمیم کریں جس کا اختتام {{lastDigits}} ہو",
+      "edit_payment_method_brand_button_accessibility_label": "ترمیم کریں {{paymentMethodName}}",
+      "delete_payment_method_button": "حذف کریں۔",
+      "delete_payment_method_button_accessibility_label": "حذف کریں {{paymentMethodName}}",
+      "back_button": "پیچھے",
+      "back_button_accessibility_label": "{{paymentMethodStepTitle}} پر واپس جائیں",
+      "default": "طے شدہ",
+      "generic_card": "کارڈ",
+      "expiration_warning_button_accessibility_label": "{{lastDigits}} پر ختم ہونے والے {{paymentMethodName}} } کے لیے ختم ہونے کی وارننگ دکھائیں",
+      "expires_soon": "اس کارڈ کی میعاد جلد ختم ہو رہی ہے۔",
+      "expired": "اس کارڈ کی میعاد ختم ہو چکی ہے۔",
+      "card_update_consent": "یہ ادائیگی کا طریقہ مستقبل کی خریداریوں کے لیے محفوظ کیا جائے گا۔",
+      "card_update_consent_subscriptions": "یہ ادائیگی کا طریقہ مستقبل کی خریداریوں کے لیے محفوظ کیا جائے گا اور اسے کسی بھی اعادی یا موخر خریداری کے لیے استعمال کیا جا سکتا ہے۔",
+      "digital_wallet_title": "ڈیجیٹل والیٹ",
+      "credit_or_debit_card_title": "کریڈٹ یا ڈیبٹ کارڈ",
+      "google_pay": {
+        "iframe_title_accessibility_label": "Google Pay ادائیگی کا طریقہ شامل کریں۔",
+        "loading_accessibility_message": "Google Pay لوڈ ہو رہا ہے۔",
+        "loading": "Google Pay لوڈ ہو رہا ہے۔",
+        "errors": {
+          "generic": "Google Pay کے ساتھ ایک مسئلہ تھا۔ دوبارہ کوشش کریں یا ادائیگی کا کوئی دوسرا طریقہ استعمال کریں۔",
+          "missing_billing_address": "Google Pay کو ایک بلنگ پتہ درکار ہے۔ براہ کرم اپنے اکاؤنٹ میں ایک شامل کریں۔"
+        }
+      },
+      "pay_pal": {
+        "iframe_title_accessibility_label": "پے پال ادائیگی کا طریقہ شامل کریں۔",
+        "loading_accessibility_message": "پے پال لوڈ ہو رہا ہے۔"
+      },
+      "apple_pay": {
+        "loading": "ایپل پے لوڈ ہو رہا ہے۔",
+        "errors": {
+          "generic": "Apple Pay میں ایک مسئلہ تھا۔ دوبارہ کوشش کریں یا ادائیگی کا کوئی دوسرا طریقہ استعمال کریں۔",
+          "not_available": "Apple Pay اس ڈیوائس پر دستیاب نہیں ہے۔",
+          "missing_billing_address": "Apple Pay کے لیے ایک بلنگ پتہ درکار ہے۔ براہ کرم اپنے اکاؤنٹ میں ایک شامل کریں۔"
+        }
       }
     },
     "payment_method_brands": {
@@ -1034,6 +1210,111 @@
       "visaelectron": "ویزا الیکٹران",
       "maestro": "استاد",
       "dankort": "ڈانکورٹ"
+    },
+    "B2B": {
+      "draft_order_details": {
+        "payment_status": {
+          "canceled": {
+            "title": "ادائیگی منسوخ کر دی گئی۔",
+            "description": "آپ کو چارج نہیں کیا گیا تھا۔"
+          },
+          "pay_now": "ابھی ادائیگی کریں۔",
+          "pay_now_accessibility_label": "آرڈر {{orderName}} کے لیے ابھی ادائیگی کریں",
+          "title": "ادائیگی کی حیثیت"
+        },
+        "order_timeline": {
+          "expand_events_label": "تفصیلات دکھائیں۔",
+          "expand_events_accessibility_label": "ڈرافٹ آرڈر کی تفصیلات دکھائیں۔",
+          "hide_events_label": "تفصیلات چھپائیں۔",
+          "hide_events_accessibility_label": "ڈرافٹ آرڈر کی تفصیلات چھپائیں۔"
+        },
+        "subtitle": "جمع کرایا {{date}}",
+        "title": "آرڈر {{name}}"
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "ادائیگی کا یہ طریقہ اس مقام سے آئندہ خریداریوں کے لیے مزید دستیاب نہیں ہوگا۔",
+          "description_with_replacement": "ادائیگی کے اس طریقے کو حذف کرنے سے اس مقام کے لیے پہلے سے مجاز ادائیگیاں متاثر ہوں گی۔ آئندہ آرڈرز وصول کرنا جاری رکھنے کے لیے اسے ادائیگی کے متبادل طریقے سے بدل دیں۔"
+        },
+        "payment_details": {
+          "order_label": "آرڈر {{name}}",
+          "draft_label": "ڈرافٹ آرڈر {{name}}"
+        }
+      },
+      "purchase_order_number": {
+        "add_accessibility_label": "PO نمبر شامل کریں۔",
+        "add_modal_title": "PO نمبر شامل کریں۔",
+        "cancel": "منسوخ کریں۔",
+        "close_modal_accessibility_label": "PO نمبر موڈل بند کریں۔",
+        "discard": "رد کر دیں۔",
+        "discard_changes_modal_title": "تبدیلیوں کو مسترد کریں؟",
+        "edit_accessibility_label": "PO نمبر میں ترمیم کریں۔",
+        "edit_modal_title": "PO نمبر میں ترمیم کریں۔",
+        "empty_state": "کوئی PO نمبر نہیں۔",
+        "modal_po_number_input_label": "پی او نمبر",
+        "modal_po_number_input_max_length_error": "PO نمبرز میں زیادہ سے زیادہ {{maxLength}} حروف ہوتے ہیں۔",
+        "save": "محفوظ کریں۔",
+        "title": "PO # {{poNumber}}"
+      }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "اس پتہ کو حذف کرنے میں ایک مسئلہ تھا۔ دوبارہ کوشش کریں یا صفحہ ریفریش کریں۔"
+      },
+      "addresses_loading_issue": {
+        "description": "کنکشن کی خرابی۔ اپنا انٹرنیٹ کنکشن چیک کریں اور دوبارہ کوشش کریں۔"
+      },
+      "banner_title": {
+        "one": "اس میں {{count}} خرابی ہے۔",
+        "other": "اس میں {{count}} غلطیاں ہیں۔"
+      },
+      "failed_address_creation": {
+        "description": "آپ کا پتہ بنانے میں ایک مسئلہ تھا۔ اس صفحہ کو ریفریش کرنے کی کوشش کریں یا اپنا انٹرنیٹ کنکشن چیک کریں۔"
+      },
+      "failed_address_update": {
+        "description": "آپ کا پتہ اپ ڈیٹ کرنے میں ایک مسئلہ تھا۔ اس صفحہ کو ریفریش کرنے کی کوشش کریں یا اپنا انٹرنیٹ کنکشن چیک کریں۔"
+      },
+      "load_orders_error": {
+        "title": "آرڈرز لوڈ کرنے سے قاصر",
+        "description": "دوبارہ کوشش کریں یا بعد میں واپس آئیں۔",
+        "retry_button": "دوبارہ کوشش کریں۔"
+      },
+      "load_paypal_error": {
+        "description": "PayPal لوڈ کرنے میں ایک مسئلہ ہے۔ براہ کرم دوبارہ کوشش کریں۔"
+      },
+      "logout_everywhere": {
+        "description": "لاگ آؤٹ کے دوران کچھ غلط ہو گیا۔ براہ کرم دوبارہ کوشش کریں۔"
+      },
+      "no_access_to_locations": {
+        "description": "آپ کو کسی بھی مقام تک رسائی حاصل نہیں ہے۔"
+      },
+      "not_found": {
+        "description": "URL چیک کریں یا چند منٹوں میں دوبارہ کوشش کریں۔",
+        "title": "اس صفحہ کو لوڈ کرنے میں ایک مسئلہ ہے۔"
+      },
+      "order_not_found": {
+        "description": "یہ آرڈر موجود نہیں ہے یا آپ کو اسے دیکھنے کی اجازت نہیں ہے۔",
+        "title": "آرڈر نہیں ملا"
+      },
+      "profile_update_error": {
+        "description": "آپ کے پروفائل کو اپ ڈیٹ کرنے میں ایک مسئلہ تھا۔ اس صفحہ کو ریفریش کرنے کی کوشش کریں یا اپنا انٹرنیٹ کنکشن چیک کریں۔"
+      },
+      "retry_action_label": "دوبارہ کوشش کریں۔",
+      "resend_link": {
+        "too_many_requests": "بہت زیادہ درخواستیں بعد میں دوبارہ کوشش کریں۔",
+        "generic": "ناکام درخواست"
+      },
+      "load_extension_error": {
+        "title": "خرابی",
+        "description": "اس صفحہ کو ریفریش کریں یا چند منٹوں میں دوبارہ کوشش کریں۔",
+        "refresh_button": "صفحہ ریفریش کریں۔"
+      }
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "message": "بہت زیادہ کوششیں",
+        "description": "براہ کرم چند منٹوں میں دوبارہ کوشش کریں۔"
+      }
     }
   }
 }
