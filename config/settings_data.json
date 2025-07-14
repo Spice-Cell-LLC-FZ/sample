@@ -476,7 +476,7 @@
               "remove_br_tag": true,
               "tag": "p",
               "fontf": "inherit",
-              "text_cl": "#fff",
+              "text_cl": "#ffffff",
               "text_fs": 13,
               "text_lh": 0,
               "text_fw": 400,
@@ -544,7 +544,7 @@
               "remove_br_tag": true,
               "tag": "p",
               "fontf": "inherit",
-              "text_cl": "#fff",
+              "text_cl": "#ffffff",
               "text_fs": 16,
               "text_lh": 0,
               "text_fw": 400,
@@ -2983,39 +2983,10 @@
           "social_font": "enable"
         }
       },
-      "8555582733469554040": {
-        "type": "shopify://apps/trustreviews/blocks/sidebar_widget/56d0fe1b-e701-4cff-8f84-466a26e09adb",
-        "disabled": false,
-        "settings": {}
-      },
-      "12120936241911852800": {
-        "type": "shopify://apps/judge-me-reviews/blocks/reviews_tab/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": true,
-        "settings": {
-          "position": "right"
-        }
-      },
-      "14060646107696862457": {
-        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": true,
-        "settings": {}
-      },
       "18131037017812181619": {
         "type": "shopify://apps/mailchimp-email-sms/blocks/mailchimp_for_shopify_script/e3b67dce-fd41-4b61-b3cf-961c12344cde",
         "disabled": false,
         "settings": {}
-      },
-      "15181020662106344915": {
-        "type": "shopify://apps/judge-me-reviews/blocks/popup_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": true,
-        "settings": {}
-      },
-      "15228915764312614800": {
-        "type": "shopify://apps/markets-currency-changer/blocks/popup-1/126e4f0f-b7e5-4dfc-8757-e97a4452ad3a",
-        "disabled": true,
-        "settings": {
-          "Currency_selector_Button_bg_color": "#000000"
-        }
       },
       "6361996004949321110": {
         "type": "shopify://apps/oneloyalty/blocks/widget/6119b281-36ce-42b5-93ab-6aaf5fb224ce",
@@ -3026,6 +2997,40 @@
         "type": "shopify://apps/omega-instafeed/blocks/app-embed-block/710f3bb4-c962-4be4-a6e2-1cee2ca38517",
         "disabled": false,
         "settings": {}
+      },
+      "8555582733469554040": {
+        "type": "shopify://apps/trustreviews/blocks/sidebar_widget/56d0fe1b-e701-4cff-8f84-466a26e09adb",
+        "disabled": true,
+        "settings": {}
+      },
+      "13449644680771896811": {
+        "type": "shopify://apps/omni-loyalty/blocks/wvomni-register-script/d9cc5801-f586-45ee-adea-2d8f3de718b7",
+        "disabled": true,
+        "settings": {}
+      },
+      "12120936241911852800": {
+        "type": "shopify://apps/judge-me-reviews/blocks/reviews_tab/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {
+          "position": "right"
+        }
+      },
+      "14060646107696862457": {
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {}
+      },
+      "15181020662106344915": {
+        "type": "shopify://apps/judge-me-reviews/blocks/popup_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {}
+      },
+      "15228915764312614800": {
+        "type": "shopify://apps/markets-currency-changer/blocks/popup-1/126e4f0f-b7e5-4dfc-8757-e97a4452ad3a",
+        "disabled": false,
+        "settings": {
+          "Currency_selector_Button_bg_color": "#000000"
+        }
       }
     }
   }
