@@ -299,6 +299,174 @@
           "tax_credential_type_mx": "ریگیمن مالی",
           "tax_credential_use_mx": "CFDI استعمال کریں۔"
         }
+      },
+      "subscriptions": {
+        "recurring_totals_with_initial_order_shipping_discount": "پہلی ادائیگی %{total_price_with_discount}، پھر %{recurring_total}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "پہلی ادائیگی %{total_price}",
+            "other": "پہلی %{count} ادائیگیاں %{total_price} ہر ایک"
+          },
+          "following_cycles": "، پھر %{total_price} ہر %{interval}"
+        },
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": "، پھر %{count} ادائیگی %{total_price} پر",
+            "other": "، پھر %{count} ادائیگیاں %{total_price} ہر ایک پر"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "page_title": "ادائیگی کے طریقے",
+        "title": "ادائیگی کے طریقے",
+        "update_card_button_label": "کارڈ اپ ڈیٹ کریں۔",
+        "delete_customer_mandate": {
+          "generic_error": "آپ کی درخواست پر کارروائی کرنے میں ایک مسئلہ تھا۔",
+          "success_message": "آپ کی ادائیگی کا طریقہ کامیابی کے ساتھ حذف کر دیا گیا ہے۔"
+        }
+      },
+      "throttle": {
+        "too_many_attempts": {
+          "message": "بہت زیادہ کوششیں",
+          "description": "براہ کرم چند منٹوں میں دوبارہ کوشش کریں۔"
+        },
+        "line_to_check_out": "آپ چیک آؤٹ کرنے کے لیے لائن میں ہیں۔",
+        "cart_summary_heading": "آپ کی ٹوکری",
+        "merchandise": {
+          "available": "دستیاب ہے۔",
+          "sold_out": "فروخت"
+        },
+        "inventory": {
+          "partial_inventory_banner": "آپ کی کارٹ کا کچھ حصہ فروخت ہو چکا ہے اور چیک آؤٹ پر خریدنے کے لیے دستیاب نہیں ہوگا۔",
+          "sold_out": {
+            "heading": "آپ کی ٹوکری بک گئی ہے۔",
+            "storefront_body": "خریداری جاری رکھنے کے لیے واپس اسٹور پر جائیں۔",
+            "no_storefront_body": "بدقسمتی سے آپ جس چیز کو خریدنا چاہتے ہیں وہ اب دستیاب نہیں ہے۔",
+            "link": "واپس اسٹور پر"
+          }
+        },
+        "title": "قطار",
+        "time_to_checkout_title": "چیک آؤٹ کرنے کا وقت - {{shopName}}",
+        "estimated_wait_time": {
+          "calculating": "متوقع انتظار کے وقت کا حساب لگانا",
+          "less_than_one": "متوقع انتظار کا وقت: ایک منٹ سے بھی کم",
+          "one": "متوقع انتظار کا وقت: {{count}} منٹ",
+          "other": "انتظار کا تخمینہ وقت: {{count}} منٹ"
+        },
+        "last_checked": "(آخری بار چیک کیا گیا: {{time}} )",
+        "footer": {
+          "heading": "اس صفحہ کو ریفریش نہ کریں، یہ خود بخود اپ ڈیٹ ہو جائے گا۔",
+          "body": "آپ کے کارٹ میں آئٹمز اس وقت تک محفوظ نہیں ہیں جب تک آپ چیک آؤٹ مکمل نہیں کر لیتے ہیں۔"
+        }
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "آپ کی درخواست پر کارروائی کرنے میں ایک مسئلہ تھا، براہ کرم اسٹور کے مالک سے رابطہ کریں۔"
+      },
+      "no_address_location": {
+        "title": "بغیر پتہ کے مقام",
+        "header": "آپ کے پاس اس مقام کے لیے ترسیل کا پتہ نہیں ہے۔",
+        "alt_header": "ترسیل کا پتہ غائب ہے۔",
+        "message": "چیک آؤٹ مکمل کرنے کے لیے اس مقام کا پتہ شامل کرنے کے لیے ہم سے رابطہ کریں۔",
+        "email_us_button_label": "ہمیں ایک ای میل بھیجیں۔"
+      },
+      "order_errors": {
+        "creation_failure": "آپ کا آرڈر بنانے میں ایک مسئلہ تھا۔ دوبارہ کوشش کریں، یا مزید تفصیلات کے لیے ہم سے رابطہ کریں۔",
+        "network_failure": "نیٹ ورک کی خرابی کی وجہ سے آپ کا آرڈر جمع نہیں کیا جا سکا۔ اپنا کنکشن چیک کریں اور دوبارہ کوشش کریں۔",
+        "inventory_reservation_failure": "کچھ آئٹمز اب دستیاب نہیں ہیں۔"
+      },
+      "session_errors": {
+        "session_not_unique": "آپ کے آرڈر پر کارروائی کرنے میں ایک مسئلہ تھا۔ اسٹور پر واپس جانے کے لیے اس صفحہ کو ریفریش کریں۔",
+        "session_already_finished": "یہ آرڈر پہلے ہی جمع کرایا جا چکا ہے۔ آپ نیا آرڈر شروع کرنے کے لیے اسٹور پر واپس جا سکتے ہیں۔"
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "آپ کے آرڈر پر کارروائی کرنے میں ایک مسئلہ تھا۔ چند منٹوں میں دوبارہ کوشش کریں۔"
+      },
+      "pickup_point": {
+        "location_is_currently_closed": "بند",
+        "business_hours": "کھلنے کے اوقات",
+        "no_business_hours": "کھلنے کے اوقات دستیاب نہیں ہیں۔",
+        "open_twenty_four_hours": "24/7 کھولیں۔",
+        "title": "پک اپ پوائنٹ",
+        "or": "یا",
+        "search_button": "تلاش کریں۔",
+        "address_label": "پتہ",
+        "selector_tabs": "پک اپ پوائنٹ سلیکٹر",
+        "selector_tab_map": "نقشہ",
+        "selector_tab_list": "فہرست",
+        "could_not_resolve_address": "آپ کا پتہ نہیں مل سکا۔ دوبارہ کوشش کریں یا کوئی مختلف پتہ استعمال کریں۔",
+        "no_pickup_points_near_you": "منتخب پتے کے قریب کوئی پک اپ پوائنٹ نہیں ملا",
+        "no_pickup_points_near_location": "آپ کے مقام کے قریب کوئی پک اپ پوائنٹ نہیں ملا",
+        "pickup_unavailable_banner_title": {
+          "one": "آپ کے آئٹم کے لیے کوئی پک اپ پوائنٹ دستیاب نہیں ہے۔",
+          "other": "آپ کے آئٹمز کے لیے کوئی پک اپ پوائنٹ دستیاب نہیں ہے۔"
+        },
+        "no_pickup_points_found": "کوئی پک اپ پوائنٹ نہیں ملا",
+        "paginator": {
+          "next_accessibility_label": "اگلا صفحہ",
+          "previous_accessibility_label": "پچھلا صفحہ",
+          "header": {
+            "one": "دکھا رہا ہے %{first} - %{last} of %{count} پوائنٹ",
+            "other": "دکھا رہا ہے %{first} - %{last} of %{count} پوائنٹس"
+          },
+          "selected_pickup_point_label": {
+            "one": "%{pickup_point_index} از %{count} پوائنٹ",
+            "other": "%{pickup_point_index} از %{count} پوائنٹس"
+          },
+          "selected_page": {
+            "one": "%{first} - %{last} of %{count} پوائنٹ",
+            "other": "%{first} - %{last} of %{count} پوائنٹس"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "آپ کے مقام کے قریب %{count} پک اپ پوائنٹ",
+          "other": "آپ کے مقام کے قریب %{count} پک اپ پوائنٹس"
+        },
+        "change": "مقام تبدیل کریں۔",
+        "waiting_on_pickup_point_location_notice": "پک اپ پوائنٹس تلاش کر رہے ہیں...",
+        "geolocation": {
+          "shared_location_button": "میرا مقام استعمال کریں۔",
+          "errors": {
+            "unsuported_by_browser": "جغرافیائی محل وقوع حاصل کرنا آپ کے براؤزر سے تعاون یافتہ نہیں ہے۔ دوبارہ کوشش کریں یا کوئی مختلف براؤزر استعمال کریں۔",
+            "permission_not_allowed": "اپنے مقام کا اشتراک کرنے کی اجازت دیں۔",
+            "permission_denied": "آپ کا مقام حاصل نہیں ہو سکا۔ دوبارہ کوشش کریں۔"
+          }
+        }
+      },
+      "error_page": {
+        "terminal": {
+          "title": "ہمارے چیک آؤٹ میں ایک مسئلہ تھا۔",
+          "message": "اس صفحہ کو ریفریش کریں یا چند منٹوں میں دوبارہ کوشش کریں۔",
+          "action": {
+            "cta": "صفحہ ریفریش کریں۔"
+          },
+          "request_id": "درخواست ID: {{requestId}}"
+        }
+      },
+      "notice_banner": {
+        "return_to_cart_link_text": "کارٹ پر واپس جائیں۔",
+        "return_to_cart_to_update_quantities": "مقدار کو اپ ڈیٹ کرنے کے لیے %{return_to_cart_link_text}",
+        "subscription_changed": "آپ کی سبسکرپشنز میں سے ایک تبدیل ہو گئی ہے۔",
+        "company_location_changed": "آپ کی کارٹ کو اپ ڈیٹ کر دیا گیا ہے۔ اپنے آرڈر کو جمع کرانے سے پہلے اس کا جائزہ لیں۔",
+        "company_location_changed_product_removed": "آپ کی کارٹ کو اپ ڈیٹ کر دیا گیا ہے کیونکہ کچھ پروڈکٹس اس مقام پر دستیاب نہیں ہیں۔ اپنے آرڈر کو جمع کرانے سے پہلے اس کا جائزہ لیں۔",
+        "violations_title": "{{violation}} غائب یا غلط ہے۔",
+        "individual_violations_title": {
+          "DeliveryViolations": "شپنگ ایڈریس",
+          "PaymentViolations": "بلنگ کا پتہ",
+          "OtherViolations": "آرڈر کی معلومات",
+          "UnhandledViolations": "آرڈر کی معلومات"
+        },
+        "all_violations_content": "اس معلومات کو اپ ڈیٹ کرنے اور اپنا آرڈر مکمل کرنے کے لیے ہمیں کال کریں یا {{emailLink}} :",
+        "all_violations_email_link": "ای میل",
+        "editable_shipping_address_violations_message_title": "اپنا آرڈر مکمل کرنے کے لیے یہ معلومات شامل کریں:",
+        "editable_shipping_address_violations_message_footer": "اس مقام کا پتہ مستقل طور پر اپ ڈیٹ کرنے کے لیے، {{emailLink}} ۔",
+        "editable_shipping_address_violations_email_link": "ہم سے رابطہ کریں۔",
+        "shipping_address_incomplete_title": "ترسیل کا پتہ نامکمل ہے۔",
+        "calculating_shipping": "شپنگ کا ابھی بھی حساب لگایا جا رہا ہے۔ چند سیکنڈ میں دوبارہ کوشش کریں۔ آپ کو چارج نہیں کیا گیا ہے۔",
+        "calculating_taxes": "ٹیکسوں کا ابھی بھی حساب لیا جا رہا ہے۔ چند سیکنڈ میں دوبارہ کوشش کریں۔ آپ کو چارج نہیں کیا گیا ہے۔",
+        "generic_processing_error": {
+          "title": "آپ کے آرڈر پر کارروائی کرنے میں ایک مسئلہ تھا۔",
+          "body": "آپ کو چارج نہیں کیا گیا ہے۔ دوبارہ کوشش کریں یا ادائیگی کا مختلف طریقہ استعمال کریں۔"
+        }
       }
     },
     "pagination": {
@@ -372,7 +540,147 @@
       "too_short": "بہت چھوٹا ہے (کم از کم %{count} حروف ہیں)",
       "too_long": "بہت لمبا ہے (زیادہ سے زیادہ %{count} حروف ہیں)",
       "password_mismatch": "فراہم کردہ پاس ورڈ سے مماثل ہونا ضروری ہے۔",
-      "contains_spaces": "خالی جگہوں کے ساتھ شروع یا ختم ہوتا ہے۔"
+      "contains_spaces": "خالی جگہوں کے ساتھ شروع یا ختم ہوتا ہے۔",
+      "email_domain_invalid": "فراہم کنندہ تعاون یافتہ نہیں ہے۔",
+      "invalid_for_country": "%{country} کے لیے درست نہیں ہے",
+      "invalid_for_country_and_province": "%{صوبہ} اور %{ملک} کے لیے درست نہیں ہے",
+      "invalid_province_in_country": "%{country} میں ایک درست صوبہ نہیں ہے",
+      "invalid_state_in_country": "%{country} میں ایک درست ریاست نہیں ہے",
+      "invalid_region_in_country": "%{country} میں ایک درست علاقہ نہیں ہے",
+      "less_than_or_equal_to": "%{count} سے کم یا اس کے برابر ہونا چاہیے",
+      "not_supported": "تعاون یافتہ نہیں ہے۔",
+      "full_name_required": "پہلا نام اور آخری نام درج کریں۔",
+      "invalid_for_card_type": "درست نہیں ہے",
+      "invalid_type": "معذرت، ہم اس قسم کے کارڈ قبول نہیں کرتے",
+      "invalid_format": "فارمیٹ درست نہیں ہے۔",
+      "expired": "ختم ہو گیا ہے",
+      "invalid_start_date_or_issue_number_for_debit": "ایک درست آغاز کی تاریخ یا ایشو نمبر درکار ہے۔",
+      "invalid_expiry_year": "ایک درست میعاد ختم ہونے کا سال نہیں ہے۔",
+      "reset_password_html": "یہ ای میل پتہ پہلے سے ہی ایک اکاؤنٹ سے وابستہ ہے۔ اگر یہ اکاؤنٹ آپ کا ہے تو آپ <a href=\"/account/login#recover\">اپنا پاس ورڈ دوبارہ ترتیب</a> دے سکتے ہیں۔",
+      "verify_email": "ہم نے %{customer_email} پر ایک ای میل بھیجی ہے، براہ کرم اپنے ای میل ایڈریس کی تصدیق کے لیے شامل لنک پر کلک کریں۔",
+      "product_not_available": "اس گاہک کے لیے پروڈکٹ شائع نہیں کی گئی ہے۔",
+      "shop_404": {
+        "title": "ایک ای کامرس ویب سائٹ بنائیں اور آن لائن فروخت کریں! Shopify کے ذریعے ای کامرس سافٹ ویئر",
+        "heros": {
+          "store_unavailable": "معذرت، یہ اسٹور فی الحال دستیاب نہیں ہے۔",
+          "store_not_exist": "یہ اسٹور موجود نہیں ہے۔",
+          "no_storefront": "اس اسٹور کی ابھی تک کوئی ویب سائٹ نہیں ہے۔"
+        },
+        "links": {
+          "explore_other_stores": "دوسرے اسٹورز کو دریافت کریں۔",
+          "start_free_trial": "ایک مفت آزمائش شروع کریں۔"
+        },
+        "owner_ctas": {
+          "header": "کیا آپ اسٹور کے مالک ہیں؟",
+          "fix_domain": "اپنا نیا ویب ایڈریس سیٹ اپ مکمل کریں، %{domain_settings_link} پر جائیں۔ \"کنیکٹ ڈومین\" پر کلک کریں اور درج کریں: %{domain}۔<br> اگر آپ کو اپنے اسٹور میں جانے میں پریشانی ہو رہی ہے تو، %{forgot_your_store_link} صفحہ آزمائیں۔",
+          "fix_domain_link_text": "آپ کے ڈومین کی ترتیبات",
+          "forgot_your_store_link_text": "آپ کی دکان بھول گیا؟",
+          "add_storefront": "آپ آن لائن اسٹور چینل کو اپنے %{admin_link} میں شامل کرکے اپنی ویب سائٹ ترتیب دے سکتے ہیں۔ اگر آپ کو اپنے اسٹور میں جانے میں پریشانی ہو رہی ہے تو، %{forgot_your_store_link} صفحہ آزمائیں۔",
+          "admin_link_text": "منتظم"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "ذاتی طور پر فروخت کریں۔",
+            "caption": "وہ خصوصیات حاصل کریں جن کی آپ کو اپنے ریٹیل اسٹور کو چلانے کے لیے درکار ہے چاہے آپ شروعات کر رہے ہوں یا اسکیل کر رہے ہوں۔",
+            "link_text": "مفت ٹرائل شروع کریں۔"
+          },
+          "open_a_store": {
+            "header": "ایک نیا Shopify اسٹور کھولیں۔",
+            "caption": "3 دن کا مفت ٹرائل شروع کریں، پھر اگلے 3 مہینوں کے لیے $1/ماہ جاری رکھیں۔",
+            "link_text": "ابھی سائن اپ کریں۔"
+          },
+          "editions": {
+            "header": "Shopify ایڈیشن چیک کریں۔",
+            "caption": "100+ پروڈکٹ اپ ڈیٹس کے ساتھ، آپ زیادہ پیداواری اور تخلیقی، اور تجارت میں طاقتور ہو سکتے ہیں جتنا آپ نے کبھی سوچا تھا۔",
+            "link_text": "تازہ ترین ایڈیشن دریافت کریں۔"
+          },
+          "store_owner": {
+            "header": "کیا آپ اسٹور کے مالک ہیں؟",
+            "caption": "کیا آپ کو اپنے اسٹور میں جانے میں دشواری ہو رہی ہے؟ %{forgot_your_store_link} خصوصیت کو آزمائیں۔ اگر آپ اپنے اسٹور کو دوبارہ چالو کرنا چاہتے ہیں تو %{shopify_support_link} سے رابطہ کریں۔",
+            "shopify_support_link_text": "Shopify سپورٹ"
+          }
+        }
+      }
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "پاس ورڈ دوبارہ ترتیب دینے میں خرابی۔",
+        "subscribe_error": "سبسکرائب کرنے میں خرابی",
+        "unsubscribe_error": "ان سبسکرائب کی خرابی",
+        "no_account_found": "اس ای میل کے ساتھ کوئی اکاؤنٹ نہیں ملا۔",
+        "invalid_credentials": "غلط ای میل یا پاس ورڈ۔",
+        "denylisted_reset_password": "آپ کے اکاؤنٹ تک رسائی نہیں ہو سکی کیونکہ موجودہ پاس ورڈ محفوظ نہیں ہے۔ آپ کو اپنا پاس ورڈ اپ ڈیٹ کرنے کے لیے ایک ای میل موصول ہوگی۔",
+        "signup_disabled": "کسٹمر اکاؤنٹ بنانے کو غیر فعال کر دیا گیا ہے۔"
+      },
+      "address": {
+        "updated": "پتہ کامیابی سے اپ ڈیٹ ہو گیا۔",
+        "error_updating": "پتہ اپ ڈیٹ کرنے میں خرابی",
+        "created": "پتہ کامیابی کے ساتھ بنایا گیا۔",
+        "error_creating": "پتہ بنانے میں خرابی",
+        "deleted": "ایڈریس کو کامیابی سے حذف کر دیا گیا۔",
+        "error_deleting": "پتہ حذف کرنے میں خرابی۔"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "شامل کیا گیا %{delta}",
+          "increment_item": "شامل کیا گیا %{delta}",
+          "decrement_item": "%{total} میں سے %{delta} کو ہٹا دیا گیا",
+          "decrement_fulfilled_line_item": "%{total} کا %{delta} لوٹا گیا",
+          "decrement_return_line_item": "واپسی سے %{delta} کو ہٹا دیا گیا۔"
+        }
+      },
+      "order": {
+        "not_available": "یہ آرڈر دستیاب نہیں ہے۔",
+        "financial_status": {
+          "authorized": "مجاز",
+          "pending": "زیر التواء",
+          "paid": "ادا کیا",
+          "unpaid": "بلا معاوضہ",
+          "voided": "کالعدم",
+          "partially_paid": "جزوی طور پر ادا کیا گیا۔",
+          "partially_refunded": "جزوی طور پر واپس کیا گیا۔",
+          "refunded": "رقم کی واپسی",
+          "expired": "میعاد ختم"
+        },
+        "fulfillment_status": {
+          "fulfilled": "پورا کیا۔",
+          "complete": "مکمل",
+          "partial": "جزوی",
+          "unfulfilled": "ادھوری",
+          "restocked": "دوبارہ ذخیرہ"
+        },
+        "transaction_status": {
+          "success": "کامیابی",
+          "pending": "زیر التواء",
+          "failure": "ناکامی",
+          "error": "خرابی"
+        },
+        "cancel_reason": {
+          "declined": "ادائیگی مسترد کر دی گئی۔",
+          "inventory": "اشیاء دستیاب نہیں ہیں۔",
+          "fraud": "فراڈ آرڈر",
+          "customer": "گاہک تبدیل/منسوخ آرڈر",
+          "staff": "عملے کی غلطی",
+          "other": "دیگر"
+        },
+        "cash_on_delivery": "کیش آن ڈیلیوری (COD)"
+      },
+      "cart": {
+        "only_n_items_available": "آپ کارٹ میں صرف %{count} %{name} شامل کر سکتے ہیں۔",
+        "too_many_items_in_cart": "آپ مزید %{name} کو کارٹ میں شامل نہیں کر سکتے۔",
+        "only_one_added_to_cart": "دستیابی کی وجہ سے آپ کی کارٹ میں صرف 1 آئٹم شامل کیا گیا تھا۔",
+        "only_n_added_to_cart": "دستیابی کی وجہ سے آپ کی کارٹ میں صرف %{quantity} آئٹمز شامل کیے گئے تھے۔",
+        "maximum_available_quantity_reached": "اس آئٹم کی زیادہ سے زیادہ مقدار پہلے سے ہی آپ کی ٹوکری میں ہے۔",
+        "less_than_minimum": "اس آئٹم میں کم از کم %{min} ہے۔",
+        "more_than_maximum": "اس آئٹم میں زیادہ سے زیادہ %{max} ہے۔",
+        "not_respect_step": "آپ اس آئٹم کو صرف %{step} کے اضافے میں شامل کر سکتے ہیں۔",
+        "all_items_in_cart": "تمام %{count} %{name} آپ کی کارٹ میں ہیں۔",
+        "empty_update": "خالی ٹوکری کو اپ ڈیٹ نہیں کر سکتے",
+        "missing_parameters": "کوئی درست آئی ڈی یا لائن پیرامیٹر نہیں ہے۔",
+        "generic_error": "کارٹ کی خرابی۔",
+        "invalid_input": "%{parameter} پیرامیٹر غلط ہے۔",
+        "product_not_available": "پروڈکٹ دستیاب نہیں ہے۔"
+      }
     }
   },
   "products": {
