@@ -597,7 +597,126 @@
             "local_pickup_no_delivery_strategy_available": "کوئی دستیاب مقامی پک اپ ڈیلیوری حکمت عملی نہیں ملی۔",
             "origin_location_id_required": "جب RETAIL ڈیلیوری کے طریقہ کی درخواست کی جاتی ہے تو اصل مقام کی شناخت درکار ہوتی ہے۔",
             "invalid_origin_location_id": "اصل مقام ID سے مماثل مقام نہیں مل سکا۔",
-            "origin_location_id_not_allowed": "درخواست کردہ ترسیل کے طریقے اصل مقام کی شناخت کو سپورٹ نہیں کرتے ہیں۔"
+            "origin_location_id_not_allowed": "درخواست کردہ ترسیل کے طریقے اصل مقام کی شناخت کو سپورٹ نہیں کرتے ہیں۔",
+            "auto_fulfill_not_allowed": "یہ سیشن تکمیل کے رویے کو اوور رائیڈ کرنے کا مجاز نہیں ہے۔",
+            "auto_fulfill_required": "جب ریٹیل ڈیلیوری کے طریقہ کی درخواست کی جاتی ہے تو خودکار تکمیل کی ضرورت ہوتی ہے۔",
+            "prefetch_shipping_rates_used": "پہلے سے تیار کردہ شپنگ کی شرحیں کبھی بھی ریٹس واپس نہیں کرنی چاہئیں۔",
+            "fulfillment_constraints_not_satisfied": "ایک یا زیادہ تکمیل کی رکاوٹیں مطمئن نہیں تھیں۔",
+            "must_fulfill_from_constraint_not_satisfied": "تکمیل کی رکاوٹیں مطمئن نہیں ہیں کیونکہ اشیاء کو مطلوبہ مقامات سے پورا نہیں کیا جا سکتا۔",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "تکمیل کی رکاوٹیں مطمئن نہیں ہیں کیونکہ اشیاء کو ایک ہی جگہ سے پورا نہیں کیا جا سکتا۔",
+            "delivery_strategy_conditions_not_satisfied": "اس مقام کے لیے ترسیل کی حکمت عملی دستیاب ہے، لیکن ان کی شرائط مطمئن نہیں ہیں۔",
+            "out_of_stock_at_origin_location": "اصل مقام پر کوئی اسٹاک نہیں ہے۔",
+            "invalid_signature": "غلط ڈسکاؤنٹ دستخط۔"
+          },
+          "discount": {
+            "discounts_not_allowed_for_b2b": "B2B اسٹورز میں چھوٹ کی اجازت نہیں ہے۔",
+            "custom_discount_not_honoured": "فراہم کردہ کسٹم ڈسکاؤنٹ کا احترام نہیں کیا گیا۔",
+            "unsupported_expectation": "فراہم کردہ ڈسکاؤنٹ لائن میں ایک توقع تھی جس کی پالیسی تشریح نہیں کر سکتی تھی۔",
+            "additional_requested_discount_code_discarded": "{{code}} درست ہے لیکن قابل اطلاق نہیں ہے۔ رعایت کی شرائط چیک کریں۔",
+            "additional_requested_discount_discarded": "آپ کی رعایت درست ہے لیکن قابل اطلاق نہیں ہے۔ رعایت کی شرائط چیک کریں۔",
+            "allocations_mismatch": "آپ کا ڈسکاؤنٹ کوڈ بدل گیا ہے۔ اپنے کارٹ کا جائزہ لیں اور دوبارہ کوشش کریں۔",
+            "discount_title_too_long": "رعایتی عنوان 255 حروف سے زیادہ نہیں ہو سکتا۔"
+          },
+          "tax": {
+            "new_tax_must_be_accepted": "آپ کے آرڈر سے وابستہ ٹیکسز تبدیل ہو گئے ہیں۔ جائزہ لیں اور دوبارہ کوشش کریں۔",
+            "unresolvable_tax_terms": "موجودہ مذاکراتی سیاق و سباق کے پیش نظر مجوزہ شرائط ناقابل حل ہیں۔",
+            "delivery_price_is_abstract": "متعلقہ ترسیل کی قیمت خلاصہ ہے۔",
+            "tax_inclusivity_mismatch": "کنکریٹ totalTaxAndDutyAmount یا totalAmountIncludedInTarget قدر کے ساتھ دوبارہ بات چیت کریں۔",
+            "tax_exemption_not_supported": "موجودہ مذاکراتی سیشن کے لیے ٹیکس چھوٹ کی حمایت نہیں کی جاتی ہے۔",
+            "delivery_tax_exemption_not_supported": "ڈیلیوری لائنوں کے لیے ٹیکس کی چھوٹ فی الحال تعاون یافتہ نہیں ہے۔",
+            "proposed_allocations_required": "'مجوزہ مختص' فیلڈ غائب ہے۔",
+            "merchandise_terms_must_be_defined": "تجارتی سامان کی شرائط کی وضاحت ہونی چاہیے۔",
+            "delivery_terms_must_be_defined": "ڈیلیوری کی شرائط کی وضاحت ہونی چاہیے۔",
+            "merchandise_discount_terms_must_be_defined": "تجارتی رعایت کی شرائط کی وضاحت ہونی چاہیے۔",
+            "delivery_discount_terms_must_be_defined": "ڈلیوری ڈسکاؤنٹ کی شرائط کی وضاحت ہونی چاہیے۔",
+            "allocated_required": "'مختص کردہ' فیلڈ غائب ہے۔",
+            "value_required": "'ویلیو' فیلڈ غائب ہے۔",
+            "line_splits_not_supported": "'مرچنڈائز لائنز' فیلڈ کو اس طرح تقسیم کیا جانا چاہیے کہ بیچنے والے کی تجویز میں ہر ایک کا ایک لائن جزو ہو۔"
+          },
+          "payment": {
+            "manual_payments_not_allowed_for_b2b": "B2B اسٹورز میں دستی ادائیگیوں کی اجازت نہیں ہے۔",
+            "positive_amount_expected": "ادائیگی کی رقم 0 سے زیادہ ہونی چاہیے۔",
+            "total_amount_mismatch": "ادائیگی کی کل رقم ادائیگی کی رقم سے مماثل نہیں ہے۔",
+            "subscription_terms_not_accepted": "رکنیت کی شرائط قبول نہیں ہیں۔",
+            "missing_session_id": "کریڈٹ کارڈ سیشن کی معلومات غائب ہے۔",
+            "gateway_not_supported": "ادائیگی کا گیٹ وے ادائیگی کا طریقہ ذخیرہ کرنے کی حمایت نہیں کرتا ہے۔",
+            "credit_card_last_name_required": "'آخری نام' صفر نہیں ہو سکتا۔",
+            "credit_card_update_failed": "کریڈٹ کارڈ اپ ڈیٹ ناکام ہو گیا۔",
+            "installments_amount_invalid": "قسطوں کے لین دین کے لیے غلط رقم۔",
+            "installments_test_mode_not_allowed": "ٹیسٹ موڈ کی اجازت نہیں ہے۔",
+            "installments_gift_card_not_allowed": "قسطیں گفٹ کارڈز کے استعمال کی اجازت نہیں دیتی ہیں۔",
+            "installments_unsupported_currency": "قسطیں اس کرنسی کو سپورٹ نہیں کرتی ہیں۔",
+            "installments_unsupported_shipping": "قسطیں اس پتے پر شپنگ کی حمایت نہیں کرتی ہیں۔",
+            "installments_unsupported_billing": "قسطیں اس بلنگ ایڈریس کو سپورٹ نہیں کرتی ہیں۔",
+            "installments_unsupported_subscriptions": "قسطیں سبسکرپشنز کو سپورٹ نہیں کرتی ہیں۔",
+            "installments_ineligible_line_item": "اس خریداری میں لائن آئٹم کے لیے قسطیں غیر فعال ہیں۔",
+            "shop_cash_not_found": "دکان کی نقدی نہیں ملی۔",
+            "shop_cash_not_allowed": "شاپ پے کے بغیر شاپ کیش کی اجازت نہیں ہے۔",
+            "shop_cash_unsupported_checkout_source": "شاپ کیش اس چیک آؤٹ کو سپورٹ نہیں کرتا ہے۔",
+            "shop_cash_gift_card_not_allowed": "شاپ کیش گفٹ کارڈز کی خریداری کی اجازت نہیں دیتا ہے۔",
+            "shop_cash_not_enabled": "اس دکان کے لیے شاپ کیش فعال نہیں ہے۔",
+            "shop_cash_not_available": "اس چیک آؤٹ میں شاپ کیش تعاون یافتہ نہیں ہے۔",
+            "shop_cash_unsupported_subscriptions": "شاپ کیش سبسکرپشنز کو سپورٹ نہیں کرتا ہے۔",
+            "shop_cash_unsupported_shipping": "شاپ کیش بغیر شپنگ کے تجارتی سامان کی حمایت نہیں کرتا ہے۔",
+            "invalid_address_type": "فراہم کردہ پتے کی قسم اس ادائیگی کے طریقے کے لیے غلط ہے۔",
+            "missing_retail_attributions": "دستی طور پر درج کردہ کریڈٹ کارڈ کی ادائیگیوں کے لیے ریٹیل انتسابات درکار ہیں۔",
+            "unexpected_retail_attributions": "کریڈٹ کارڈ کی ادائیگی کے لیے غیر متوقع طور پر فراہم کردہ خوردہ انتسابات۔",
+            "invalid_card_source": "اس سیشن کو اس کارڈ کا ذریعہ استعمال کرنے کی اجازت نہیں ہے۔",
+            "wallet_content_missing": "والیٹ کا مواد غائب ہے۔",
+            "payment_instrument_not_found": "ادائیگی کا طریقہ نہیں مل سکا",
+            "unauthorized_capture_method": "ادائیگی کیپچر کا طریقہ ترتیب دینے کی اجازت نہیں ہے۔",
+            "saved_payment_methods_not_allowed": "محفوظ شدہ ادائیگی کے طریقوں کی اجازت نہیں ہے۔",
+            "saved_payment_methods_not_enabled": "اس دکان کے لیے محفوظ کردہ ادائیگی کے طریقے فعال نہیں ہیں۔",
+            "saved_payment_methods_cvv_verification_disabled": "ادائیگی کے منتخب طریقے کے لیے CVV تصدیق درکار ہے جو اس دکان کے لیے فعال نہیں ہے۔ ادائیگی کا ایک مختلف طریقہ منتخب کریں۔",
+            "store_credit_not_enabled": "اس دکان کے لیے اسٹور کریڈٹ فعال نہیں ہے۔",
+            "store_credit_account_not_found": "اسٹور کریڈٹ اکاؤنٹ نہیں ملا۔",
+            "store_credit_account_mismatch": "اسٹور کریڈٹ اکاؤنٹ خریدار کی شناخت سے میل نہیں کھاتا ہے۔",
+            "store_credit_mismatched_currency": "اسٹور کریڈٹ اکاؤنٹ کی کرنسی چیک آؤٹ کرنسی سے مماثل نہیں ہے۔",
+            "store_credit_insufficient_funds": "اسٹور کریڈٹ اکاؤنٹ میں ناکافی فنڈز ہیں۔",
+            "store_credit_buying_gift_card": "آپ گفٹ کارڈ خریدنے کے لیے اسٹور کریڈٹ استعمال نہیں کر سکتے۔",
+            "gift_cards_not_allowed_for_b2b": "B2B اسٹورز میں گفٹ کارڈز کی اجازت نہیں ہے۔",
+            "method_required": "ادائیگی کا طریقہ تجویز کیا جانا چاہیے۔",
+            "paypal_express_address_invalid": "پے پال نے ایک غلط پتہ واپس کیا۔",
+            "shop_cash_unsupported_currency": "شاپ کیش اس کرنسی کو سپورٹ نہیں کرتا ہے۔",
+            "market_manager_blocks_wallet_payments": "ادائیگی کا طریقہ مارکیٹ مینیجر کے ذریعہ تعاون یافتہ نہیں ہے۔"
+          },
+          "tip": {
+            "not_accepted_by_shop": "دکان تجاویز قبول نہیں کرتا.",
+            "only_one_tip_line_allowed": "متعدد ٹپس لائنز تعاون یافتہ نہیں ہیں۔",
+            "tips_not_allowed_for_b2b": "B2B اسٹورز میں ٹپس کی اجازت نہیں ہے۔",
+            "currency_change_reset": "کرنسی کی تبدیلی کی وجہ سے ٹپ کو ری سیٹ کر دیا گیا ہے۔",
+            "tips_not_allowed_for_deferred_purchase_options": "ٹپس ابھی تک موخر خریداری کے اختیارات کے لیے تعاون یافتہ نہیں ہیں۔"
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "یہ مسودہ آرڈر موجودہ دکان میں موجود نہیں ہے۔",
+            "staff_member_not_exist": "یہ عملہ موجودہ دکان میں موجود نہیں ہے۔",
+            "location_not_exist": "یہ مقام موجودہ دکان میں موجود نہیں ہے۔",
+            "point_of_sale_device_not_exist": "یہ پوائنٹ آف سیل ڈیوائس موجودہ دکان میں موجود نہیں ہے۔",
+            "unresolvable_target_merchandise_lines": "موجودہ مذاکراتی سیاق و سباق کے پیش نظر فروخت کے مجوزہ انتساب ناقابل حل ہیں۔"
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "آپ کے خریدار کی تجویز میں غیر گفت و شنید کی شرائط ہونی چاہئیں۔",
+            "invalid_signature": "{{target_terms}} کے لیے دستخط غلط ہے۔"
+          },
+          "inventory": {
+            "missing_quantity_value": "خریدار کی انوینٹری لائنوں میں مقدار کا فیلڈ غائب ہے۔",
+            "changing_behavior_not_allowed": "اس کلائنٹ کو انوینٹری کے رویے کو تبدیل کرنے کی اجازت نہیں ہے۔",
+            "only_one_inventory_behavior_allowed": "فی الحال چیک آؤٹ پر صرف ایک انوینٹری رویے کی اجازت ہے۔"
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "اس چیک آؤٹ کے لیے ڈیوٹی سے انکار کی اجازت نہیں ہے۔"
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "اس چیک آؤٹ کے لیے ریٹیل انتساب کی اجازت نہیں ہے۔",
+            "retail_attribution_required": "اس چیک آؤٹ کے لیے ریٹیل انتساب درکار ہے۔"
+          },
+          "captcha": {
+            "metadata_missing": "اس چیک آؤٹ کے لیے کیپچا کو مکمل کرنا ضروری ہے۔",
+            "metadata_mismatch": "فراہم کردہ کیپچا فراہم کنندہ اور قسم متوقع اقدار سے مماثل نہیں ہے۔",
+            "token_missing": "اس چیک آؤٹ کو مکمل کرنے کے لیے ایک کیپچا ٹوکن فراہم کرنا ضروری ہے۔",
+            "job_enqueue_failed": "کیپچا کی توثیق کا کام قطار میں لگانے میں ناکام رہا۔",
+            "job_already_queued": "کیپچا کی توثیق اس کیپچا ٹوکن کے لیے پہلے ہی قطار میں لگی ہوئی ہے۔",
+            "token_expired": "فراہم کردہ کیپچا ٹوکن کی میعاد ختم ہو گئی ہے۔ چیک آؤٹ جاری رکھنے کے لیے ایک نیا کیپچا مکمل کریں۔"
           }
         }
       },
