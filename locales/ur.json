@@ -39,7 +39,43 @@
         "different_shipping_address_text": "اس آرڈر کے لیے ایک بار کا پتہ استعمال کریں۔",
         "change_company_location_link_label": "کمپنی کا مقام تبدیل کریں۔",
         "change_location_link_label": "مقام تبدیل کریں۔",
-        "ship_to_company": "{{companyName}} کو بھیجیں"
+        "ship_to_company": "{{companyName}} کو بھیجیں",
+        "title": "معلومات",
+        "address_title": "پتہ",
+        "shipping_used_as_billing_notice": "اسے اس آرڈر کے لیے آپ کے بلنگ ایڈریس کے طور پر بھی استعمال کیا جائے گا۔",
+        "delivery_option_title": "ترسیل کا طریقہ",
+        "contact_method_title": "رابطہ کریں۔",
+        "email_label": "ای میل",
+        "email_placeholder": "ای میل",
+        "email_or_phone_label": "ای میل یا موبائل فون نمبر",
+        "email_or_phone_placeholder": "ای میل یا موبائل فون نمبر",
+        "stored_addresses_label": "محفوظ کردہ پتے",
+        "available_addresses_label": "دستیاب پتے",
+        "new_address_label": "نیا پتہ استعمال کریں۔",
+        "first_name_label": "پہلا نام",
+        "optional_first_name_label": "پہلا نام (اختیاری)",
+        "last_name_label": "آخری نام",
+        "company_label": "کمپنی",
+        "company_attention_label": "کمپنی/توجہ",
+        "optional_company_attention_label": "کمپنی/توجہ (اختیاری)",
+        "optional_company_label": "کمپنی (اختیاری)",
+        "address1_label": "پتہ",
+        "address2_label": "اپارٹمنٹ، سویٹ، وغیرہ",
+        "optional_address2_label": "اپارٹمنٹ، سویٹ، وغیرہ (اختیاری)",
+        "city_label": "شہر",
+        "country_label": "ملک/علاقہ",
+        "country_code": "ملک/علاقے کا کوڈ",
+        "province_label": "صوبہ",
+        "province_placeholder": "صوبہ",
+        "county_label": "کاؤنٹی",
+        "county_placeholder": "کاؤنٹی",
+        "state_label": "ریاست",
+        "state_placeholder": "ریاست",
+        "region_label": "علاقہ",
+        "region_placeholder": "علاقہ",
+        "region_none": "کوئی بھی منتخب نہیں کیا گیا۔",
+        "prefecture_label": "پریفیکچر",
+        "prefecture_placeholder": "پریفیکچر"
       },
       "delivery_options": {
         "free_total_label": "مفت",
@@ -941,8 +977,95 @@
             "token_missing": "اس چیک آؤٹ کو مکمل کرنے کے لیے ایک کیپچا ٹوکن فراہم کرنا ضروری ہے۔",
             "job_enqueue_failed": "کیپچا کی توثیق کا کام قطار میں لگانے میں ناکام رہا۔",
             "job_already_queued": "کیپچا کی توثیق اس کیپچا ٹوکن کے لیے پہلے ہی قطار میں لگی ہوئی ہے۔",
-            "token_expired": "فراہم کردہ کیپچا ٹوکن کی میعاد ختم ہو گئی ہے۔ چیک آؤٹ جاری رکھنے کے لیے ایک نیا کیپچا مکمل کریں۔"
+            "token_expired": "فراہم کردہ کیپچا ٹوکن کی میعاد ختم ہو گئی ہے۔ چیک آؤٹ جاری رکھنے کے لیے ایک نیا کیپچا مکمل کریں۔",
+            "token_invalid": "فراہم کردہ کیپچا ٹوکن غلط تھا۔ چیک آؤٹ جاری رکھنے کے لیے ایک نیا کیپچا مکمل کریں۔",
+            "token_not_valid_for_session": "فراہم کردہ کیپچا اس چیک آؤٹ کے ساتھ استعمال نہیں کیا جا سکتا۔"
+          },
+          "fx_reconciliation_override": {
+            "shop_currency_mismatch": "موصول ہونے والی رقم اسٹور کی کرنسی میں ہونی چاہیے۔"
+          },
+          "checkout_source": {
+            "revoked": "یہ چیک آؤٹ مزید دستیاب نہیں ہے۔"
           }
+        },
+        "full_price": "مکمل قیمت:",
+        "title": "چیک آؤٹ - {{shopName}}",
+        "full_title": "{{pageTitle}} - {{shopName}} - چیک آؤٹ",
+        "loading": "لوڈ ہو رہا ہے…",
+        "loading_title": "چیک آؤٹ - {{shopName}}",
+        "google_map_title": "گوگل میپ",
+        "confirm_order_button_label": "آرڈر کی تصدیق کریں۔",
+        "submit_order_button_label": "آرڈر جمع کروائیں۔",
+        "submit_for_review_button_label": "جائزہ لینے کے لیے جمع کرائیں۔",
+        "submit_for_review_notice_label": "آپ کے آرڈر کا جائزہ لینے تک ادائیگی واجب الادا نہیں ہوگی۔",
+        "continue_to_payment_plans_button_label": "ادائیگی کے منصوبوں کو جاری رکھیں",
+        "back_button_label": "واپسی",
+        "choose_delivery_strategy": "ترسیل کا طریقہ منتخب کریں۔",
+        "autocomplete_zero_item": "کوئی آئٹمز دستیاب نہیں ہیں۔",
+        "autocomplete_powered_by_google": "تقویت یافتہ بذریعہ {{brandName}}",
+        "submit": "جمع کروائیں۔",
+        "processing": "کارروائی ہو رہی ہے…",
+        "stepper": {
+          "increase": "بڑھائیں {{type}}",
+          "decrease": "{{type}} کو کم کریں",
+          "minimum_reached": "کم از کم {{value}} تک پہنچ گیا۔",
+          "maximum_reached": "{{value}} کی زیادہ سے زیادہ حد تک پہنچ گئی۔"
+        },
+        "remove_item": "ہٹائیں %{label}",
+        "remove_tag": "ٹیگ کو ہٹا دیں۔",
+        "dates": {
+          "weekdays": {
+            "monday": "پیر",
+            "tuesday": "منگل",
+            "wednesday": "بدھ",
+            "thursday": "جمعرات",
+            "friday": "جمعہ",
+            "saturday": "ہفتہ",
+            "sunday": "اتوار"
+          },
+          "weekdays_abbreviation": {
+            "monday": "مو",
+            "tuesday": "ٹو",
+            "wednesday": "ہم",
+            "thursday": "و",
+            "saturday": "ص",
+            "sunday": "ایس یو"
+          },
+          "months": {
+            "january": "جنوری",
+            "february": "فروری",
+            "march": "مارچ",
+            "april": "اپریل",
+            "may": "مئی",
+            "june": "جون",
+            "july": "جولائی",
+            "august": "اگست",
+            "september": "ستمبر",
+            "october": "اکتوبر",
+            "november": "نومبر",
+            "december": "دسمبر"
+          }
+        },
+        "datepicker": {
+          "show_previous_month": "پچھلا مہینہ دکھائیں، {{month}} {{year}}",
+          "show_next_month": "اگلے مہینے دکھائیں، {{month}} {{year}}",
+          "range_start": "رینج شروع",
+          "in_range": "رینج میں",
+          "range_end": "رینج کا اختتام"
+        },
+        "map": {
+          "cluster_title": {
+            "one": "{{number}} مارکر کا کلسٹر",
+            "other": "{{number}} مارکر کا جھرمٹ"
+          }
+        },
+        "sheet": {
+          "expand": "پھیلائیں۔"
+        },
+        "dropzone": {
+          "add_file": "فائل شامل کریں۔",
+          "invalid_file_type": "فائل کی قسم تعاون یافتہ نہیں ہے۔",
+          "dragged_over": "فائل کو اپ لوڈ کرنے کے لیے ڈراپ کریں۔"
         }
       },
       "processing": {
@@ -2964,7 +3087,16 @@
       "elo": "ایلو",
       "visaelectron": "ویزا الیکٹران",
       "maestro": "استاد",
-      "dankort": "ڈانکورٹ"
+      "dankort": "ڈانکورٹ",
+      "hipercard": "ہائپر کارڈ",
+      "unionpay": "یونین پے",
+      "laser": "لیزر",
+      "shoppay": "شاپ پے",
+      "applepay": "ایپل پے",
+      "googlepay": "گوگل پے",
+      "paypal": "پے پال",
+      "storecredit": "اسٹور کریڈٹ",
+      "bogus": "بوگس"
     },
     "B2B": {
       "draft_order_details": {
@@ -3468,12 +3600,126 @@
     "enable_javascript": "اپنا اکاؤنٹ دیکھنے کے لیے، اپنے براؤزر کی ترتیبات میں جاوا اسکرپٹ کو فعال کریں یا دوسرے براؤزر سے لاگ ان کریں۔",
     "shop_ads": {
       "previous_button": "پچھلا",
-      "next_button": "اگلا"
+      "next_button": "اگلا",
+      "title": "دکان سے خصوصی پیشکش",
+      "subtitle": "محدود وقت کے لیے دستیاب ہے۔",
+      "button": "دکان پر دریافت کریں۔"
     },
     "knowledge_base": {
       "self_serve_returns": {
         "enabled": "صارفین خود واپسی کی درخواست اور انتظام کر سکتے ہیں۔",
         "disabled": "واپسی کی درخواست کرنے کے لیے صارفین کو مرچنٹ سے رابطہ کرنا چاہیے۔"
+      }
+    },
+    "privacy_banner": {
+      "cookie_preferences_link": "کوکی کی ترجیحات"
+    },
+    "shop_policies": {
+      "legal_notice": "قانونی نوٹس",
+      "privacy_policy": "رازداری کی پالیسی",
+      "refund_policy": "رقم کی واپسی کی پالیسی",
+      "shipping_policy": "شپنگ پالیسی",
+      "subscription_policy": "منسوخی کی پالیسی",
+      "terms_of_sale": "فروخت کی شرائط",
+      "terms_of_service": "سروس کی شرائط"
+    },
+    "ui_components": {
+      "clear": "صاف",
+      "clipboardCopied": "کاپی",
+      "clipboardFailedToCopy": "کاپی کرنے میں ناکام",
+      "closeNotification": "بند",
+      "expandNotification": "مزید دیکھیں",
+      "closeModal": "بند",
+      "submit": "جمع کروائیں۔",
+      "processing": "کارروائی ہو رہی ہے…",
+      "increase": "بڑھائیں {{type}}",
+      "decrease": "{{type}} کو کم کریں",
+      "minimumReached": "کم از کم {{value}} تک پہنچ گیا۔",
+      "maximumReached": "{{value}} کی زیادہ سے زیادہ حد تک پہنچ گئی۔",
+      "january": "جنوری",
+      "february": "فروری",
+      "march": "مارچ",
+      "april": "اپریل",
+      "may": "مئی",
+      "june": "جون",
+      "july": "جولائی",
+      "august": "اگست",
+      "september": "ستمبر",
+      "october": "اکتوبر",
+      "november": "نومبر",
+      "december": "دسمبر",
+      "monday": "پیر",
+      "tuesday": "منگل",
+      "wednesday": "بدھ",
+      "thursday": "جمعرات",
+      "friday": "جمعہ",
+      "saturday": "ہفتہ",
+      "sunday": "اتوار",
+      "mondayAbbreviation": "مو",
+      "tuesdayAbbreviation": "ٹو",
+      "wednesdayAbbreviation": "ہم",
+      "thursdayAbbreviation": "و",
+      "saturdayAbbreviation": "ص",
+      "sundayAbbreviation": "ایس یو",
+      "showNextMonth": "اگلے مہینے دکھائیں، {{month}} {{year}}",
+      "showPreviousMonth": "پچھلا مہینہ دکھائیں، {{month}} {{year}}",
+      "rangeStart": "رینج شروع",
+      "inRange": "رینج میں",
+      "rangeEnd": "رینج کا اختتام",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} آئٹم دستیاب ہے۔",
+        "other": "{{count}} آئٹمز دستیاب ہیں۔"
+      },
+      "removeItem": "ہٹائیں {{label}}",
+      "removeTag": "ٹیگ کو ہٹا دیں۔",
+      "month": {
+        "one": "مہینہ",
+        "other": "مہینے"
+      },
+      "mapClusterTitle": {
+        "one": "{{number}} مارکر کا کلسٹر",
+        "other": "{{number}} مارکر کا جھرمٹ"
+      },
+      "expandSheet": "پھیلائیں۔",
+      "qrCode": "کیو آر کوڈ",
+      "addFile": "فائل شامل کریں۔",
+      "dropzoneInvalidFileType": "فائل کی قسم تعاون یافتہ نہیں ہے۔",
+      "dropzoneDraggedOver": "فائل کو اپ لوڈ کرنے کے لیے ڈراپ کریں۔"
+    },
+    "profile_preview_bar": {
+      "customize_button": "حسب ضرورت بنائیں",
+      "hide_bar": "چھپائیں بار",
+      "navigate_to_admin": "ایڈمن پر جائیں۔",
+      "close_preview": "پیش نظارہ بند کریں۔",
+      "previewing": "آپ پیش نظارہ کر رہے ہیں:",
+      "saved_at": "{{date}} {{time}} پر محفوظ کیا گیا",
+      "viewing": "آپ دیکھ رہے ہیں:",
+      "not_available": "پروفائل ڈیٹا دستیاب نہیں ہے۔",
+      "actions_button": "اعمال"
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "{{extensionName}} نامی ایکسٹینشن منتخب کریں",
+        "unselect": "{{extensionName}} نامی ایکسٹینشن کو غیر منتخب کریں",
+        "move_down": "توسیع کو اگلی پوزیشن پر منتقل کریں۔",
+        "move_up": "توسیع کو پچھلی پوزیشن پر منتقل کریں۔",
+        "remove": "توسیع کو ہٹا دیں۔",
+        "move_down_tooltip": "اگلی پوزیشن پر جائیں۔",
+        "move_up_tooltip": "پچھلی پوزیشن پر جائیں۔",
+        "remove_tooltip": "ہٹا دیں۔"
+      }
+    },
+    "editor": {
+      "link_new_tab_confirmation": "یہ لنک ایڈیٹر کے اندر نہیں کھولا جا سکتا۔ یہ ایک نئی ونڈو میں کھلے گا ( {{resolved_to_link}} )۔ جاری رکھنے کے لیے ٹھیک ہے پر کلک کریں۔"
+    },
+    "settings": {
+      "title": "ترتیبات",
+      "loading_accessibility_message": "ترتیبات کا صفحہ لوڈ ہو رہا ہے۔",
+      "log_out_everywhere": {
+        "title": "ہر جگہ لاگ آؤٹ کریں۔",
+        "description": "اگر آپ کا کوئی آلہ کھو گیا ہے یا آپ کو سیکیورٹی خدشات ہیں تو اپنے اکاؤنٹ کی سیکیورٹی کو یقینی بنانے کے لیے ہر جگہ لاگ آؤٹ کریں۔",
+        "button": "ہر جگہ لاگ آؤٹ کریں۔",
+        "warning_message": "آپ اس ڈیوائس پر بھی لاگ آؤٹ ہو جائیں گے۔"
       }
     }
   },
