@@ -269,7 +269,82 @@
           "free_for_first_n_order": {
             "one": "پہلے آرڈر کے لیے",
             "other": "پہلے %{count} آرڈرز کے لیے"
-          }
+          },
+          "free_shipping_cycles": {
+            "one": "%{count} مزید ڈیلیوری کے لیے مفت شپنگ",
+            "other": "%{count} مزید ترسیل کے لیے مفت ترسیل"
+          },
+          "free_shipping_cycles_delivery_not_included": {
+            "one": "%{count} ڈیلیوری کے لیے مفت شپنگ",
+            "other": "%{count} ڈیلیوری کے لیے مفت شپنگ"
+          },
+          "first_n_order_free_with_cycle": {
+            "one": "%{count} مزید ڈیلیوری کے لیے مفت شپنگ، پھر %{recurring_order_shipping_price}",
+            "other": "%{count} مزید ڈیلیوری کے لیے مفت ترسیل، پھر %{recurring_order_shipping_price}"
+          },
+          "first_n_order_free_with_cycle_delivery_not_included": {
+            "one": "%{count} ڈیلیوری کے لیے مفت شپنگ، پھر %{recurring_order_shipping_price}",
+            "other": "%{count} ڈیلیوری کے لیے مفت ترسیل، پھر %{recurring_order_shipping_price}"
+          },
+          "max_cycles_base_shipping": {
+            "one": "%{shipping_price} کے لیے %{count} مزید ڈیلیوری",
+            "other": "ہر ایک کے لیے %{count} مزید ڈیلیوری %{shipping_price}"
+          },
+          "max_cycles_base_shipping_delivery_not_included": {
+            "one": "%{count} ڈیلیوری %{shipping_price} کے لیے",
+            "other": "ہر ایک کے لیے %{count} مزید ڈیلیوری %{shipping_price}"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "one": "پہلے %{cycle} کے لیے مفت ترسیل، اس کے بعد %{recurring_order_shipping_price}",
+            "other": "پہلے %{cycle} کے لیے مفت ترسیل، اس کے بعد %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "one": "%{shipping_price} %{count} مزید ڈیلیوری کے لیے",
+            "other": "%{shipping_price} %{count} مزید ڈیلیوری کے لیے (%{per_delivery_cost})"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "one": "%{shipping_price} %{count} ڈیلیوری کے لیے",
+            "other": "%{shipping_price} %{count} ڈیلیوری کے لیے (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle": {
+            "one": "%{shipping_price} %{count} مزید ڈیلیوری کے لیے، اس کے بعد %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} %{count} مزید ڈیلیوری کے لیے (%{per_delivery_cost})، اس کے بعد %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} %{count} ڈیلیوری کے لیے، اس کے بعد %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} %{count} ڈیلیوری کے لیے (%{per_delivery_cost})، اس کے بعد %{recurring_order_shipping_price}"
+          },
+          "subscription_free_with_frequency_label": "مفت ترسیل %{delivery_frequency}",
+          "prepaid_delivery_frequency": {
+            "one": "%{count} ڈیلیوری کے لیے",
+            "other": "%{count} ڈیلیوری کے لیے"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "ہر روز",
+              "other": "ہر %{count} دن"
+            },
+            "week": {
+              "one": "ہر ہفتے",
+              "other": "ہر %{count} ہفتوں میں"
+            },
+            "month": {
+              "one": "ہر مہینے",
+              "other": "ہر %{count} ماہ بعد"
+            },
+            "year": {
+              "one": "ہر سال",
+              "other": "ہر %{count} سال"
+            }
+          },
+          "multiple_subscriptions_shipping_price_label": "فی ڈیلیوری %{shipping_price}",
+          "prepaid_shipping_price_label": "فی ڈیلیوری %{shipping_price} x %{delivery_interval_count}",
+          "initial_order_discounted": "پہلے شپنگ لاگت %{discounted_shipping_cost}، پھر %{frequency_description}",
+          "prepaid_initial_order_discounted": "پہلی شپنگ لاگت %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "پہلی ترسیل کی قیمت %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "پہلی شپنگ لاگت %{discounted_shipping_price} %{prepaid_delivery_frequency}، پھر %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "پہلی ترسیل کی قیمت %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})، پھر %{shipping_price} %{billing_cycle}",
+          "shipping_price_included": "شامل"
         },
         "one_time_purchase_shipping": "ایک بار شپنگ",
         "duties_and_taxes_title": "ڈیوٹی اور ٹیکس",
@@ -339,7 +414,65 @@
         "split_shipping_option_lowest_price": "سب سے کم قیمت",
         "split_shipping_option_fastest": "تیز ترین",
         "split_shipping_option_recommended": "تجویز کردہ",
-        "split_shipping_option_custom": "حسب ضرورت"
+        "split_shipping_option_custom": "حسب ضرورت",
+        "title": "شپنگ",
+        "delivery_title": "ڈیلیوری",
+        "shipping_method_title": "ترسیل کا طریقہ",
+        "shipping_method_one_time_purchase_group_title": "ایک بار کی خریداری",
+        "shipping_method_first_shipment_group_title": {
+          "one": "پہلی کھیپ",
+          "other": "پہلی ترسیل"
+        },
+        "shipping_method_subscription_group_title": "رکنیت",
+        "shipping_method_recurring_shipments_group_title": {
+          "one": "بار بار چلنے والی کھیپ",
+          "other": "بار بار چلنے والی ترسیل"
+        },
+        "subscription_shipping": "سبسکرپشن شپنگ",
+        "subscription_local_delivery": "سبسکرپشن مقامی ترسیل",
+        "subscription_pickup": "سبسکرپشن پک اپ",
+        "waiting_on_rate_notice": "دستیاب شپنگ ریٹس حاصل کر رہے ہیں…",
+        "waiting_on_pickup_location_notice": "پک اپ کے مقامات دستیاب ہو رہے ہیں…",
+        "no_rates_for_cart_or_destination_notice": "آپ کی کارٹ یا ایڈریس کے لیے شپنگ کے کوئی طریقے دستیاب نہیں ہیں۔",
+        "no_pickup_location_notice": "آپ کی کم از کم ایک پروڈکٹ پک اپ کے لیے دستیاب نہیں ہے۔",
+        "no_rates_for_country_notice": "اس ایڈریس کے لیے کوئی شپنگ ریٹس نہیں ملے۔",
+        "no_rates_contact_notice": "مزید معلومات کے لیے ہم سے رابطہ کریں۔",
+        "free_rate_label": "مفت",
+        "cheapest_rate_label": "سب سے سستا",
+        "please_enter_your_shipping_information_notice": "براہ کرم اپنی شپنگ کی معلومات درج کریں۔",
+        "estimated_delivery_date": {
+          "one": "%{count} کاروباری دن",
+          "other": "%{count} کاروباری دن"
+        },
+        "estimated_delivery_date_range": "%{کم سے کم} سے %{زیادہ سے زیادہ} کاروباری دن",
+        "estimated_delivery_time": "تخمینی ترسیل %{time}",
+        "estimated_delivery_time_range": "تخمینی ڈیلیوری %{min_time}–%{max_time}",
+        "delivery_today": "اسی دن کی ترسیل %{time}",
+        "delivery_tomorrow": "اگلے دن کی ترسیل %{time}",
+        "two_day_delivery": "2 دن کی ترسیل %{time}",
+        "delivery": "ڈیلیوری %{time}",
+        "arrives_time": "پہنچتا ہے %{time}",
+        "arrives_time_range": "آمد %{min_time}–%{max_time}",
+        "estimated_time": "تخمینہ %{time}",
+        "estimated_time_range": "تخمینی %{min_time}–%{max_time}",
+        "default_description": "1 کاروباری دن میں بحری جہاز",
+        "unbranded_default_description": "جہاز بھیجنے کے لیے تیار",
+        "shipping_line_phone_label": "موبائل فون نمبر (ضروری)",
+        "shipping_line_phone": "آپ کا کورئیر آپ سے رابطہ کرنے کے لیے اس نمبر کا استعمال کر سکتا ہے۔",
+        "shipping_line_delivery_phone_label": "موبائل فون نمبر",
+        "shipping_line_delivery_phone": "آپ کی ترسیل پر اپ ڈیٹس کے ساتھ آپ سے رابطہ کیا جا سکتا ہے۔",
+        "optional_shipping_line_delivery_instructions_label": "ترسیل کی ہدایات (اختیاری)",
+        "shipping_line_delivery_instructions": "ضروری معلومات درج کریں جیسے دروازے کے کوڈز یا ڈراپ آف ہدایات۔",
+        "other_method": {
+          "zero": "کوئی اور طریقے دستیاب نہیں ہیں۔",
+          "one": "%{count} دوسرا طریقہ دستیاب ہے۔",
+          "other": "سے شروع ہونے والے %{count} دیگر طریقے دستیاب ہیں۔"
+        },
+        "shipping_rate_discounted_amount": "تھا: %{original_amount}۔ اب: %{amount}",
+        "local_delivery": "مقامی ترسیل",
+        "prime_not_available": {
+          "default": "آپ کے آرڈر کے لیے پرائم ڈیلیوری دستیاب نہیں ہے۔ آپ کے شپنگ کے اختیارات کو اپ ڈیٹ کر دیا گیا ہے۔"
+        }
       },
       "localized_fields": {
         "additional_information": {
@@ -1596,6 +1729,26 @@
         },
         "return_to_store": "{{shopName}} پر واپس جائیں",
         "return_to_store_simple": "اسٹور پر واپس جائیں۔"
+      },
+      "order_summary": {
+        "custom_discount": "حسب ضرورت رعایت",
+        "expand_component_information": {
+          "one": "%{count} آئٹم دکھائیں۔",
+          "other": "%{count} آئٹمز دکھائیں۔"
+        },
+        "collapse_component_information": {
+          "one": "%{count} آئٹم چھپائیں۔",
+          "other": "چھپائیں %{count} آئٹمز"
+        },
+        "component_quantity_title": "%{مقدار} × %{product_title}",
+        "discount_discovery": {
+          "add_code": "رعایت شامل کریں۔",
+          "merchandise_quantity_label": {
+            "one": "%{count} آئٹم",
+            "other": "%{count} آئٹمز"
+          }
+        },
+        "alternative_payment_currency_total": "%{amount_due} کے طور پر چارج کیا گیا"
       }
     },
     "pagination": {
@@ -2931,7 +3084,17 @@
         "tomorrow": "کل {{time}} بجے"
       }
     },
-    "enable_javascript": "اپنا اکاؤنٹ دیکھنے کے لیے، اپنے براؤزر کی ترتیبات میں جاوا اسکرپٹ کو فعال کریں یا دوسرے براؤزر سے لاگ ان کریں۔"
+    "enable_javascript": "اپنا اکاؤنٹ دیکھنے کے لیے، اپنے براؤزر کی ترتیبات میں جاوا اسکرپٹ کو فعال کریں یا دوسرے براؤزر سے لاگ ان کریں۔",
+    "shop_ads": {
+      "previous_button": "پچھلا",
+      "next_button": "اگلا"
+    },
+    "knowledge_base": {
+      "self_serve_returns": {
+        "enabled": "صارفین خود واپسی کی درخواست اور انتظام کر سکتے ہیں۔",
+        "disabled": "واپسی کی درخواست کرنے کے لیے صارفین کو مرچنٹ سے رابطہ کرنا چاہیے۔"
+      }
+    }
   },
   "templates": {
     "404": {
@@ -3128,5 +3291,141 @@
       "pick_up_unavailable_at_html": "پک اپ فی الحال <strong>{{ location_name }}</strong> پر دستیاب نہیں ہے",
       "check_map": "اسے گوگل میپ پر چیک کریں۔"
     }
+  },
+  "sections": {
+    "announcement": {
+      "label": "اعلان",
+      "close": "بند"
+    },
+    "lookbook": {
+      "title": {
+        "product": "پروڈکٹ",
+        "text": "متن"
+      }
+    },
+    "countdown_text": {
+      "day": "دن",
+      "day_plural": "دن",
+      "hr": "گھنٹہ",
+      "hr_plural": "گھنٹے",
+      "min": "منٹ",
+      "min_plural": "منٹ",
+      "sec": "سیکنڈ",
+      "sec_plural": "سیکنڈ"
+    },
+    "newsletter_form": {
+      "email_placeholder": "آپ کا ای میل پتہ",
+      "submit": "سبسکرائب کریں۔",
+      "subscribing": "سبسکرائب ہو رہا ہے...",
+      "confirmation": "سبسکرائب کرنے کا شکریہ",
+      "error_exist": "ای میل پہلے ہی کسی دوسرے اکاؤنٹ کے لیے استعمال ہو چکی ہے۔"
+    },
+    "agree_mail": {
+      "conditions": "سائن اپ کرنے کے لیے آپ کو شرائط و ضوابط سے متفق ہونا ضروری ہے۔",
+      "link_conditions_html": "میں <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" class=\"t4s-text__link\">شرائط و ضوابط</a> سے متفق ہوں۔",
+      "link_conditions_emty": "میں شرائط و ضوابط سے متفق ہوں۔"
+    }
+  },
+  "general": {
+    "meta": {
+      "tags": "ٹیگ کردہ \" {{ tags }} \"",
+      "page": "صفحہ {{ page }}"
+    },
+    "aria": {
+      "close": "بند",
+      "back_to_top": "واپس اوپر کی طرف"
+    },
+    "popup": {
+      "close": "بند",
+      "close_esc": "بند کریں (Esc)",
+      "loading": "لوڈ ہو رہا ہے...",
+      "pswp_share": "شیئر کریں۔",
+      "pswp_fs": "پوری اسکرین کو ٹوگل کریں۔",
+      "pswp_zoom": "زوم ان/آؤٹ کریں۔",
+      "pswp_facebook": "فیس بک پر شیئر کریں۔",
+      "pswp_twitter": "ٹویٹ",
+      "pswp_pinterest": "اسے پن کریں۔",
+      "pswp_prev": "پچھلا (بائیں تیر)",
+      "pswp_next": "اگلا (دائیں تیر کا نشان)",
+      "copy_text": "کلپ بورڈ پر کاپی کریں۔",
+      "copied": "کاپی"
+    },
+    "newsletter_popup": {
+      "email_placeholder": "آپ کا ای میل پتہ",
+      "submit": "سبسکرائب کریں۔",
+      "subscribing": "سبسکرائب ہو رہا ہے...",
+      "confirmation": "سبسکرائب کرنے کا شکریہ"
+    },
+    "pagination": {
+      "label": "صفحہ بندی",
+      "page": "صفحہ {{ number }}",
+      "next": "اگلا",
+      "previous": "پچھلا"
+    },
+    "carousel": {
+      "next": "اگلا",
+      "previous": "پچھلا"
+    },
+    "breadcrumb": {
+      "home": "گھر"
+    },
+    "mobile_menu": {
+      "menu": "مینو",
+      "close": "مینو، زمرے بند کریں۔",
+      "categories": "زمرہ جات",
+      "wishlist": "خواہش کی فہرست",
+      "compare": "موازنہ",
+      "search": "تلاش کریں۔",
+      "login_register": "لاگ ان/رجسٹر",
+      "my_account": "میرا اکاؤنٹ"
+    },
+    "sidebar": {
+      "open": "سائڈبار کھولیں۔",
+      "close": "سائڈبار بند کریں۔",
+      "title": "سائڈبار",
+      "language": "اپنی زبان منتخب کریں۔",
+      "currency": "اپنی کرنسی منتخب کریں۔"
+    }
+  },
+  "socials": {
+    "share_fb": "فیس بک پر شیئر کریں۔",
+    "share_tw": "ٹویٹر پر شیئر کریں۔",
+    "share_em": "ای میل پر شیئر کریں۔",
+    "share_pr": "Pinterest پر شیئر کریں۔",
+    "share_tu": "ٹمبلر پر شیئر کریں۔",
+    "share_tl": "ٹیلیگرام پر شیئر کریں۔",
+    "share_wa": "واٹس ایپ پر شیئر کریں۔",
+    "follow_fb": "فیس بک پر فالو کریں۔",
+    "follow_tw": "ٹویٹر پر فالو کریں۔",
+    "follow_it": "انسٹاگرام پر فالو کریں۔",
+    "follow_dr": "ڈریبل پر عمل کریں۔",
+    "follow_ld": "Linkedin پر فالو کریں۔",
+    "follow_pr": "Pinterest پر عمل کریں۔",
+    "follow_tu": "ٹمبلر پر عمل کریں۔",
+    "follow_yt": "یوٹیوب پر فالو کریں۔",
+    "follow_vm": "Vimeo پر عمل کریں۔",
+    "follow_bh": "Behance پر عمل کریں",
+    "follow_sc": "ساؤنڈ کلاؤڈ پر عمل کریں۔",
+    "follow_tt": "Tiktok پر فالو کریں۔",
+    "follow_sp": "اسنیپ چیٹ پر فالو کریں۔",
+    "follow_sptify": "Spotify پر فالو کریں۔",
+    "follow_threads": "تھریڈز پر فالو کریں۔"
+  },
+  "accessibility": {
+    "skip_to_text": "مواد پر جائیں۔",
+    "skip_to_product_info": "مصنوعات کی معلومات پر جائیں",
+    "close": "بند",
+    "unit_price_separator": "فی",
+    "vendor": "وینڈر:",
+    "error": "خرابی",
+    "refresh_page": "انتخاب کا انتخاب کرنے سے پورے صفحہ کی تازہ کاری ہوتی ہے۔",
+    "link_messages": {
+      "new_window": "ایک نئی ونڈو میں کھلتا ہے۔",
+      "external": "بیرونی ویب سائٹ کھولتا ہے۔"
+    },
+    "of": "کی",
+    "next_slide": "دائیں سلائیڈ کریں۔",
+    "previous_slide": "بائیں سلائیڈ کریں۔",
+    "loading": "لوڈ ہو رہا ہے..."
   }
 }
