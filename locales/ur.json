@@ -1423,7 +1423,97 @@
           "title": "کارڈ شامل کریں۔",
           "save": "محفوظ کریں۔",
           "cancel": "منسوخ کریں۔"
-        }
+        },
+        "delete_credit_card_modal": {
+          "title": "کارڈ حذف کریں۔",
+          "confirmation": "کیا آپ واقعی {{brandName}} حذف کرنا چاہتے ہیں جس کا اختتام {{lastDigits}} ہے؟",
+          "cancel": "منسوخ کریں۔",
+          "delete": "حذف کریں۔"
+        },
+        "edit_credit_card_modal": {
+          "title": "کارڈ میں ترمیم کریں۔",
+          "done": "ہو گیا",
+          "cancel": "منسوخ کریں۔",
+          "description": "آپ صرف اپنے کارڈ کے بلنگ ایڈریس میں ترمیم کر سکتے ہیں۔",
+          "fields": {
+            "default": "بطور ڈیفالٹ سیٹ کریں۔",
+            "card_number": "کارڈ نمبر",
+            "expiry": "میعاد ختم ہونے کی تاریخ",
+            "security_code": "سیکیورٹی کوڈ",
+            "name": "کارڈ پر نام",
+            "billing": "بل کو"
+          }
+        },
+        "expired_cards_info": {
+          "one": "%{count} ایکسپائرڈ کارڈ ہے، جسے آپ اپنے اکاؤنٹ میں دیکھ اور ترمیم کر سکتے ہیں۔",
+          "other": "%{count} میعاد ختم ہونے والے کارڈز ہیں، جنہیں آپ اپنے اکاؤنٹ میں دیکھ اور ترمیم کر سکتے ہیں۔"
+        },
+        "local_payment_method_receiver_notice": "اپنا آرڈر دینے کے بعد، آپ کو ادائیگی کی تفصیلات موصول ہوں گی۔ {{dueDays}} دنوں کے اندر ATM یا آن لائن ادائیگی کریں۔",
+        "order_edit_banner_title": "{{amount_owed}} کی ادائیگی درکار ہے۔",
+        "order_edit_banner_subtitle": "آپ کا آرڈر {{order_number}} اپ ڈیٹ کر دیا گیا تھا۔ ان تبدیلیوں کا جائزہ لیں، پھر اپنے آرڈر کی تصدیق کے لیے ادائیگی کریں۔",
+        "order_edit_banner_items_added": {
+          "one": "شامل کیا گیا۔",
+          "other": "شامل کیا گیا %{count}"
+        },
+        "order_edit_banner_items_removed": {
+          "in_full": "ہٹا دیا گیا۔",
+          "with_quantities": "{{quantity}} میں سے {{delta}} کو ہٹا دیا گیا"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "واپس کیا گیا {{quantity}}",
+          "with_quantities": "واپس کیا گیا {{delta}} از {{quantity}}"
+        },
+        "order_edit_banner_items_return_line_item_removed": {
+          "in_full": "واپسی سے ہٹا دیا گیا۔",
+          "with_quantities": "واپسی سے {{delta}} کو ہٹا دیا گیا۔"
+        },
+        "order_edit_banner_single_item_added": "شامل کیا گیا۔",
+        "order_edit_banner_multiple_items_added": "شامل کیا گیا {{amount}}",
+        "order_edit_banner_single_item_removed": "ہٹا دیا گیا۔",
+        "order_edit_banner_multiple_items_removed": "ہٹا دیا گیا {{amount}}",
+        "order_edit_banner_single_item_returned": "واپس آ گیا۔",
+        "order_edit_banner_multiple_items_returned": "واپس کیا گیا {{amount}}",
+        "order_edit_banner_single_item_return_line_item_removed": "واپسی سے ہٹا دیا گیا۔",
+        "order_edit_banner_multiple_items_return_line_item_removed": "واپسی سے {{amount}} کو ہٹا دیا گیا۔",
+        "order_edit_banner_updated_order_label": "تازہ کاری شدہ آرڈر",
+        "gift_card_wrapper": {
+          "heading": "گفٹ کارڈ",
+          "apply_gift_card_label": "گفٹ کارڈ لگائیں۔",
+          "apply_another_gift_card_label": "دوسرا گفٹ کارڈ لگائیں۔",
+          "gift_card_label": "گفٹ کارڈ %{identifier}",
+          "payment_tag": "گفٹ کارڈ",
+          "add_label": "گفٹ کارڈ شامل کریں۔",
+          "manage_label": "گفٹ کارڈز کا نظم کریں۔"
+        },
+        "gift_card_store_credit": {
+          "add_label": "گفٹ کارڈ یا اسٹور کریڈٹ شامل کریں۔",
+          "manage_label": "گفٹ کارڈز یا اسٹور کریڈٹ کا نظم کریں۔"
+        },
+        "gift_card_checkbox_label": "گفٹ کارڈ لگائیں۔",
+        "custom_onsite_payment_method_modal": {
+          "title": "اپنی مرضی کے مطابق آن سائٹ ادائیگی کی تصدیق"
+        },
+        "markets_pro_disclaimer_label": "نیچے کلک کر کے اور اپنا آرڈر مکمل کر کے، آپ گلوبل-e کے %{markets_pro_terms} اور %{privacy_policy} پر، اس ٹرانزیکشن کے لیے مرچنٹ آف ریکارڈ کے طور پر Global-e سے اپنے آئٹمز خریدنے سے اتفاق کرتے ہیں۔ Global-e %{shop_name} کے لیے ایک بین الاقوامی تکمیل سروس فراہم کنندہ ہے۔",
+        "markets_pro_disclaimer_terms_and_conditions": "شرائط و ضوابط",
+        "markets_pro_disclaimer_privacy_policy": "رازداری کی پالیسی",
+        "markets_pro_disclaimer_terms_and_conditions_title": "مرچنٹ آف ریکارڈ کی شرائط و ضوابط",
+        "markets_pro_disclaimer_privacy_policy_title": "مرچنٹ آف ریکارڈ پرائیویسی پالیسی",
+        "purchase_order_number": {
+          "title": "پی او نمبر",
+          "label": "PO نمبر (اختیاری)"
+        },
+        "alternative_payment_currency_total_notice": "نوٹ: آپ سے %{amount_due} چارج کیا جائے گا۔",
+        "alternative_payment_currency_total_manual_payment_notice": "نوٹ: تبدیل شدہ کل %{amount_due} ہے۔",
+        "waiting_on_taxes_message": "اگر اگلے چند سیکنڈ میں آپ کے ٹیکس کا حساب نہیں ہوتا ہے تو صفحہ کو ریفریش کریں۔",
+        "waiting_on_taxes_notice": "ٹیکسوں کا حساب لگانا",
+        "payment_method": "ادائیگی کا طریقہ",
+        "expired_payment_method": "ادائیگی کا منتخب طریقہ ختم ہو گیا ہے۔",
+        "payment_method_update_failed": "ادائیگی کا طریقہ اپ ڈیٹ ناکام ہو گیا۔",
+        "payment_method_incompatible_with_payment_terms": "ادائیگی کا طریقہ ادائیگی کی شرائط سے مطابقت نہیں رکھتا ہے۔",
+        "proposed_gateway_unavailable": "مجوزہ ادائیگی کا گیٹ وے دستیاب نہیں ہے۔",
+        "pay_in_installments_split_pay_short": "%{amount} کی 4 ادائیگیاں",
+        "gift_cards_unavailable": "آپ کا گفٹ کارڈ اب اس آرڈر پر لاگو نہیں کیا جا سکتا اور اسے ہٹا دیا گیا ہے۔",
+        "payment_flexibility_terms_id_mismatch": "ادائیگی کی لچک کی شرائط ID سے مماثل نہیں ہے۔"
       },
       "vaulted": {
         "change_button": "تبدیلی"
@@ -1654,7 +1744,22 @@
         "sms_marketing_phone_invalid": "ایک درست فون نمبر درج کریں۔",
         "address_suggestion_did_you_mean_html": "کیا آپ کا مطلب تھا %{html}؟",
         "split_cart_international_shipping_not_supported": "بین الاقوامی سطح پر شپنگ کرتے وقت تمام اشیاء کو ایک ہی ترسیل کا طریقہ استعمال کرنا چاہیے۔ ڈیلیوری کا طریقہ اپ ڈیٹ کریں یا متعدد آرڈرز بنائیں۔",
-        "invalid_delivery_address_reference_handle": "ڈیلیوری ایڈریس کا حوالہ ہینڈل کسی بھی دستیاب ڈیلیوری ایڈریس سے نہیں مل سکا۔"
+        "invalid_delivery_address_reference_handle": "ڈیلیوری ایڈریس کا حوالہ ہینڈل کسی بھی دستیاب ڈیلیوری ایڈریس سے نہیں مل سکا۔",
+        "handle_phone_invalid": "ایک درست فون نمبر درج کریں۔",
+        "handle_email_invalid": "ایک درست ای میل درج کریں۔",
+        "email_invalid": "ایک درست ای میل درج کریں۔",
+        "email_or_phone_blank": "ای میل یا فون نمبر درج کریں۔",
+        "email_or_phone_invalid": "ایک درست ای میل یا موبائل فون نمبر درج کریں۔",
+        "address_first_name_blank": "پہلا نام درج کریں۔",
+        "address_first_name_too_long": "پہلا نام بہت لمبا ہے (زیادہ سے زیادہ 255 حروف ہیں)",
+        "address_first_name_contains_emojis": "پہلا نام ایموجیز پر مشتمل نہیں ہو سکتا",
+        "address_first_name_contains_html_tags": "پہلا نام HTML ٹیگز پر مشتمل نہیں ہو سکتا۔",
+        "address_first_name_contains_url": "پہلا نام URL پر مشتمل نہیں ہو سکتا",
+        "address_first_name_contains_mathematical_symbols": "پہلا نام ریاضی کی علامتوں پر مشتمل نہیں ہو سکتا",
+        "address_last_name_blank": "آخری نام درج کریں۔",
+        "address_last_name_too_long": "آخری نام بہت لمبا ہے (زیادہ سے زیادہ 255 حروف ہیں)",
+        "address_last_name_contains_emojis": "آخری نام ایموجیز پر مشتمل نہیں ہو سکتا",
+        "address_last_name_contains_html_tags": "آخری نام HTML ٹیگز پر مشتمل نہیں ہو سکتا۔"
       },
       "store_credit_errors": {
         "generic_error": "آپ کے اسٹور کریڈٹ کے ساتھ ایک مسئلہ تھا۔ دوبارہ کوشش کریں یا صفحہ دوبارہ لوڈ کریں۔"
@@ -1898,6 +2003,33 @@
           },
           "label": "کوئی ڈیلیوری نہیں۔"
         }
+      },
+      "billing": {
+        "billing_address_title": "بل کو",
+        "same_as_shipping": "شپنگ ایڈریس جیسا ہی",
+        "add_address": "ایک مختلف پتہ استعمال کریں۔",
+        "edit": "ترمیم کریں۔",
+        "delete": "حذف کریں۔",
+        "address_more": "اس ایڈریس کے لیے مزید کارروائیاں",
+        "address_edit": "ایڈریس میں ترمیم کریں۔",
+        "address_delete": "پتہ حذف کریں۔",
+        "address_confirm": "کیا آپ واقعی یہ پتہ اپنے اکاؤنٹ سے حذف کرنا چاہتے ہیں؟",
+        "address_form": {
+          "add_address": "ایڈریس شامل کریں۔",
+          "save": "محفوظ کریں۔",
+          "cancel": "منسوخ کریں۔"
+        }
+      },
+      "company_location": {
+        "location_title": "کمپنی کا مقام"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "موجودہ بیلنس %{amount}",
+        "credit_card_expires_on_notice": "%{ماہ}/%{سال} کو ختم ہو جائے گا",
+        "express_payment_gateway_label": "ایکسپریس",
+        "manual_payment_gateway_label": "دستی",
+        "billing_address_title": "بلنگ کا پتہ",
+        "free_label": "مفت"
       }
     },
     "pagination": {
