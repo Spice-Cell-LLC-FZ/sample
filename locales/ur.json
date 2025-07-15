@@ -1548,12 +1548,156 @@
         "missing_parameters": "کوئی درست آئی ڈی یا لائن پیرامیٹر نہیں ہے۔",
         "generic_error": "کارٹ کی خرابی۔",
         "invalid_input": "%{parameter} پیرامیٹر غلط ہے۔",
-        "product_not_available": "پروڈکٹ دستیاب نہیں ہے۔"
+        "product_not_available": "پروڈکٹ دستیاب نہیں ہے۔",
+        "too_many_line_items_error": "آپ کی کارٹ میں %{max} سے زیادہ آئٹمز نہیں ہو سکتے۔",
+        "link_expired": "لنک کی میعاد ختم ہوگئی",
+        "link_no_longer_exists": "لنک اب موجود نہیں ہے۔",
+        "stock_problems_html": "ایک یا زیادہ آئٹمز اب دستیاب نہیں ہیں۔ ہم نے ایک <a href=\"%{link}\">تازہ کاری شدہ کارٹ</a> فراہم کی ہے۔",
+        "changed": "ٹوکری بدل گئی۔",
+        "items_changed": "ایک یا زیادہ آئٹمز تبدیل ہو گئے ہیں۔",
+        "product_sold_out": "پروڈکٹ '%{name}' پہلے ہی فروخت ہو چکی ہے۔",
+        "variant_not_found": "متغیر نہیں مل سکتا",
+        "variant_requires_selling_plan": "ویرینٹ صرف سیلنگ پلان کے ساتھ خریدا جا سکتا ہے۔",
+        "selling_plan_not_available_for_company_locations": "B2B آرڈرز کے لیے صرف ایک بار کی خریداری دستیاب ہے۔",
+        "digital_product_not_available_for_company_locations": "اس آئٹم کو B2B آرڈر میں شامل نہیں کیا جا سکتا",
+        "buyer_cannot_purchase_for_company_locations": "آپ اس مقام کے لیے خریداری نہیں کر سکتے",
+        "selling_plan_not_applicable": "ویرینٹ پر سیلنگ پلان لاگو نہیں کیا جا سکتا",
+        "shipping_address_not_required": "اس کارٹ کو شپنگ کی ضرورت نہیں ہے۔",
+        "shipping_address_invalid": "آپ کی ترسیل کے نرخوں کا حساب لگانے میں ایک مسئلہ تھا۔ اپنا آرڈر مکمل کرنے سے پہلے شپنگ ریٹ منتخب کرنے کے لیے چیک آؤٹ کرنا جاری رکھیں۔",
+        "bundle_requires_components": "بنڈل پروڈکٹ '%{name}' کو کارٹ میں شامل نہیں کیا جا سکتا۔",
+        "gift_card_with_components_not_supported": "بنڈل پروڈکٹ '%{name}' کو کارٹ میں شامل نہیں کیا جا سکتا۔",
+        "gift_card_price_must_be_greater_than_zero": "بنڈل پروڈکٹ '%{name}' کو کارٹ میں شامل نہیں کیا جا سکتا۔",
+        "gift_card_recipient_validation_error": "مخصوص گفٹ کارڈ وصول کنندہ غلط ہے۔",
+        "view_lines_limit_reached": "لائنیں %{limit} سے کم ہونی چاہئیں",
+        "cart_too_large": "ٹوکری بہت بڑی ہے۔",
+        "cart_attributes_error": "کارٹ کی خصوصیات میں غلط ڈیٹا شامل ہے۔",
+        "merchandise_line_transformers": {
+          "run_error": "آپ کی کارٹ میں ایک خرابی پیش آگئی۔"
+        }
+      },
+      "storefront": {
+        "invalid_password": "پاس ورڈ غلط ہے، براہ کرم دوبارہ کوشش کریں۔"
+      },
+      "tags": {
+        "add_articles": "%{tag} ٹیگ والے مضامین تک تلاش کو تنگ کریں",
+        "add_products": "مماثل پروڈکٹس کے ٹیگ %{tag} تک محدود انتخاب",
+        "remove_articles": "ان مضامین کی تلاش وسیع کریں جن پر ٹیگ نہیں ہے %{tag}",
+        "remove_products": "ٹیگ %{tag} ہٹائیں"
       }
     },
     "sentence": {
       "two_words_connector": " اور ",
       "last_word_connector": "، اور "
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "ہماری میلنگ لسٹ کو سبسکرائب کرنے کے لیے آپ کا شکریہ۔",
+        "disclaimer": "آپ کسی بھی وقت ان سبسکرائب کر سکتے ہیں۔",
+        "unsubscribe": "ان سبسکرائب کریں۔"
+      },
+      "unsubscribed": {
+        "confirmation": "آپ نے ہماری میلنگ لسٹ سے رکنیت ختم کر دی ہے۔",
+        "disclaimer": "آپ کو ہماری طرف سے مزید مارکیٹنگ کی اپ ڈیٹس موصول نہیں ہوں گی۔ آپ کسی بھی وقت دوبارہ سبسکرائب کر سکتے ہیں۔",
+        "preview": "آپ پیش نظارہ کر رہے ہیں کہ جب صارفین ان سبسکرائب کریں گے تو وہ کیا دیکھیں گے۔"
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>آپ نے ای میل اوپن ٹریکنگ کا انتخاب کیا ہے۔</b>",
+          "visibility": "ای میل کھلے نرخوں کی اطلاع گمنام طور پر دی جائے گی۔ ہم صرف یہ دیکھیں گے کہ آیا آپ نے ای میل کھولنے کی مجموعی شرح کے حصے کے طور پر کوئی ای میل کھولی ہے۔",
+          "opt_out_html": "اگر آپ اس معلومات کو شیئر نہیں کرنا چاہتے تو آپ ای میل اوپن ٹریکنگ سے <a style=\"text-decoration:underline;\" href=\"%{link}\">آپٹ آؤٹ</a> کر سکتے ہیں۔",
+          "preview_bar": "آپ اس بات کا جائزہ لے رہے ہیں کہ جب صارفین ای میل اوپن ٹریکنگ کا انتخاب کرتے ہیں تو وہ کیا دیکھیں گے۔"
+        },
+        "opt_out": {
+          "opted_out_html": "<b>آپ نے ای میل اوپن ٹریکنگ سے آپٹ آؤٹ کیا ہے۔</b>",
+          "visibility": "ہم نہیں دیکھیں گے کہ آیا آپ نے ہماری ای میلز کھولی ہیں۔",
+          "opt_in_html": "ای میل اوپن ٹریکنگ میں <a style=\"text-decoration:underline;\" href=\"%{link}\">آپٹ ان کریں</a> ۔",
+          "preview_bar": "آپ پیش نظارہ کر رہے ہیں کہ جب صارفین ای میل اوپن ٹریکنگ سے آپٹ آؤٹ کریں گے تو وہ کیا دیکھیں گے۔"
+        },
+        "no_longer_track": {
+          "status_html": "<b>ہم اب کسی بھی ای میل کے کھلنے کو ٹریک نہیں کرتے ہیں۔</b>",
+          "privacy_policy": "اس ای میل کے بھیجے جانے کے بعد، ہم نے اپنی پرائیویسی پالیسی کو اپ ڈیٹ کر دیا اور اب ہم اوپنز کو ٹریک نہیں کرتے۔"
+        },
+        "track": {
+          "status_html": "<b>ای میل اوپن ٹریکنگ کی اطلاع ہے۔</b>",
+          "visibility": "ہم صرف یہ دیکھیں گے کہ آیا آپ نے ای میل کھولی ہے، ای میل کھلنے کی کل شرح کے حصے کے طور پر۔"
+        },
+        "updated_policy": {
+          "status_html": "<b>ای میل اوپن ٹریکنگ کی اطلاع ہے۔</b>",
+          "visibility": "ہم نے اپنی پالیسی کو اپ ڈیٹ کر دیا ہے، اور اب ٹریک ای میلز کھلتے ہیں۔ ای میل کھلے نرخوں کی اطلاع گمنام طور پر دی جائے گی۔ ہم صرف یہ دیکھیں گے کہ آیا آپ نے ای میل کھلنے کی کل شرح کے حصے کے طور پر کوئی ای میل کھولی ہے۔",
+          "opt_out_html": "اگر آپ اس معلومات کو شیئر نہیں کرنا چاہتے تو آپ <a style=\"text-decoration:underline;\" href=\"%{link}\">ان سبسکرائب کر سکتے ہیں۔</a>"
+        }
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "اسٹاک میں",
+          "out_of_stock": "اسٹاک ختم"
+        }
+      },
+      "boolean": {
+        "true_label": "جی ہاں",
+        "false_label": "نہیں"
+      }
+    },
+    "search": {
+      "error": "آپ کے تلاش کے نتائج لوڈ کرنے میں ایک مسئلہ تھا۔ براہ کرم صفحہ ریفریش کریں یا بعد میں دوبارہ کوشش کریں۔",
+      "sorting": {
+        "relevance": "مطابقت",
+        "price_ascending": "قیمت، کم سے زیادہ",
+        "price_descending": "قیمت، زیادہ سے کم"
+      }
+    },
+    "page_titles": {
+      "blog_or_article_with_error": "خرابی - %{title}",
+      "products": "مصنوعات",
+      "shopping_cart": "آپ کی شاپنگ کارٹ",
+      "account": "اکاؤنٹ",
+      "create_account": "اکاؤنٹ بنائیں",
+      "reset_account": "اکاؤنٹ ری سیٹ کریں۔",
+      "addresses": "پتے",
+      "order": "آرڈر %{name}",
+      "search": "تلاش کریں۔",
+      "search_results": {
+        "one": "تلاش کریں: \"%{terms}\" کے لیے %{count} نتیجہ ملا",
+        "other": "تلاش کریں: \"%{terms}\" کے لیے %{count} نتائج ملے"
+      },
+      "collections": "مجموعے",
+      "not_found": "404 نہیں ملا",
+      "challenge": "چیلنج",
+      "checkpoint": "چوکی"
+    },
+    "cart": {
+      "discounts_with_count": "%{count} رعایتیں لاگو کر دی گئی ہیں۔"
+    },
+    "challenge": {
+      "message": "جاری رکھنے کے لیے، ہمیں بتائیں کہ آپ روبوٹ نہیں ہیں۔",
+      "error": "آپ کا جواب درست نہیں تھا، براہ کرم دوبارہ کوشش کریں۔",
+      "submit_button_text": "جمع کروائیں۔"
+    },
+    "checkpoint": {
+      "message": "جاری رکھنے کے لیے کیپچا حل کریں۔",
+      "error": "کیپچا کی توثیق ناکام ہوگئی",
+      "submit_button_text": "جمع کروائیں۔"
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "عام طور پر 1 گھنٹے میں تیار ہوجاتا ہے۔",
+        "two_hours": "عام طور پر 2 گھنٹے میں تیار ہوجاتا ہے۔",
+        "four_hours": "عام طور پر 4 گھنٹے میں تیار ہو جاتا ہے۔",
+        "twenty_four_hours": "عام طور پر 24 گھنٹوں میں تیار ہوجاتا ہے۔",
+        "two_to_four_days": "عام طور پر 2-4 دنوں میں تیار ہوجاتا ہے۔",
+        "five_or_more_days": "عام طور پر 5+ دنوں میں تیار ہوجاتا ہے۔",
+        "zero_to_two_hours": "عام طور پر 2 گھنٹے میں تیار ہوجاتا ہے۔",
+        "two_to_four_hours": "عام طور پر 4 گھنٹے میں تیار ہوجاتا ہے۔",
+        "immediately": "اب پک اپ کے لیے تیار ہیں۔",
+        "next_day": "اگلے دن پک اپ کے لیے تیار"
+      }
+    },
+    "subscriptions": {
+      "buyer_consent_product": "یہ آئٹم بار بار چلنے والی یا موخر خریداری ہے۔ جاری رکھ کر، میں %{cancellationPolicyLink} سے اتفاق کرتا ہوں اور آپ کو اس صفحہ پر درج قیمتوں، فریکوئنسی اور تاریخوں پر اپنے ادائیگی کے طریقے سے چارج کرنے کا اختیار دیتا ہوں جب تک کہ میرا آرڈر پورا نہ ہو جائے یا اگر اجازت ہو تو میں منسوخ کر دوں۔",
+      "buyer_consent_cart": "آپ کی کارٹ میں ایک یا زیادہ آئٹمز ایک بار بار چلنے والی یا موخر خریداری ہے۔ جاری رکھ کر، میں %{cancellationPolicyLink} سے اتفاق کرتا ہوں اور آپ کو اس صفحہ پر درج قیمتوں، فریکوئنسی اور تاریخوں پر اپنے ادائیگی کے طریقے سے چارج کرنے کا اختیار دیتا ہوں جب تک کہ میرا آرڈر پورا نہ ہو جائے یا اگر اجازت ہو تو میں منسوخ کر دوں۔",
+      "cancellation_policy": "منسوخی کی پالیسی"
     }
   },
   "products": {
@@ -2037,7 +2181,67 @@
           },
           "pay_now": "ابھی ادائیگی کریں۔",
           "pay_now_accessibility_label": "آرڈر {{orderName}} کے لیے ابھی ادائیگی کریں",
-          "title": "ادائیگی کی حیثیت"
+          "title": "ادائیگی کی حیثیت",
+          "pending": {
+            "banner_overdue": {
+              "one": "آپ کی ادائیگی {{count}} دن کی باقی ہے۔",
+              "other": "آپ کی ادائیگی {{count}} دن کی بقایا ہے۔"
+            },
+            "banner_due": {
+              "one": "آپ کی ادائیگی {{count}} دن میں واجب الادا ہے۔",
+              "other": "آپ کی ادائیگی {{count}} دنوں میں واجب الادا ہے۔"
+            },
+            "banner_due_today": "آج آپ کی ادائیگی واجب الادا ہے۔",
+            "title": "ادائیگی واجب الادا",
+            "title_with_date": "ادائیگی کی آخری تاریخ {{date}}",
+            "title_due_on_receipt": "ادائیگی ابھی باقی نہیں ہے۔",
+            "title_due_on_fulfillment": "تکمیل پر واجب الادا ادائیگی",
+            "description_overdue": "آپ کی ادائیگی میں تاخیر ہوئی ہے۔",
+            "description_partially_paid": "یہ آرڈر جزوی طور پر ادا کیا گیا تھا۔ آپ کا بیلنس باقی ہے۔",
+            "description_authorized": "آپ کے ادائیگی کے طریقہ سے مقررہ تاریخ پر چارج کیا جائے گا، یا آپ ابھی ادائیگی کر سکتے ہیں۔",
+            "description_waiting_for_manual_payment": "اس آرڈر کی ادائیگی زیر التواء ہے۔ ادائیگی موصول ہونے پر بیلنس اپ ڈیٹ ہو جائے گا۔",
+            "description_due_on_receipt": "ادائیگی واجب الادا ہونے پر آپ کو ایک رسید موصول ہوگی۔",
+            "description_due_on_receipt_partially_paid": "یہ آرڈر جزوی طور پر ادا کیا گیا تھا۔ آپ کا بیلنس باقی ہے۔ ادائیگی واجب الادا ہونے پر آپ کو ایک رسید موصول ہوگی۔",
+            "description_due_on_fulfillment": "اس آرڈر میں تمام اشیاء کی تکمیل کے بعد ادائیگی واجب ہے۔",
+            "description_due_on_fulfillment_partially_paid": "یہ آرڈر جزوی طور پر ادا کیا گیا تھا۔ آپ کا بیلنس باقی ہے۔ اس آرڈر میں تمام اشیاء کی تکمیل کے بعد ادائیگی واجب ہے۔"
+          },
+          "draft": {
+            "description": "آرڈر کی تصدیق ہونے پر ادائیگی کی تفصیلات کا فیصلہ کیا جاتا ہے۔",
+            "title": "ادائیگی ابھی باقی نہیں ہے۔",
+            "in_review": {
+              "description": "آرڈر کی تصدیق ہونے پر ادائیگی کی تفصیلات کا فیصلہ کیا جاتا ہے۔",
+              "title": "ادائیگی ابھی باقی نہیں ہے۔"
+            },
+            "submitted": {
+              "description": "اس آرڈر کی تصدیق کے لیے ادائیگی جمع کروائیں۔",
+              "title": "تصدیق کے لیے ادائیگی کریں۔",
+              "deposit": {
+                "title": "ادائیگی واجب الادا ہے۔",
+                "due_later": "بیلنس {{translatedName}} شرائط پر ہے اور {{dueDate}} کو واجب الادا ہے۔",
+                "due_on_fulfillment": "اس آرڈر میں موجود تمام آئٹمز کی تکمیل کے بعد بیلنس واجب الادا ہے۔",
+                "due_on_receipt": "آپ کو بقیہ بیلنس کے لیے ایک رسید موصول ہوگی۔",
+                "due_on_date": "بیلنس {{dueDate}} کو واجب الادا ہے۔"
+              }
+            },
+            "deposit": {
+              "due_later": "آپ کے آرڈر کی تصدیق ہونے پر {{depositAmount}} واجب الادا ہو جائے گا۔ بیلنس {{translatedName}} شرائط پر ہوگا۔",
+              "due_on_fulfillment": "آپ کے آرڈر کی تصدیق ہونے پر {{depositAmount}} واجب الادا ہو جائے گا۔ آرڈر پورا ہونے پر بیلنس واجب الادا ہوگا۔",
+              "due_on_receipt": "آپ کے آرڈر کی تصدیق ہونے پر {{depositAmount}} واجب الادا ہو جائے گا۔ بیلنس بعد میں ادا کیا جائے گا۔",
+              "due_on_date": "آپ کے آرڈر کی تصدیق ہونے پر {{depositAmount}} واجب الادا ہو جائے گا۔ بیلنس {{dueDate}} کو واجب الادا ہوگا۔"
+            }
+          },
+          "paid": {
+            "title": "ادا کیا",
+            "title_with_date": "ادا کیا گیا {{date}}",
+            "description": "آپ کا آرڈر پوری طرح ادا کر دیا گیا ہے۔"
+          },
+          "refund": {
+            "title": "رقم کی واپسی",
+            "title_with_date": "ریفنڈ کیا گیا {{date}}",
+            "description_full_refund": "آپ کو اس آرڈر کے لیے مکمل ریفنڈ مل گیا ہے۔",
+            "description_single_refund": "آپ کو اس آرڈر کے لیے جزوی ریفنڈ موصول ہوا ہے۔",
+            "description_multiple_refunds": "آپ کو اس آرڈر کے لیے جزوی ریفنڈز موصول ہوئے ہیں۔"
+          }
         },
         "order_timeline": {
           "expand_events_label": "تفصیلات دکھائیں۔",
@@ -2046,7 +2250,10 @@
           "hide_events_accessibility_label": "ڈرافٹ آرڈر کی تفصیلات چھپائیں۔"
         },
         "subtitle": "جمع کرایا {{date}}",
-        "title": "آرڈر {{name}}"
+        "title": "آرڈر {{name}}",
+        "draft_order_subtitle": "آرڈر {{draftOrderName}} سے تصدیق شدہ {{date}} }",
+        "loading": "آرڈر کی تفصیلات لوڈ ہو رہی ہیں۔",
+        "loading_finished_accessibility_message": "آرڈر کی تفصیلات لوڈ کر دی گئی ہیں۔"
       },
       "payment_methods": {
         "payment_delete": {
@@ -2098,7 +2305,77 @@
         "permissions_title": "اجازتیں",
         "section_title": "مقام",
         "shipping_address_required": "آرڈر دینا شروع کرنے کے لیے اس مقام پر ایک شپنگ ایڈریس شامل کریں۔",
-        "staff_and_permissions_title": "عملہ اور اجازت"
+        "staff_and_permissions_title": "عملہ اور اجازت",
+        "tax_details_title": "ٹیکس کی تفصیلات",
+        "tax_id": "ٹیکس ID",
+        "tax_exemptions": "ٹیکس چھوٹ",
+        "multiple_tax_exemptions": "{{taxExemptionsCount}} مزید",
+        "multiple_tax_exemptions_and": "اور",
+        "tax_exemptions_modal_close": "بند",
+        "taxes_none": "کوئی نہیں۔",
+        "tax_exemptions_modal_button_accessibility_label": "تمام ٹیکس چھوٹ دیکھیں"
+      },
+      "location_selection": {
+        "continue_to_store": "ذخیرہ کرنا جاری رکھیں",
+        "description": "اگر آپ کے پاس پہلے سے ہی آپ کے کارٹ میں آئٹمز ہیں، تو مقامات کو تبدیل کرنے سے کارٹ کی قیمتوں اور مقدار پر اثر پڑ سکتا ہے۔",
+        "description_switch_later": "آپ ہمیشہ بعد میں سوئچ کر سکتے ہیں۔",
+        "list_accessibility_label": "مقامات کی فہرست",
+        "list_item_without_address_accessibility_label": "{{name}} : کوئی پتہ نہیں۔",
+        "list_loading_accessibility_message": "مقامات کی فہرست لوڈ ہو رہی ہے۔",
+        "list_loading_address_accessibility_message": "{{locationName}} کا پتہ لوڈ ہو رہا ہے",
+        "list_loading_finished_accessibility_message": "مقامات کی فہرست لوڈ ہو گئی ہے۔",
+        "loading_store_accessibility_message": "سٹور پر جا رہے ہیں۔",
+        "no_location_title": "صرف ذاتی احکامات",
+        "no_location_description": "اب آپ کو {{company}} کے لیے آرڈر دینے کی اجازت نہیں ہے۔ آپ اب بھی ذاتی آرڈر دے سکتے ہیں۔",
+        "no_locations_found": "کوئی مقامات نہیں ملے",
+        "search": "مقامات تلاش کریں۔",
+        "search_location_title": "ایک مقام منتخب کریں۔",
+        "selection_cancel_button": "منسوخ کریں۔",
+        "selection_confirmation_button": "مقام کا انتخاب کریں۔",
+        "selection_continue_button": "جاری رکھیں",
+        "title": "آپ کس مقام کے لیے خرید رہے ہیں؟",
+        "title_choose_location": "ایک مقام کا انتخاب کریں۔",
+        "clear_search": "تلاش صاف کریں۔",
+        "try_new_search": "ایک نئی تلاش کی کوشش کریں۔"
+      },
+      "addresses": {
+        "add_billing_address_button": "بلنگ ایڈریس شامل کریں۔",
+        "add_billing_address_section_accessibility_label": "بلنگ ایڈریس شامل کریں۔",
+        "add_shipping_address_button": "شپنگ ایڈریس شامل کریں۔",
+        "add_shipping_address_section_accessibility_label": "شپنگ ایڈریس شامل کریں۔",
+        "billing_address_card_title": "بلنگ کا پتہ",
+        "cancel_adding_billing_address_accessibility_label": "بلنگ ایڈریس شامل کرنا منسوخ کریں۔",
+        "cancel_adding_shipping_address_accessibility_label": "شپنگ ایڈریس شامل کرنا منسوخ کریں۔",
+        "save_new_billing_address_accessibility_label": "بلنگ ایڈریس محفوظ کریں۔",
+        "save_new_shipping_address_accessibility_label": "شپنگ ایڈریس محفوظ کریں۔",
+        "shipping_address_card_title": "شپنگ ایڈریس"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "سب چھپائیں۔",
+          "show_all": "سب دکھائیں۔",
+          "hide_all_accessibility_label": "جائزہ میں تمام آرڈرز چھپائیں۔",
+          "show_all_accessibility_label": "جائزہ میں تمام آرڈرز دکھائیں۔",
+          "show_all_orders_in_review": "جائزہ میں تمام آرڈرز دکھائیں۔",
+          "show_less_orders_in_review": "جائزہ میں کم آرڈرز دکھائیں۔",
+          "title": "زیر التواء",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "آپ کے پاس کوئی زیر التواء آرڈر نہیں ہیں۔",
+            "pending_orders": {
+              "one": "آپ کے پاس {{count}} آرڈر زیر التواء ہے۔",
+              "other": "آپ کے پاس {{count}} آرڈرز زیر التواء ہیں۔"
+            },
+            "more_than_pagination_length": "آپ کے پاس {{count}} سے زیادہ زیر التواء آرڈرز ہیں۔"
+          },
+          "pending_orders_count_more_than_pagination_length": "{{count}} +",
+          "pagination": {
+            "nav_accessibility_label": "جائزہ نیویگیشن بٹنوں میں آرڈرز"
+          }
+        },
+        "order_list_column_headers_location": "مقام",
+        "order_list_column_headers_contact": "رابطہ کریں۔",
+        "order_list_column_headers_status": "حیثیت",
+        "removed_company_contact_tooltip": "کمپنی سے نکال دیا گیا۔"
       }
     },
     "errors": {
@@ -2256,7 +2533,145 @@
       "save_accessibility_label": "پتہ محفوظ کریں {{address}}",
       "section_title_accessibility_label": "ایڈریس شامل کریں۔",
       "update_success_notification": "پتہ اپ ڈیٹ ہو گیا۔"
-    }
+    },
+    "navigation_and_structure": {
+      "account_menu": {
+        "label": "اکاؤنٹ",
+        "show_accessibility_label": "اکاؤنٹ مینو دکھائیں۔",
+        "nav_accessibility_label": "اکاؤنٹ نیویگیشن",
+        "open_menu_accessibility_label": "اکاؤنٹ نیویگیشن کھولیں۔",
+        "close_menu_accessibility_label": "اکاؤنٹ نیویگیشن بند کریں۔",
+        "loading_message": "اکاؤنٹ نیویگیشن لوڈ ہو رہا ہے۔",
+        "hide_accessibility_label": "اکاؤنٹ مینو چھپائیں۔"
+      },
+      "action_menu_accessibility_label": "مزید کارروائیاں",
+      "close_menu_accessibility_label": "مین نیویگیشن بند کریں۔",
+      "contact_email_subject": "{{shopName}} آن لائن اسٹور سے رابطہ کریں۔",
+      "contact_link": "رابطہ کی معلومات",
+      "delete_confirmation": {
+        "cancel": "منسوخ کریں۔",
+        "delete": "حذف کریں۔"
+      },
+      "dismiss_toast": "برطرف کرنا",
+      "document_title": "{{sectionName}} - {{shopName}} - اکاؤنٹ",
+      "go_to_store_link": "اسٹور پر جائیں۔",
+      "loading_message": "لوڈ ہو رہا ہے۔",
+      "log_out_link": "لاگ آؤٹ کریں۔",
+      "logout_overlay_label": "آپ کو لاگ آؤٹ کیا جا رہا ہے...",
+      "nav_label_accessibility_label": "مین نیویگیشن",
+      "navigation_accessibility_message": "آپ نے {{sectionName}} پر نیویگیٹ کیا",
+      "open_menu_accessibility_label": "مین نیویگیشن کھولیں۔",
+      "orders_link_label": "احکامات",
+      "shop_logo_accessibility_label": "{{shopName}} لوگو",
+      "subscriptions_link_label": "سبسکرپشنز",
+      "settings_link": "ترتیبات",
+      "country_switcher_toast_message": "ملک کو {{countryName}} پر تبدیل کر دیا گیا",
+      "switch_country": "ملک کو تبدیل کریں۔",
+      "no_countries_found": "کوئی ملک نہیں ملا",
+      "location_switcher_toast_message": "مقام کو {{locationName}} پر تبدیل کر دیا گیا",
+      "switch_location": "مقام تبدیل کریں۔",
+      "no_locations_found": "کوئی مقامات نہیں ملے",
+      "try_new_search": "ایک نئی تلاش کی کوشش کریں۔",
+      "view_details": "تفصیلات دیکھیں",
+      "company_location": "کمپنی کا مقام",
+      "search": "تلاش کریں۔"
+    },
+    "account_information": {
+      "loading_accessibility_message": "اکاؤنٹ کی معلومات لوڈ ہو رہی ہے۔",
+      "loading_finished_accessibility_message": "اکاؤنٹ کی معلومات لوڈ ہو گئی ہے۔",
+      "profile_card": {
+        "cancel": "منسوخ کریں۔",
+        "cancel_accessibility_label": "پروفائل میں ترمیم کرنا منسوخ کریں۔",
+        "edit": "ترمیم کریں۔",
+        "edit_accessibility_label": "پروفائل میں ترمیم کریں۔",
+        "email_help_text": "لاگ ان کے لیے استعمال ہونے والی ای میل کو تبدیل نہیں کیا جا سکتا",
+        "first_name": "پہلا نام",
+        "last_name": "آخری نام",
+        "no_name_provided_accessibility_label": "کوئی نام شامل نہیں کیا گیا۔",
+        "phone_number_help_text": "لاگ ان کے لیے استعمال ہونے والے فون نمبر کو تبدیل نہیں کیا جا سکتا",
+        "save": "محفوظ کریں۔",
+        "save_accessibility_label": "پروفائل محفوظ کریں۔",
+        "title": "پروفائل"
+      },
+      "profile_update_confirmation_message": "پروفائل اپ ڈیٹ ہو گیا۔",
+      "title": "پروفائل",
+      "people": {
+        "pagination": {
+          "load_more": "مزید لوڈ کریں۔",
+          "load_more_accessibility_label": "مزید لوگوں کو لوڈ کریں۔",
+          "loading_accessibility_label": "لوگوں کو لوڈ کیا جا رہا ہے۔"
+        }
+      },
+      "add_button": "شامل کریں۔"
+    },
+    "orders": {
+      "list_layout_accessibility_label": "لے آؤٹ کے اختیارات",
+      "list_title": "احکامات",
+      "list_title_with_pending_orders": "احکامات:",
+      "list_title_confirmed_orders_accessibility_label": "احکامات: تصدیق شدہ",
+      "list_title_pending_orders_accessibility_label": "احکامات: زیر التواء",
+      "switch_order_type_pending_orders_accessibility_label": "آرڈر کی قسم سوئچ کریں، فی الحال زیر التواء آرڈرز دیکھ رہے ہیں۔",
+      "switch_order_type_confirmed_orders_accessibility_label": "آرڈر کی قسم سوئچ کریں، فی الحال تصدیق شدہ آرڈرز دیکھ رہے ہیں۔",
+      "order_list": {
+        "column_headers": {
+          "order": "آرڈر",
+          "total": "کل",
+          "actions_accessibility_label": "اعمال",
+          "products_accessibility_label": "مصنوعات"
+        },
+        "delivered": "ڈیلیور کیا گیا {{date}}",
+        "empty_state_order_source_description": "یہاں صرف {{email}} کے ذریعے کیے گئے آرڈرز ہی دکھائی دیں گے۔",
+        "empty_state_subtitle": "آرڈر دینے کے لیے اسٹور پر جائیں۔",
+        "empty_state_title": "ابھی تک کوئی آرڈر نہیں ہے۔",
+        "empty_state_with_location_title": "{{locationName}} کے لیے کوئی آرڈر نہیں",
+        "empty_state_title_for_pending_orders": "کوئی زیر التوا آرڈرز نہیں ہیں۔",
+        "no_order_banner": "آرڈر اسٹیٹس پیج پر اپنی ایکسٹینشن کی جانچ کرنے کے لیے، ایک آرڈر بنائیں۔",
+        "estimated_shortform": "تخمینہ {{date}}",
+        "estimated_delivery": "متوقع {{date}}",
+        "one_images_accessibility_label": "آرڈر میں شامل ہے {{lineItemName1}}",
+        "two_images_accessibility_label": "آرڈر میں شامل ہے {{lineItemName1}} , {{lineItemName2}}",
+        "three_images_accessibility_label": "آرڈر میں شامل ہے {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}}",
+        "four_images_accessibility_label": "آرڈر میں شامل ہے {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}} , {{lineItemName4}}",
+        "more_than_three_products_accessibility_label": "آرڈر میں {{lineItemName1}} ، {{lineItemName2}} ، اور {{numberOfAdditionalProducts}} مزید پروڈکٹس شامل ہیں",
+        "more_than_four_products_accessibility_label": "آرڈر میں {{lineItemName1}} ، {{lineItemName2}} ، {{lineItemName3}} ، اور {{numberOfAdditionalProducts}} مزید پروڈکٹس شامل ہیں",
+        "plus_more": "+ {{numberOfAdditionalProducts}}",
+        "plus_more_products": "+ {{numberOfAdditionalProducts}} مصنوعات",
+        "carousel": {
+          "one_products_accessibility_label": "آرڈر میں {{lineItemName1}} مقدار {{lineItemQuantity1}} شامل ہے",
+          "two_products_accessibility_label": "آرڈر میں {{lineItemName1}} مقدار {{lineItemQuantity1}} ، {{lineItemName2}} مقدار {{lineItemQuantity2}} شامل ہے",
+          "three_products_accessibility_label": "آرڈر میں شامل ہے {{lineItemName1}} مقدار {{lineItemQuantity1}} ، {{lineItemName2}} مقدار {{lineItemQuantity2}} ، {{lineItemName3}} مقدار {{lineItemQuantity3}}",
+          "four_products_accessibility_label": "آرڈر میں شامل ہے {{lineItemName1}} مقدار {{lineItemQuantity1}} , {{lineItemName2}} مقدار {{lineItemQuantity2}} , {{lineItemName3}} مقدار {{lineItemQuantity3}} , {{lineItemName4}} {{lineItemQuantity4}}",
+          "five_products_accessibility_label": "آرڈر میں شامل ہے {{lineItemName1}} مقدار {{lineItemQuantity1}} , {{lineItemName2}} مقدار {{lineItemQuantity2}} , {{lineItemName3}} مقدار {{lineItemQuantity3}} , {{lineItemName4}} {{lineItemQuantity4}} , {{lineItemName5}} مقدار {{lineItemQuantity5}}",
+          "six_products_accessibility_label": "آرڈر میں شامل ہے {{lineItemName1}} مقدار {{lineItemQuantity1}} , {{lineItemName2}} مقدار {{lineItemQuantity2}} , {{lineItemName3}} مقدار {{lineItemQuantity3}} , {{lineItemName4}} {{lineItemQuantity4}} , {{lineItemName5}} مقدار {{lineItemQuantity5}} , {{lineItemName6}} مقدار {{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "آرڈر میں شامل ہے {{lineItemName1}} مقدار {{lineItemQuantity1}} , {{lineItemName2}} مقدار {{lineItemQuantity2}} , {{lineItemName3}} مقدار {{lineItemQuantity3}} , {{lineItemName4}} {{lineItemQuantity4}} ، {{lineItemName5}} مقدار {{lineItemQuantity5}} ، {{lineItemName6}} مقدار {{lineItemQuantity6}} اور مزید",
+          "view_order_details": "آرڈر کی تفصیلات دیکھیں",
+          "previous": "پچھلا",
+          "next": "اگلا"
+        },
+        "items": {
+          "one": "{{count}} آئٹم",
+          "other": "{{count}} آئٹمز"
+        },
+        "no_filtered_results_description": "اپنے آرڈرز دیکھنے کے لیے فلٹرز کو ہٹائیں یا ایڈجسٹ کریں۔",
+        "no_filtered_results_title": "کوئی فلٹر شدہ نتائج نہیں ہیں۔",
+        "order_link": "آرڈر {{name}} دیکھیں",
+        "order_number": "آرڈر {{name}}",
+        "orders_title": "تصدیق شدہ"
+      }
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneHourAgo": {
+          "one": "{{count}} منٹ پہلے",
+          "other": "{{count}} منٹ پہلے"
+        },
+        "lessThanOneMinuteAgo": "ابھی ابھی",
+        "yesterday": "کل {{time}} بجے",
+        "today": "آج {{time}}",
+        "tomorrow": "کل {{time}} بجے"
+      }
+    },
+    "enable_javascript": "اپنا اکاؤنٹ دیکھنے کے لیے، اپنے براؤزر کی ترتیبات میں جاوا اسکرپٹ کو فعال کریں یا دوسرے براؤزر سے لاگ ان کریں۔"
   },
   "templates": {
     "404": {
