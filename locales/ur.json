@@ -132,6 +132,30 @@
             "one": "اس آئٹم کے لیے ڈیلیوری کا منتخب کردہ طریقہ مزید دستیاب نہیں ہے۔",
             "other": "ان آئٹمز کے لیے ڈیلیوری کا منتخب کردہ طریقہ مزید دستیاب نہیں ہے۔"
           }
+        },
+        "unshippable_product": {
+          "title": "کوئی ڈیلیوری دستیاب نہیں ہے۔",
+          "header": {
+            "one": "%{count} آئٹم کے لیے کوئی ڈیلیوری دستیاب نہیں ہے۔",
+            "other": "%{count} آئٹمز کے لیے کوئی ڈیلیوری دستیاب نہیں ہے۔"
+          },
+          "message": {
+            "one": "یہ آئٹم آپ کے کارٹ سے ہٹا دیا جائے گا کیونکہ آپ کے پتے کے لیے ڈیلیوری کے کوئی طریقے دستیاب نہیں ہیں۔",
+            "other": "یہ آئٹمز آپ کی کارٹ سے ہٹا دی جائیں گی کیونکہ آپ کے پتے کے لیے ڈیلیوری کے کوئی طریقے دستیاب نہیں ہیں۔"
+          },
+          "status_column_header": "کوئی ڈیلیوری نہیں۔"
+        },
+        "price_update": {
+          "title": "قیمت کی تازہ کاری",
+          "description": "ان اشیاء کی قیمتیں بدل گئی ہیں اور آپ کی کارٹ میں اپ ڈیٹ ہو گئی ہیں۔"
+        },
+        "price_and_quantity_update": {
+          "title": "قیمت اور مقدار کی تازہ کاری",
+          "description": "ان آئٹمز کی قیمتیں اور دستیاب مقداریں بدل گئی ہیں اور آپ کی کارٹ میں اپ ڈیٹ ہو گئی ہیں۔"
+        },
+        "out_of_stock": {
+          "description": "یہ آئٹمز مزید دستیاب نہیں ہیں اور آپ کے کارٹ سے ہٹا دیے گئے ہیں۔",
+          "items_unavailable": "کچھ آئٹمز اب دستیاب نہیں ہیں اور آپ کی کارٹ سے ہٹا دی گئی ہیں۔"
         }
       },
       "wallets": {
@@ -1748,7 +1772,132 @@
             "other": "%{count} آئٹمز"
           }
         },
-        "alternative_payment_currency_total": "%{amount_due} کے طور پر چارج کیا گیا"
+        "alternative_payment_currency_total": "%{amount_due} کے طور پر چارج کیا گیا",
+        "title": "آرڈر کا خلاصہ",
+        "group_title_label": "\"%{group_title}\" کا حصہ",
+        "number_items": {
+          "one": "%{count} آئٹم",
+          "other": "%{count} آئٹمز"
+        },
+        "view_all_items": {
+          "one": "%{count} آئٹم دیکھیں",
+          "other": "تمام %{count} آئٹمز دیکھیں"
+        },
+        "more_items_modal": {
+          "search_item": "تلاش کریں۔",
+          "clear_search": "تلاش صاف کریں۔",
+          "empty_results": "\"%{searchText}\" کے لیے کوئی نتیجہ نہیں ملا۔ ہجے چیک کریں یا کوئی مختلف لفظ یا فقرہ استعمال کریں۔",
+          "number_items_shown": "%{shownNumber} از %{totalNumber} آئٹمز"
+        },
+        "order_name_label": "آرڈر %{name}",
+        "shopping_cart_label": "خریداری کی ٹوکری",
+        "discount_title": "رعایت",
+        "discount_title_stacking": {
+          "one": "رعایت",
+          "other": "چھوٹ"
+        },
+        "discount_order_stacking": {
+          "one": "آرڈر ڈسکاؤنٹ",
+          "other": "چھوٹ آرڈر کریں۔"
+        },
+        "discount_label": "ڈسکاؤنٹ کوڈ",
+        "discount_not_found": "درج کردہ کوڈ سے مماثل ایک درست رعایت تلاش کرنے سے قاصر",
+        "discount_placeholder": "ڈسکاؤنٹ کوڈ",
+        "discount_code_applied": "ڈسکاؤنٹ کوڈ لاگو کیا گیا۔",
+        "discount_code_allocations_mismatch": "آپ کا <strong style=\"text-transform:uppercase\">%{code}</strong> ڈسکاؤنٹ کوڈ بدل گیا ہے۔ اپنے کارٹ کا جائزہ لیں اور دوبارہ کوشش کریں۔",
+        "gift_card_applied": "گفٹ کارڈ لاگو کر دیا گیا۔",
+        "enter_shipping_address": "شپنگ ایڈریس درج کریں۔",
+        "gift_card_title": "گفٹ کارڈ",
+        "gift_card_label": "گفٹ کارڈ",
+        "gift_card_placeholder": "گفٹ کارڈ",
+        "gift_card_and_discount_title": "ڈسکاؤنٹ کوڈ یا گفٹ کارڈ",
+        "gift_card_and_discount_label": "ڈسکاؤنٹ کوڈ یا گفٹ کارڈ",
+        "gift_card_and_discount_placeholder": "ڈسکاؤنٹ کوڈ یا گفٹ کارڈ",
+        "remove_gift_card_label": "گفٹ کارڈ صاف کریں۔",
+        "remove_discount_label": "رعایت کو ہٹا دیں۔",
+        "return_restocking_fee_label": "ری سٹاکنگ فیس",
+        "return_shipping_fee_label": "واپسی شپنگ",
+        "free_shipping_discount_label": "مفت شپنگ",
+        "applied_free_shipping_discount_label": "لاگو",
+        "apply_discount_button_label": "لگائیں",
+        "applied_discount_message": "آرڈر کی کل قیمت پر %{amount} کی چھوٹ",
+        "discount_has_been_applied": "ڈسکاؤنٹ لاگو کر دیا گیا ہے۔",
+        "discount_has_been_removed": "رعایت ہٹا دی گئی ہے۔",
+        "gift_card_has_been_applied": "گفٹ کارڈ اپلائی کر دیا گیا ہے۔",
+        "gift_card_has_been_removed": "گفٹ کارڈ ہٹا دیا گیا ہے۔",
+        "gift_card_subscriptions_notice": "گفٹ کارڈز صرف آپ کی پہلی ادائیگی پر لاگو ہوں گے۔",
+        "discount_already_applied": "اس آرڈر پر رعایت کا اطلاق کیا گیا ہے۔ آپ کوئی اور رعایت شامل نہیں کر سکتے۔",
+        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> ڈسکاؤنٹ کوڈ آپ کی کارٹ میں موجود اشیاء کے لیے درست نہیں ہے۔",
+        "discount_requires_customer_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> ڈسکاؤنٹ کوڈ لاگو کرنے کے لیے اپنی شپنگ کی معلومات درج کریں۔",
+        "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> ڈسکاؤنٹ کوڈ ابھی آپ کے لیے دستیاب نہیں ہے۔",
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> ڈسکاؤنٹ کوڈ کے لیے اہل صارف کی ضرورت ہے۔",
+        "shipping_information_does_not_meet_discount_requirements_notice": "آپ کے شپنگ ایڈریس کے لیے <strong style=\"text-transform:uppercase\">%{code}</strong> ڈسکاؤنٹ کوڈ دستیاب نہیں ہے۔",
+        "customer_already_used_once_per_customer_discount_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> ڈسکاؤنٹ کوڈ پہلے ہی استعمال ہو چکا ہے۔",
+        "subtotal_label": "ذیلی کل",
+        "subtotal_label_with_quantity": {
+          "one": "ذیلی ٹوٹل · %{count} آئٹم",
+          "other": "ذیلی ٹوٹل · %{count} آئٹمز"
+        },
+        "shipping_label": "شپنگ",
+        "pickup_label": "اسٹور میں پک اپ",
+        "no_pickup_location": "پک اپ کے کوئی مقامات دستیاب نہیں ہیں۔",
+        "pickup_unavailable_banner_title": {
+          "one": "آپ کے آئٹم کے ساتھ کوئی اسٹور دستیاب نہیں ہے۔",
+          "other": "آپ کے آئٹمز کے ساتھ کوئی اسٹور دستیاب نہیں ہے۔"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "ایڈریس پر بھیجیں۔",
+          "ship_to_address_instead_html": "اس کے بجائے %{link}"
+        },
+        "tip_label": "ٹپ",
+        "calculating_shipping": "حساب کر رہا ہے…",
+        "calculating": "حساب کر رہا ہے…"
+      },
+      "contextual_availability": {
+        "title": {
+          "one": "غیر دستیاب پروڈکٹ",
+          "other": "غیر دستیاب مصنوعات"
+        },
+        "products_not_available": {
+          "one": "اس پروڈکٹ کو آپ کے کارٹ سے ہٹا دیا جائے گا کیونکہ یہ آپ کے ملک/علاقے میں دستیاب نہیں ہے۔",
+          "other": "یہ پروڈکٹس آپ کے کارٹ سے ہٹا دی جائیں گی کیونکہ یہ آپ کے ملک/علاقے میں دستیاب نہیں ہیں۔"
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "یہ پروڈکٹ آپ کے ملک/علاقے میں دستیاب نہیں ہے۔",
+          "other": "یہ مصنوعات آپ کے ملک/علاقے میں دستیاب نہیں ہیں۔"
+        },
+        "unavailable_label": "دستیاب نہیں۔"
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "یہ پروڈکٹ %{location_name} کو ڈیلیوری کے لیے دستیاب نہیں ہے۔",
+          "some_products_other": "یہ پروڈکٹس %{location_name} کو ڈیلیوری کے لیے دستیاب نہیں ہیں۔",
+          "all_products_one": "آپ کی کارٹ میں موجود پروڈکٹ %{location_name} کو ڈیلیوری کے لیے دستیاب نہیں ہے۔",
+          "all_products_other": "آپ کی کارٹ میں موجود پروڈکٹس %{location_name} کو ڈیلیوری کے لیے دستیاب نہیں ہیں۔"
+        },
+        "missing_country_fallback": "آپ کا ملک",
+        "indeterminate_location_fallback": "آپ کا مقام",
+        "cart_updated": "آپ کی کارٹ کو اپ ڈیٹ کر دیا گیا ہے۔",
+        "change_address_only": "جاری رکھنے کے لیے ڈیلیوری کا پتہ تبدیل کریں۔",
+        "change_address_or_remove": "ڈیلیوری ایڈریس یا %{remove_action} کو تبدیل کریں۔",
+        "remove_items_action": {
+          "one": "غیر دستیاب شے کو ہٹا دیں۔",
+          "other": "غیر دستیاب اشیاء کو ہٹا دیں"
+        },
+        "empty_cart_action": "خالی ٹوکری اور سٹور پر واپس"
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "%{count} آئٹم کے لیے کوئی ڈیلیوری دستیاب نہیں ہے۔",
+            "other": "%{count} آئٹمز کے لیے کوئی ڈیلیوری دستیاب نہیں ہے۔"
+          },
+          "message": {
+            "one": "یہ آئٹم آپ کے کارٹ سے ہٹا دیا جائے گا کیونکہ آپ کے پتے کے لیے ڈیلیوری کے کوئی طریقے دستیاب نہیں ہیں۔",
+            "other": "یہ آئٹمز آپ کی کارٹ سے ہٹا دی جائیں گی کیونکہ آپ کے پتے کے لیے ڈیلیوری کے کوئی طریقے دستیاب نہیں ہیں۔"
+          },
+          "label": "کوئی ڈیلیوری نہیں۔"
+        }
       }
     },
     "pagination": {
