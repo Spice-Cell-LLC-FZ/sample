@@ -143,7 +143,16 @@
             "zip": "زپ/پوسٹل کوڈ درج کریں۔",
             "billing_zip": "ایک بلنگ ایڈریس زپ/پوسٹل کوڈ درج کریں۔",
             "phone": "ایک فون نمبر درج کریں۔",
-            "contact_info": "رابطے کی معلومات درج کریں۔"
+            "contact_info": "رابطے کی معلومات درج کریں۔",
+            "first_name": "پہلا نام درج کریں۔",
+            "billing_first_name": "بلنگ ایڈریس کا پہلا نام درج کریں۔",
+            "last_name": "آخری نام درج کریں۔",
+            "address1": "ایک پتہ درج کریں۔",
+            "billing_address1": "بلنگ کا پتہ درج کریں۔",
+            "address2": "ایک اپارٹمنٹ، سویٹ، وغیرہ درج کریں۔",
+            "billing_address2": "بلنگ ایڈریس اپارٹمنٹ، سویٹ وغیرہ درج کریں۔",
+            "city": "شہر میں داخل ہوں۔",
+            "billing_city": "بلنگ ایڈریس شہر درج کریں۔"
           },
           "formatting": {
             "name_contains_emojis": "اپنے نام سے ایموجی ڈیلیٹ کریں۔",
@@ -152,13 +161,64 @@
             "last_name_too_long": "آخری نام بہت زیادہ حروف پر مشتمل ہے۔",
             "address_too_long": "ایڈریس لائن بہت لمبی ہے۔"
           },
-          "select_different_shipping_address_to_resolve_errors": "آپ کا شپنگ ایڈریس غلط ہے۔ ایک مختلف پتہ منتخب کریں یا نیا استعمال کریں۔"
+          "select_different_shipping_address_to_resolve_errors": "آپ کا شپنگ ایڈریس غلط ہے۔ ایک مختلف پتہ منتخب کریں یا نیا استعمال کریں۔",
+          "unavailable": {
+            "title": "{{walletName}} دستیاب نہیں ہے۔",
+            "description": "{{walletName}} دستیاب نہیں تھا۔ ادائیگی کا ایک مختلف طریقہ استعمال کریں یا بعد میں دوبارہ کوشش کریں۔",
+            "instructions": "{{walletName}} کے ساتھ ایک مسئلہ تھا۔ دوبارہ کوشش کرنے کے لیے اسٹور پر واپس جائیں یا کوئی اور طریقہ چیک کریں۔",
+            "unavailable_for_country": "{{walletName}} {{countryName}} میں دستیاب نہیں ہے۔ اپنی خریداری مکمل کرنے کے لیے ادائیگی کا ایک مختلف طریقہ منتخب کریں۔"
+          },
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} فی الحال آپ کے آرڈر کے لیے دستیاب نہیں ہے۔ اپنی خریداری جاری رکھنے کے لیے، چیک آؤٹ کا دوسرا طریقہ منتخب کریں۔"
+          },
+          "generic": "{{walletName}} کے ساتھ ایک مسئلہ تھا۔ دوبارہ کوشش کریں یا ادائیگی کا کوئی دوسرا طریقہ استعمال کریں۔",
+          "discount_code": "اس ڈسکاؤنٹ کوڈ کو لاگو کرنے سے قاصر ہے۔ براہ کرم اپنے کوڈ کا جائزہ لیں اور دوبارہ کوشش کریں۔",
+          "terminal": "{{walletName}} کے ساتھ ایک مسئلہ تھا۔ براہ کرم ادائیگی کا ایک مختلف طریقہ استعمال کریں۔",
+          "detour": {
+            "stock_problems": "کچھ آئٹمز اب دستیاب نہیں ہیں۔ {{walletName}} کو بند کریں اور دوبارہ کوشش کریں۔",
+            "price_change": "کچھ اشیاء کی قیمتوں میں تبدیلی آئی ہے۔ اپنے آرڈر کا جائزہ لینے کے لیے {{walletName}} کو بند کریں اور دوبارہ کوشش کریں۔",
+            "queue": "آپ کو چیک آؤٹ کے لیے قطار میں کھڑا کر دیا گیا ہے۔ جاری رکھنے کے لیے {{walletName}} کو بند کریں۔",
+            "currency_change": "آپ {{walletName}} کے ساتھ کوئی مختلف پتہ استعمال نہیں کر سکتے۔ اصل پتہ استعمال کریں، یا ادائیگی کا کوئی دوسرا طریقہ آزمائیں۔"
+          },
+          "unsupported": {
+            "address": "مرچنٹ اس پتے پر ڈیلیور نہیں کر سکتا",
+            "wallet_is_unavailable": "{{walletName}} اس پتے کے ساتھ استعمال نہیں کیا جا سکتا۔ ایک مختلف پتہ منتخب کریں یا اپنی خریداری مکمل کرنے کے لیے {{walletName}} کو بند کریں۔",
+            "postal_code": "یہ مقام تعاون یافتہ نہیں ہے۔"
+          },
+          "outdated": {
+            "shipping_method": "آپ کے آرڈر کے لیے شپنگ کے اختیارات بدل گئے ہیں۔ اپنے انتخاب کا جائزہ لیں۔",
+            "payment_terms": "ادائیگی کی شرائط بدل گئی ہیں۔ براہ کرم اپنے آرڈر کا جائزہ لیں۔"
+          },
+          "invalid": {
+            "shipping_address": "ایک درست ترسیل کا پتہ درج کریں۔",
+            "billing_address": "ایک درست بلنگ ایڈریس درج کریں۔",
+            "shipping_option": "ایک درست شپنگ آپشن کا انتخاب کریں۔",
+            "email": "ایک درست ای میل درج کریں۔",
+            "zone": "ایک درست ریاست/صوبہ درج کریں۔",
+            "billing_zone": "ایک درست بلنگ ایڈریس ریاست/صوبہ درج کریں۔",
+            "emirate": "ایک درست امارت داخل کریں۔",
+            "postal_code": "ایک درست زپ/پوسٹل کوڈ درج کریں۔",
+            "phone": "ایک درست فون نمبر درج کریں۔",
+            "billing_phone": "ایک درست بلنگ ایڈریس فون نمبر درج کریں۔",
+            "reduction_code": "ایک درست ڈسکاؤنٹ کوڈ یا گفٹ کارڈ درج کریں۔",
+            "billing_must_match_shipping": "شپنگ ایڈریس سے مماثل ہونا ضروری ہے۔",
+            "billing_zip": "ایک درست بلنگ ایڈریس زپ/پوسٹل کوڈ درج کریں۔"
+          }
         },
         "scrim": {
           "continue_purchase_in_window": "{{walletName}} ونڈو میں اپنی خریداری جاری رکھیں",
           "and_return_to_checkout": "اور چیک آؤٹ پر واپس جائیں۔",
           "cancel": "منسوخ کریں۔"
-        }
+        },
+        "return_to_store": "اسٹور پر واپس جائیں۔",
+        "return_to_checkout": "چیک آؤٹ پر واپس جائیں۔",
+        "redirect_hint": "آپ کو {{walletName}} کے ساتھ لاگ ان کرنے کو کہا جائے گا۔",
+        "logged_in": "{{email}} سے منسلک",
+        "shipping_line_label": "شپنگ",
+        "payment_in_progress_title": "ادائیگی جاری ہے۔",
+        "payment_in_progress_body": "آپ کی ادائیگی پر کارروائی ہو رہی ہے۔ آپ کا آرڈر جلد مکمل ہو جائے گا۔",
+        "call_to_action": "{{walletName}} سے ادائیگی کریں",
+        "redirection_notice": "\" {{buttonLabel}} \" پر کلک کرنے کے بعد، آپ کو اپنی خریداری کو محفوظ طریقے سے مکمل کرنے کے لیے {{walletName}} پر بھیج دیا جائے گا۔"
       },
       "note": {
         "length_exceeds_maximum": "نوٹ کے سائز کو 5000 یا اس سے کم حروف تک کم کریں۔"
@@ -486,6 +546,14 @@
         "generic_processing_error": {
           "title": "آپ کے آرڈر پر کارروائی کرنے میں ایک مسئلہ تھا۔",
           "body": "آپ کو چارج نہیں کیا گیا ہے۔ دوبارہ کوشش کریں یا ادائیگی کا مختلف طریقہ استعمال کریں۔"
+        },
+        "payment_method_not_available_with_payment_terms": "آپ کا منتخب کردہ ادائیگی کا طریقہ اب دستیاب نہیں ہے کیونکہ اس آرڈر کی ادائیگی اب {{paymentTerms}} شرائط پر ہے",
+        "payment_method_not_available_with_fulfillment_terms": "آپ کا منتخب کردہ ادائیگی کا طریقہ اب دستیاب نہیں ہے کیونکہ اس آرڈر کی ادائیگی اب تکمیل پر ہے۔",
+        "payment_method_not_available_with_fixed_terms": "آپ کا منتخب کردہ ادائیگی کا طریقہ اب دستیاب نہیں ہے کیونکہ اس آرڈر کی ادائیگی بعد میں ہونی ہے۔",
+        "contact_information": {
+          "title": "رابطے کی معلومات غلط ہے۔",
+          "header": "اپنی معلومات کو اپ ڈیٹ کرنے کے لیے، {{emailLink}} ۔",
+          "email_link": "ہم سے رابطہ کریں۔"
         }
       },
       "address_management": {
@@ -1447,114 +1515,87 @@
           "currency_mismatch": "%{shop_currency} میں صرف گفٹ کارڈز ہی قبول کیے جاتے ہیں۔"
         }
       },
-      "order_summary": {
-        "shipping_default_value": "اگلے مرحلے پر حساب لگایا گیا۔",
-        "shipping_discount_title": "شپنگ ڈسکاؤنٹ",
-        "shipping_pending_message": "ابھی تک دستیاب نہیں ہے۔",
-        "shipping_policy_link": "شپنگ کے اخراجات",
-        "taxes_label": "ٹیکس",
-        "estimated_taxes_label": "تخمینی ٹیکس",
-        "information_estimated_taxes_label": "ٹیکس (تخمینہ)",
-        "estimated_taxes_finalization_tooltip_content": "آپ کے آرڈر کرنے کے بعد حتمی ٹیکس اور کل کی تصدیق ای میل یا ٹیکسٹ کے ذریعے کی جائے گی۔",
-        "order_total_label": "آرڈر ٹوٹل",
-        "price_before_discount_aria_text": "اصل قیمت",
-        "price_after_discount_aria_text": "رعایتی قیمت",
-        "discount_code_aria_text": "ڈسکاؤنٹ کوڈ",
-        "total_savings": "کل بچت",
-        "total_label": "کل",
-        "total_due_label": "کل واجب الادا",
-        "total_price_label": "کل قیمت",
-        "total_outstanding_label": "ادا کرنے کی رقم",
-        "deposit_label": "جمع",
-        "total_due_today_label": "کل واجب الادا آج",
-        "total_due_later_label": "کل واجب الادا بعد میں",
-        "partial_total_label": "کل",
-        "free_total_label": "مفت",
-        "free_shipping_total_label": "مفت",
-        "paid_label": "ادا کیا",
-        "payment_due_label": "ادائیگی واجب الادا",
-        "vat_label_html": "ٹیکسوں میں %{amount} بھی شامل ہے۔",
-        "duties_included_label": "کل ٹیکس اور ڈیوٹیز شامل ہیں۔ ڈیلیوری پر کوئی اضافی چارجز نہیں۔",
-        "discount_and_gift_card_savings_notice": "ڈسکاؤنٹ میں %{discount_amount} اور گفٹ کارڈز میں %{gift_card_amount} کے بعد",
-        "discount_savings_notice": "رعایت میں %{discount_amount} کے بعد",
-        "gift_card_savings_notice": "گفٹ کارڈز میں %{gift_card_amount} کے بعد",
-        "cost_table_title": "لاگت کا خلاصہ",
-        "cost_table_item_column_header": "آئٹم",
-        "cost_table_value_column_header": "قدر",
-        "description_label": "تفصیل",
-        "price_label": "قیمت",
-        "price_per_item": {
-          "accessibility_label": "فی آئٹم %{price}"
+      "review_address_modal": {
+        "title": "ایڈریس کا جائزہ لیں۔",
+        "subtitle": {
+          "one": "یہ آرڈر {{merchant}} کے فراہم کردہ پتے پر بھیج دیا جائے گا۔",
+          "other": "یہ آرڈر {{merchant}} کے فراہم کردہ پتے پر بھیج دیا جائے گا۔ شپنگ ایڈریس منتخب کریں۔"
         },
-        "quantity_label": "مقدار",
-        "product_change_label": "تبدیلی",
-        "product_image_label": "مصنوعات کی تصویر",
-        "product_image_quantity_label": "مقدار",
-        "scroll_order_summary": "مزید اشیاء کے لیے سکرول کریں۔",
-        "expand_order_summary_short": "دکھائیں۔",
-        "collapse_order_summary_short": "چھپائیں",
-        "expand_order_summary": "آرڈر کا خلاصہ دکھائیں۔",
-        "collapse_order_summary": "آرڈر کا خلاصہ چھپائیں۔",
-        "original_price": "اصل قیمت",
-        "sale_price": "فروخت کی قیمت",
-        "total_updated_label": "تازہ کاری شدہ کل قیمت:",
-        "order_total_updated_label": "تازہ کاری شدہ کل",
-        "total_already_paid_label": "ادا کیا",
-        "unit_price": {
-          "accessible_separator": "فی",
-          "per_item": {
-            "single": "%{قیمت} ہر ایک",
-            "one": "%{price} فی %{count} آئٹم",
-            "other": "%{price} فی %{count} آئٹمز"
+        "subtitle_no_match": "یہ پتہ آپ کے محفوظ کردہ کسی بھی پتے سے مماثل نہیں ہے۔",
+        "subtitle_must_use": "آپ کا آرڈر اس پتے پر بھیج دیا جائے گا۔",
+        "continue": "اس ایڈریس کے ساتھ جاری رکھیں",
+        "use_saved_address": "ایک مختلف پتہ استعمال کریں۔",
+        "return_to_cart": "کارٹ پر واپس جائیں۔"
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "جائزہ لیں",
+          "link_label": "{{partnerDisplayName}} شرائط و ضوابط"
+        }
+      },
+      "online_store_chat": {
+        "title": "سوالات؟ ہمارے ساتھ چیٹ کریں۔"
+      },
+      "local_pickup": {
+        "location_address_search_label": "پتہ",
+        "location_information": {
+          "one": "یہاں %{count} اسٹور ہے جس کا اسٹاک %{address} کے قریب ہے",
+          "other": "%{count} اسٹورز ہیں جن کا اسٹاک %{address} کے قریب ہے"
+        },
+        "toggle_location": "مقام تبدیل کریں۔",
+        "or": "یا",
+        "cancel": "منسوخ کریں۔",
+        "your_location": "آپ کا مقام",
+        "search_button": "اسٹورز تلاش کریں۔",
+        "no_stores_found": "کوئی اسٹورز نہیں ملے",
+        "all_stores_far_away": {
+          "title": "قریب ترین مقامات %{distance} سے زیادہ دور ہیں۔",
+          "description": "ایک مقام منتخب کریں یا %{ship_to_address_link}",
+          "ship_to_address_link": "ایڈریس پر جہاز"
+        },
+        "could_not_resolve_address": "آپ کا پتہ نہیں مل سکا۔ دوبارہ کوشش کریں یا کوئی مختلف پتہ استعمال کریں۔",
+        "paginator": {
+          "accessibility_label": "مقامی پک اپ صفحہ بندی",
+          "previous": "پچھلا صفحہ",
+          "next": "اگلا صفحہ",
+          "label": {
+            "one": "%{first} - %{last} of %{count} اسٹور",
+            "other": "%{first} - %{last} %{count} اسٹورز"
           }
         },
-        "gift_card_ending": "%{last_characters} سے ختم ہونے والا گفٹ کارڈ",
-        "estimated_tax_label": "تخمینہ ٹیکس",
-        "multiple_shipping_lines_label": "کل شپنگ",
-        "recurring_subtotal_label": "اعادی ذیلی ٹوٹل",
-        "recurring_total_label": "اعادی کل",
-        "recurring_total_tooltip": "اس میں شپنگ، ٹیکس، ڈیوٹی، یا کوئی قابل اطلاق رعایت شامل نہیں ہے۔",
-        "confirmation_number_label": "تصدیق #%{confirmation_number}",
-        "higher_value_discount_applied": "آپ کی موجودہ چھوٹ کے ساتھ <strong style=\"text-transform:uppercase\">%{code}</strong> استعمال نہیں کیا جا سکتا۔",
-        "percent_off_shipping": "شپنگ پر %{percent}% چھوٹ",
-        "amount_off_shipping": "شپنگ پر %{amount} چھوٹ",
-        "deferred_payment_info": {
-          "title": "%{amount_due} کی ادائیگی %{due_at} کو واجب الادا ہے",
-          "description_html": "آپ کے آرڈر کے بارے میں سوالات کے لیے، %{contact_us}۔",
-          "paid_today": "کل ادائیگی آج",
-          "paid_today_next": "آج ادا کیا گیا۔",
-          "due_on_fulfillment_title": "%{amount_due} کی ادائیگی کی تکمیل پر واجب الادا ہے۔",
-          "due_on_receipt_title": "%{amount_due} کی ادائیگی رسید پر واجب الادا ہے۔"
+        "reveal_more_label": {
+          "one": "%{count} مزید مقام دکھائیں۔",
+          "other": "%{count} مزید مقامات دکھائیں۔"
+        }
+      },
+      "captcha": {
+        "title": "جاری رکھنے کے لیے کیپچا مکمل کریں۔",
+        "errors": {
+          "not_solved": "جاری رکھنے کے لیے کیپچا مکمل کریں۔"
+        }
+      },
+      "clipboard": {
+        "copied": "کاپی",
+        "failed_to_copy": "کاپی کرنے میں ناکام"
+      },
+      "discount_errors": {
+        "generic_error": "آپ کے آرڈر پر کارروائی نہیں ہو سکی کیونکہ آپ کا ڈسکاؤنٹ کوڈ مزید دستیاب نہیں ہے۔ اپنے آرڈر کی کل کا جائزہ لیں اور دوبارہ کوشش کریں۔"
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "اب آپ کو B2B آرڈر دینے کی اجازت نہیں ہے۔ اس کے بجائے ذاتی آرڈر دینے کے لیے %{logout_url}۔",
+        "log_out_link_text": "لاگ آؤٹ کریں۔",
+        "lost_permissions_subtitle": "اب آپ کو B2B آرڈر دینے کی اجازت نہیں ہے، ذاتی آرڈر دینے کے لیے لاگ آؤٹ کریں۔",
+        "lost_permissions_title": "مقام کی اجازت نہیں ہے۔"
+      },
+      "shop_pay_external": {
+        "title": "دکان پے چیک آؤٹ",
+        "errors": {
+          "problem_loading": "شاپ پے لوڈ کرنے میں ایک مسئلہ ہے۔",
+          "try_again_later": "اپنا کنکشن چیک کریں یا اس ونڈو کو بند کریں اور چند لمحوں میں دوبارہ کوشش کریں۔",
+          "checkout_has_expired": "آپ کے چیک آؤٹ کی میعاد ختم ہو گئی ہے۔ اس ونڈو کو بند کریں اور {{shopName}} سے دوبارہ چیک آؤٹ کرنے کی کوشش کریں۔"
         },
-        "deferred_balance_info": {
-          "title": "{{amount_due}} کا بیلنس {{due_at}} کو باقی ہے",
-          "due_on_fulfillment_title": "{{amount_due}} کا بیلنس پورا ہونے پر باقی ہے۔"
-        },
-        "payment_terms_totals": {
-          "due_today": "کل واجب الادا آج",
-          "due_today_next": "آج واجب الادا ہے۔",
-          "due_later": "کل واجب الادا %{due_at}",
-          "due_on_fulfillment": "تکمیل پر کل واجب الادا",
-          "due_on_fulfillment_next": "تکمیل پر واجب الادا",
-          "due_on_receipt": "رسید پر کل واجب الادا",
-          "due_later_checkout_to_draft": "کل واجب الادا بعد میں",
-          "total_paid": "کل ادائیگی"
-        },
-        "maximum_discount_code_limit_reached": "آپ ڈسکاؤنٹ کوڈز کی زیادہ سے زیادہ تعداد تک پہنچ گئے ہیں۔ <strong style=\"text-transform:uppercase\">%{code}</strong> استعمال کرنے کے لیے موجودہ کوڈ کو ہٹا دیں۔",
-        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> ابھی کام نہیں کر رہا ہے۔ مدد کے لیے ہم سے رابطہ کریں۔",
-        "due_on_fulfillment": "تکمیل پر واجب الادا",
-        "subscriptions": "سبسکرپشنز",
-        "duties_label": "فرائض",
-        "duties_and_taxes_label": "ڈیوٹی اور ٹیکس",
-        "error_duties_tooltip": "یہ آرڈر کسی دوسرے ملک سے بھیجا جا رہا ہے، اس لیے ڈیلیوری پر ڈیوٹی اور ٹیکس وصول کیے جا سکتے ہیں۔",
-        "may_be_charged_on_delivery": "ترسیل پر چارج کیا جا سکتا ہے",
-        "total_updated_label_with_price": "تازہ کاری شدہ کل قیمت: %{totalPrice}",
-        "updated_shipping_method": "اپ ڈیٹ کردہ ترسیل کا طریقہ: %{shipping_method}",
-        "recurring_payments": "بار بار چلنے والی ادائیگیاں",
-        "recurring_total_multiple_label": "اس آرڈر میں متعدد آئٹمز کے لیے بار بار چارج ہوتا ہے۔",
-        "deferred_total_due_date_label": "کل واجب الادا {{date}}",
-        "deferred_total_due_date_label_next": "واجب الادا %{date}",
-        "full_price": "پوری قیمت: %{price}"
+        "return_to_store": "{{shopName}} پر واپس جائیں",
+        "return_to_store_simple": "اسٹور پر واپس جائیں۔"
       }
     },
     "pagination": {
