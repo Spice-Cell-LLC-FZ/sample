@@ -17,7 +17,7 @@
     "body_bg_size": "inherit",
     "body_bg_attachment": "scroll",
     "body_bg_position": "center center",
-    "home_keywords": "Spice Lux perfumes, Spice Lux by The Perfume Guys, luxury perfumes Dubai, premium Arabian fragrances, Dubai perfume online, exclusive luxury scents, Dubai luxury perfumes, authentic UAE fragrances, Middle Eastern luxury scents, Arabian perfume online store, designer fragrances online, niche Arabic perfumes, luxury perfume gift sets, unisex luxury fragrances, best perfumes for gifting, luxury fragrances for women, luxury fragrances for men, online perfume store, premium fragrance brands, authentic Dubai perfumes, luxury fragrance online shopping\n\nSpice Lux perfumes\n\nSpice Lux by The Perfume Guys\n\nLuxury perfumes Dubai\n\nPremium Arabian fragrances\n\nDubai perfume online\n\nExclusive luxury scents\n\nDesigner fragrances online\n\nNiche Arabic perfumes\n\nLuxury perfume gift sets\n\nUnisex luxury fragrances\n\nExclusive perfume collections\n\nPremium fragrance brands\n\nBest perfumes for gifting\n\nLuxury fragrances for women\n\nLuxury fragrances for men\n\nLong-lasting perfumes online\n\nUnique fragrance gifts\n\nBuy luxury perfumes online\n\nOnline perfume store\n\nLuxury fragrance online shopping\n\nPremium perfume delivery\n\nAuthentic Dubai perfumes",
+    "home_keywords": "Luxury perfumes Dubai, premium Arabian fragrances, Dubai perfume online, exclusive luxury scents, Dubai luxury perfumes, authentic UAE fragrances, Middle Eastern luxury scents, Arabian perfume online store, designer fragrances online, niche Arabic perfumes, luxury perfume gift sets, unisex luxury fragrances, best perfumes for gifting, luxury fragrances for women, luxury fragrances for men, online perfume store, premium fragrance brands, authentic Dubai perfumes, luxury fragrance online shopping\n\n\n\n\nPremium Arabian fragrances\n\nDubai perfume online\n\nExclusive luxury scents\n\nDesigner fragrances online\n\nNiche Arabic perfumes\n\nLuxury perfume gift sets\n\nUnisex luxury fragrances\n\nExclusive perfume collections\n\nPremium fragrance brands\n\nBest perfumes for gifting\n\nLuxury fragrances for women\n\nLuxury fragrances for men\n\nLong-lasting perfumes online\n\nUnique fragrance gifts\n\nBuy luxury perfumes online\n\nOnline perfume store\n\nLuxury fragrance online shopping\n\nPremium perfume delivery\n\nAuthentic Dubai perfumes",
     "shop_author": "Scentanah",
     "global_acc": "d6133cb683e158a5a7a7f9a6992b7cbd",
     "use_rtl": "0",
@@ -28,8 +28,8 @@
     "c_1": "shopify://shop_images/bckground.png",
     "c_2": "shopify://shop_images/OpenAI_Playground_2025-06-26_at_11.53.09-pfti_98cc0bb9-bbda-4570-b7df-95d76363dc4e.png",
     "timezone": "Abu Dhabi/Dubai",
-    "header_design": "sidebar",
-    "logo": "shopify://shop_images/Logo_39a8c13f-6c42-4339-8417-98d831168aa3.png",
+    "header_design": "inline",
+    "logo": "{{ shop.brand.logo }}",
     "logo_width": 180,
     "logos": "shopify://shop_images/Logo_39a8c13f-6c42-4339-8417-98d831168aa3.png",
     "logos_width": 85,
@@ -37,7 +37,7 @@
     "logo_mb_width": 120,
     "logo_tr": "shopify://shop_images/Logo_39a8c13f-6c42-4339-8417-98d831168aa3.png",
     "logo_tr_width": 225,
-    "mobile_nav_type": "2",
+    "mobile_nav_type": "3",
     "only_icon": true,
     "text_color": "#222",
     "accent_color": "#676a6f",
@@ -2947,11 +2947,6 @@
         "disabled": false,
         "settings": {}
       },
-      "13987313001505098986": {
-        "type": "shopify://apps/cozy-antitheft/blocks/Cozy_Antitheft_Script_1.0.0/a34a1874-f183-4394-8a9a-1e3f3275f1a7",
-        "disabled": false,
-        "settings": {}
-      },
       "15683396631634586217": {
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": true,
@@ -2982,11 +2977,6 @@
         "settings": {
           "social_font": "enable"
         }
-      },
-      "18131037017812181619": {
-        "type": "shopify://apps/mailchimp-email-sms/blocks/mailchimp_for_shopify_script/e3b67dce-fd41-4b61-b3cf-961c12344cde",
-        "disabled": false,
-        "settings": {}
       },
       "6361996004949321110": {
         "type": "shopify://apps/oneloyalty/blocks/widget/6119b281-36ce-42b5-93ab-6aaf5fb224ce",
