@@ -11,13 +11,16 @@
   "current": {
     "purchase_code": "5717566c-700a-4206-9193-199dd5f152c8",
     "header_design": "inline",
-    "logo": "shopify://shop_images/kalles_dfd5281d-5781-4a84-822c-ddb5bece91a7.png",
+    "logo": "shopify://shop_images/Logo_09403271-1191-4456-821d-d82df60f9f93.png",
     "logo_width": 95,
-    "logos": "shopify://shop_images/kalles_dfd5281d-5781-4a84-822c-ddb5bece91a7.png",
+    "logos": "shopify://shop_images/Logo_09403271-1191-4456-821d-d82df60f9f93.png",
     "logos_width": 95,
-    "logo_mb": "shopify://shop_images/kalles_dfd5281d-5781-4a84-822c-ddb5bece91a7.png",
+    "logo_mb": "shopify://shop_images/Logo_09403271-1191-4456-821d-d82df60f9f93.png",
     "logo_mb_width": 95,
+    "logo_tr": "{{ shop.brand.logo }}",
     "logo_tr_width": 95,
+    "mobile_nav_type": "1",
+    "only_icon": true,
     "accent_color": "#c91f28",
     "font_source": "2",
     "app_review": "2",
@@ -69,7 +72,7 @@
             "type": "bl_col",
             "settings": {
               "col_heading": "",
-              "menu": "footer-bottom-bar",
+              "menu": "",
               "col_dk": "4",
               "col_tb": "12",
               "col_mb": "12",
@@ -87,6 +90,7 @@
           "47f5eb4c-1063-495d-bfc4-a54c62d219aa"
         ],
         "settings": {
+          "hidden_bottombar": false,
           "border_top": false,
           "border_pos": "in",
           "space_h_item": "30",
@@ -127,11 +131,14 @@
               "col_heading": "",
               "menu": "",
               "menu_style": "1",
+              "col_border": "none",
               "col_dk": "3",
               "col_tb": "6",
               "col_mb": "12",
               "content_align": "t4s-text-md-start",
               "padding_inner": "",
+              "content_align_tb": "t4s-text-md-start",
+              "padding_inner_tb": "",
               "col_heading_mobile": "Get in touch",
               "content_align_mb": "t4s-text-start",
               "padding_inner_mb": ""
@@ -140,9 +147,9 @@
           "de84a111-3ed0-40a2-b86a-1e81488e9bff": {
             "type": "image",
             "settings": {
-              "image_child": "shopify://shop_images/kalles_dfd5281d-5781-4a84-822c-ddb5bece91a7.png",
+              "image_child": "shopify://shop_images/Logo_09403271-1191-4456-821d-d82df60f9f93.png",
               "link_img": "",
-              "img_width": 95,
+              "img_width": 180,
               "img_width_mb": 95,
               "mgb": 34,
               "mgb_mb": 24
@@ -178,11 +185,14 @@
               "col_heading": "Categories",
               "menu": "footer",
               "menu_style": "1",
+              "col_border": "none",
               "col_dk": "2",
               "col_tb": "6",
               "col_mb": "12",
               "content_align": "t4s-text-md-start",
               "padding_inner": "5px,,,",
+              "content_align_tb": "t4s-text-md-start",
+              "padding_inner_tb": "",
               "col_heading_mobile": "",
               "content_align_mb": "t4s-text-start",
               "padding_inner_mb": "5px,,,"
@@ -192,13 +202,16 @@
             "type": "bl_col",
             "settings": {
               "col_heading": "Infomation",
-              "menu": "footer-infomation",
+              "menu": "",
               "menu_style": "1",
+              "col_border": "none",
               "col_dk": "2",
               "col_tb": "6",
               "col_mb": "12",
               "content_align": "t4s-text-md-start",
               "padding_inner": "5px,,,",
+              "content_align_tb": "t4s-text-md-start",
+              "padding_inner_tb": "",
               "col_heading_mobile": "",
               "content_align_mb": "t4s-text-start",
               "padding_inner_mb": "5px,,,"
@@ -208,13 +221,16 @@
             "type": "bl_col",
             "settings": {
               "col_heading": "Useful links",
-              "menu": "footer-useful-links",
+              "menu": "",
               "menu_style": "1",
+              "col_border": "none",
               "col_dk": "2",
               "col_tb": "6",
               "col_mb": "12",
               "content_align": "t4s-text-md-start",
               "padding_inner": "5px,0,30px,",
+              "content_align_tb": "t4s-text-md-start",
+              "padding_inner_tb": "",
               "col_heading_mobile": "",
               "content_align_mb": "t4s-text-start",
               "padding_inner_mb": ""
@@ -226,11 +242,14 @@
               "col_heading": "Newsletter Signup",
               "menu": "",
               "menu_style": "1",
+              "col_border": "none",
               "col_dk": "3",
               "col_tb": "6",
               "col_mb": "12",
               "content_align": "t4s-text-md-start",
               "padding_inner": "5px,,,",
+              "content_align_tb": "t4s-text-md-start",
+              "padding_inner_tb": "",
               "col_heading_mobile": "",
               "content_align_mb": "t4s-text-start",
               "padding_inner_mb": "5px,,,"
@@ -241,6 +260,7 @@
             "settings": {
               "text": "Subscribe to our newsletter and get 10% off your first purchase",
               "remove_br_tag": false,
+              "tag": "p",
               "fontf": "inherit",
               "text_cl": "#878787",
               "text_fs": 14,
@@ -306,9 +326,12 @@
           "sticky": false,
           "collapse": true,
           "border_top": false,
+          "enable_follow_on_shop": true,
           "border_pos": "in",
           "space_h_item": "30",
           "space_v_item": "30",
+          "space_h_item_tb": "15",
+          "space_v_item_tb": "30",
           "space_h_item_mb": "0",
           "space_v_item_mb": "30",
           "heading_fontf": "inherit",
@@ -324,6 +347,7 @@
           "text_cl": "#878787",
           "link_cl": "#878787",
           "link_hover_cl": "#c91f28",
+          "link_active_cl": "#222222",
           "border_cl": "#e6e6e6",
           "layout": "t4s-container-wrap",
           "cl_bg": "#f6f6f8",
@@ -344,6 +368,7 @@
             "settings": {
               "link": "",
               "content": "<p>Today deal sale off <strong>70%</strong>. End in <strong>[countdown]</strong>. Hurry Up!! [icon_arrow]</p>",
+              "adding_border": false,
               "countdown": "2022/04/19",
               "txt_day": "days",
               "dayx": 0
@@ -354,6 +379,7 @@
             "settings": {
               "link": "",
               "content": "<p>Today deal sale off <strong>70%</strong>. End in <strong>[countdown]</strong>. Hurry Up!! [icon_arrow]</p>",
+              "adding_border": false,
               "countdown": "2022/04/19",
               "txt_day": "days",
               "dayx": 0
@@ -364,6 +390,7 @@
             "settings": {
               "link": "",
               "content": "<p>Today deal sale off <strong>70%</strong>. End in <strong>[countdown]</strong>. Hurry Up!! [icon_arrow]</p>",
+              "adding_border": false,
               "countdown": "2022/04/19",
               "txt_day": "days",
               "dayx": 0
@@ -377,8 +404,12 @@
         ],
         "settings": {
           "show_announcement": true,
+          "design": "slider",
           "effect": "1",
           "au_time": 3.5,
+          "speed": 15,
+          "pause_when_hover": false,
+          "direction": "rtl",
           "height": 41,
           "fontsize": 12,
           "cl": "#ffffff",
@@ -406,6 +437,7 @@
             "type": "text",
             "settings": {
               "text": "<p>Summer sale discount off <strong>50%</strong> <a href=\"/collections\" title=\"All collections\">Shop Now</a></p>",
+              "adding_border": false,
               "countdown": "2022/04/19",
               "txt_day": "days",
               "dayx": 0,
@@ -463,26 +495,6 @@
       "header-inline": {
         "type": "header-inline",
         "blocks": {
-          "c5af1bb8-fabd-4f64-9426-4f0ecd2c33a8": {
-            "type": "mega",
-            "settings": {
-              "title": "DEMO",
-              "url": "https://demo-kalles-4-1.myshopify.com/?preview_theme_id=128672530638",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "#00badb",
-              "pos_sub": "bottom",
-              "wid": "full",
-              "cus_wid": 1050,
-              "id": 1,
-              "enable_packery": true,
-              "r_s_h_item": "20",
-              "r_s_v_item": "30"
-            }
-          },
           "693870b2-3818-49dd-978e-611b705e9da0": {
             "type": "mega",
             "settings": {
@@ -543,43 +555,6 @@
               "r_s_v_item": "30"
             }
           },
-          "5b016c54-96cb-42a2-bc07-3617ffe76ed4": {
-            "type": "drop",
-            "settings": {
-              "title": "LOOKBOOK",
-              "url": "",
-              "open_link": "_self",
-              "menu": "lookbook",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "",
-              "lazy_mn": true,
-              "pos_sub": "bottom",
-              "pos": "left"
-            }
-          },
-          "3f84ebbf-a765-4b75-b843-86e3570c8a6e": {
-            "type": "mega",
-            "settings": {
-              "title": "PAGES",
-              "url": "",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "#00badb",
-              "pos_sub": "bottom",
-              "wid": "cus",
-              "cus_wid": 1200,
-              "id": 5,
-              "enable_packery": true,
-              "r_s_h_item": "20",
-              "r_s_v_item": "30"
-            }
-          },
           "575ebec9-096f-433c-86cf-afea8ea7c139": {
             "type": "mega",
             "settings": {
@@ -599,30 +574,13 @@
               "r_s_h_item": "30",
               "r_s_v_item": "30"
             }
-          },
-          "b069c01d-2081-41f7-bf15-cecc8962fc36": {
-            "type": "base",
-            "settings": {
-              "title": "Buy Theme",
-              "url": "https://bit.ly/2yrciwf",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": ""
-            }
           }
         },
         "block_order": [
-          "c5af1bb8-fabd-4f64-9426-4f0ecd2c33a8",
           "693870b2-3818-49dd-978e-611b705e9da0",
           "79cc6b00-f157-405e-9795-eaaf82ca3bec",
           "636b9c83-9a0b-4658-8bd8-0107ce1a6a85",
-          "5b016c54-96cb-42a2-bc07-3617ffe76ed4",
-          "3f84ebbf-a765-4b75-b843-86e3570c8a6e",
-          "575ebec9-096f-433c-86cf-afea8ea7c139",
-          "b069c01d-2081-41f7-bf15-cecc8962fc36"
+          "575ebec9-096f-433c-86cf-afea8ea7c139"
         ],
         "settings": {
           "layout": "logo_left",
@@ -631,6 +589,7 @@
           "arrow": false,
           "align": "center",
           "hover": "hover_sideup",
+          "enable_active": false,
           "h_navmb": 70,
           "bgnav": "#ffffff",
           "opnav": 100,
@@ -769,6 +728,7 @@
           "pr_title_color": "#222222",
           "pr_title_color_hover": "#c91f28",
           "price_color": "#696969",
+          "price_color_second": "#696969",
           "price_sale_color": "#ec0101",
           "vendors_color": "#878787",
           "vendors_color_hover": "#56cfe1",
@@ -808,6 +768,7 @@
           "fnt_fm_button": "--font-family-1",
           "btn_fw": 600,
           "btn_bdr": 0,
+          "other_radius": 0,
           "button_effect": "default"
         }
       },
@@ -855,7 +816,12 @@
         ],
         "settings": {
           "enable_toolbar": true,
-          "show_txt": true
+          "show_txt": true,
+          "bg_color": "#ffffff",
+          "icon_color": "#222222",
+          "label_color": "#222222",
+          "count_bg_color": "#000000",
+          "count_text_color": "#ffffff"
         }
       },
       "back_top": {
@@ -863,7 +829,10 @@
         "settings": {
           "enable_backtop": true,
           "enable_hidden_mobile": false,
-          "backtop_des": "1"
+          "backtop_des": "1",
+          "enable_progress_bar": true,
+          "border_cl": "#f5f5f5",
+          "border_cl_active": "#000000"
         }
       },
       "mega-menu": {
@@ -895,7 +864,9 @@
               "tt_hd": "SHOP PAGES",
               "url": "",
               "open_link": "_self",
-              "menu": "shop-pages",
+              "menu": "",
+              "item_fsize": 13,
+              "sp_bettewn_item": 20,
               "col": "2"
             }
           },
@@ -905,7 +876,9 @@
               "tt_hd": "FEATURES",
               "url": "",
               "open_link": "_self",
-              "menu": "shop-features",
+              "menu": "",
+              "item_fsize": 13,
+              "sp_bettewn_item": 20,
               "col": "2"
             }
           },
@@ -977,7 +950,9 @@
               "tt_hd": "PRODUCT LAYOUTS",
               "url": "",
               "open_link": "_self",
-              "menu": "product-layouts",
+              "menu": "",
+              "item_fsize": 13,
+              "sp_bettewn_item": 20,
               "col": "3"
             }
           },
@@ -987,7 +962,9 @@
               "tt_hd": "PRODUCT DETAILS",
               "url": "",
               "open_link": "_self",
-              "menu": "product-details",
+              "menu": "",
+              "item_fsize": 13,
+              "sp_bettewn_item": 20,
               "col": "3"
             }
           },
@@ -997,7 +974,9 @@
               "tt_hd": "PRODUCT SWATCH",
               "url": "",
               "open_link": "_self",
-              "menu": "product-swatch",
+              "menu": "",
+              "item_fsize": 13,
+              "sp_bettewn_item": 20,
               "col": "3"
             }
           },
@@ -1007,7 +986,9 @@
               "tt_hd": "PRODUCT FEATURES",
               "url": "",
               "open_link": "_self",
-              "menu": "product-features",
+              "menu": "",
+              "item_fsize": 13,
+              "sp_bettewn_item": 20,
               "col": "3"
             }
           },
@@ -1021,7 +1002,9 @@
             "type": "link2",
             "settings": {
               "col": "2",
-              "menu": "sale-menu"
+              "menu": "",
+              "item_fsize": 13,
+              "sp_bettewn_item": 20
             }
           },
           "41ee689a-9ef7-46ab-a5a6-5fa4776a9af6": {
@@ -1062,7 +1045,9 @@
               "tt_hd": "Portfolio",
               "url": "",
               "open_link": "_self",
-              "menu": "portfolio",
+              "menu": "",
+              "item_fsize": 13,
+              "sp_bettewn_item": 20,
               "col": "3"
             }
           },
@@ -1072,7 +1057,9 @@
               "tt_hd": "HEADER LAYOUTS",
               "url": "",
               "open_link": "_self",
-              "menu": "header-layouts",
+              "menu": "",
+              "item_fsize": 13,
+              "sp_bettewn_item": 20,
               "col": "3"
             }
           },
@@ -1082,7 +1069,9 @@
               "tt_hd": "FEATURES",
               "url": "",
               "open_link": "_self",
-              "menu": "features-page",
+              "menu": "",
+              "item_fsize": 13,
+              "sp_bettewn_item": 20,
               "col": "3"
             }
           },
@@ -1092,7 +1081,9 @@
               "tt_hd": "Other pages",
               "url": "",
               "open_link": "_self",
-              "menu": "other-pages",
+              "menu": "",
+              "item_fsize": 13,
+              "sp_bettewn_item": 20,
               "col": "3"
             }
           },
@@ -1108,7 +1099,9 @@
               "tt_hd": "BLOG LAYOUT",
               "url": "https://demo-kalles-4-1.myshopify.com/blogs/fashion/?preview_theme_id=",
               "open_link": "_self",
-              "menu": "blog",
+              "menu": "",
+              "item_fsize": 13,
+              "sp_bettewn_item": 20,
               "col": "4"
             }
           },
@@ -1173,7 +1166,9 @@
           "5665b9cc-d2a6-42e0-b267-e4b36da8a05e",
           "552902be-02b1-40ca-8475-982bbdb75ed7"
         ],
-        "settings": {}
+        "settings": {
+          "bg": ""
+        }
       },
       "mb_nav": {
         "type": "mb_nav",
@@ -1184,9 +1179,10 @@
               "title": "Demo",
               "url": "",
               "open_link": "_self",
-              "menu": "mobile-home-menu",
+              "menu": "",
               "lb": "",
               "lb_cl": "",
+              "icons_op": "2",
               "icon": ""
             }
           },
@@ -1196,9 +1192,10 @@
               "title": "Shop",
               "url": "shopify://collections/women",
               "open_link": "_self",
-              "menu": "mobile-shop-menu",
+              "menu": "",
               "lb": "",
               "lb_cl": "",
+              "icons_op": "2",
               "icon": ""
             }
           },
@@ -1208,9 +1205,10 @@
               "title": "Product",
               "url": "shopify://products/analogue-resin-strap",
               "open_link": "_self",
-              "menu": "mobile-products-mobile",
+              "menu": "",
               "lb": "",
               "lb_cl": "",
+              "icons_op": "2",
               "icon": ""
             }
           },
@@ -1220,9 +1218,10 @@
               "title": "Portfolio",
               "url": "",
               "open_link": "_self",
-              "menu": "portfolio",
+              "menu": "",
               "lb": "",
               "lb_cl": "",
+              "icons_op": "2",
               "icon": ""
             }
           },
@@ -1232,9 +1231,10 @@
               "title": "Lookbook",
               "url": "",
               "open_link": "_self",
-              "menu": "lookbook",
+              "menu": "",
               "lb": "",
               "lb_cl": "",
+              "icons_op": "2",
               "icon": ""
             }
           },
@@ -1244,9 +1244,10 @@
               "title": "Blog",
               "url": "shopify://blogs/fashion",
               "open_link": "_self",
-              "menu": "blog",
+              "menu": "",
               "lb": "",
               "lb_cl": "",
+              "icons_op": "2",
               "icon": ""
             }
           },
@@ -1259,6 +1260,7 @@
               "menu": "",
               "lb": "",
               "lb_cl": "",
+              "icons_op": "2",
               "icon": ""
             }
           },
@@ -1283,6 +1285,7 @@
           },
           "mb_nav-8": {
             "type": "lang",
+            "disabled": true,
             "settings": {}
           },
           "mb_nav-9": {
@@ -2035,7 +2038,10 @@
           },
           "mini_cart-5": {
             "type": "img",
-            "settings": {}
+            "settings": {
+              "svg": "amazon_payments,american_express,apple_pay,bitcoin,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,google_pay,jcb,klarna,klarna-pay-later,litecoin,maestro,master,paypal,shopify_pay,sofort,visa",
+              "height": 30
+            }
           },
           "mini_cart-6": {
             "type": "btn",
@@ -2525,6 +2531,8 @@
               "txt": "Your Information will never be shared with any third party.",
               "btn_ck": true,
               "txt2": "Do not show it anymore.",
+              "code": "CODE15OFF",
+              "label_button": "Subscribe",
               "input_cl": "#878787",
               "border_cl": "#000000",
               "btn_cl": "#ffffff",
@@ -2614,6 +2622,14 @@
         "settings": {
           "demo_pr": ""
         }
+      },
+      "extras": {
+        "type": "extras",
+        "settings": {}
+      },
+      "facets_tags": {
+        "type": "facets_tags",
+        "settings": {}
       }
     },
     "content_for_index": []

@@ -895,6 +895,7 @@
         "16467633536e18ad68-1",
         "16467633536e18ad68-2"
       ],
+      "disabled": true,
       "settings": {
         "space_h_item": "30",
         "space_v_item": "30",
@@ -999,6 +1000,7 @@
         "029d348c-ecb9-45a8-8b55-aa80484c8cd3",
         "b4f9fc78-ec8a-4503-be23-34cdd874775b"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -1115,6 +1117,7 @@
         "16467633536e18ad68-1",
         "16467633536e18ad68-2"
       ],
+      "disabled": true,
       "settings": {
         "space_h_item": "30",
         "space_v_item": "30",
@@ -1175,6 +1178,7 @@
         "164681909871629b89-1",
         "164681909871629b89-0"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
