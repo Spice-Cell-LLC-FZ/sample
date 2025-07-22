@@ -605,9 +605,9 @@
             "type": "mega",
             "settings": {
               "title": "BLOG",
-              "url": "shopify://blogs/furniture-1",
+              "url": "shopify://blogs/news/unleash-modern-sophistication-discover-rayhaan",
               "open_link": "_self",
-              "icon": "",
+              "icon": "B",
               "cus_cl": false,
               "cl": "#ec0101",
               "lb": "",
@@ -1161,7 +1161,7 @@
             "settings": {
               "blog": "fashion",
               "post_des": "1",
-              "show_cate": false,
+              "show_cate": true,
               "show_tags": true,
               "show_cnt": false,
               "show_au": true,
