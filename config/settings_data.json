@@ -828,10 +828,10 @@
         "type": "back_top",
         "settings": {
           "enable_backtop": true,
-          "enable_hidden_mobile": false,
+          "enable_hidden_mobile": true,
           "backtop_des": "1",
           "enable_progress_bar": true,
-          "border_cl": "#f5f5f5",
+          "border_cl": "#383838",
           "border_cl_active": "#000000"
         }
       },
