@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "top": {
@@ -91,6 +100,7 @@
         "show_top_collections": true,
         "source": "2",
         "menu": "main-menu",
+        "sort_collections": "alphabetical",
         "box_border": "top",
         "content_align": "center",
         "hidden_mobile": false,
@@ -109,6 +119,8 @@
         "cl_bg_gradient": "",
         "mg": "",
         "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
         "mg_mb": "",
         "pd_mb": ""
       }
@@ -142,8 +154,10 @@
         "3b0cc506-49ea-4851-b5a6-ff7c2153b0e6"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/shop-banner.jpg",
-        "parallax": false,
+        "heading_fullwidth": false,
+        "image": "shopify://shop_images/515764553_17848318554509369_3315508764198896439_n_61d6e4d5-a3e5-431b-8a8c-6005ca38e5ef.jpg",
+        "use_specify_image": true,
+        "parallax": true,
         "color": "#222222",
         "overlay": 54,
         "padding": 50,
@@ -163,7 +177,9 @@
       "blocks": {
         "64e8b3f9-24d9-45f9-b8a1-139ea74f4664": {
           "type": "filter",
-          "settings": {}
+          "settings": {
+            "style_filters": "sidebar"
+          }
         },
         "68c58c07-8f22-4443-9d36-d081841d0cb0": {
           "type": "layout",
@@ -182,6 +198,7 @@
       "settings": {
         "product_des": "1",
         "show_vendor": true,
+        "use_cdt": false,
         "image_ratio": "rationt",
         "image_size": "cover",
         "image_position": "8",
@@ -210,6 +227,8 @@
         "cl_bg_gradient": "",
         "mg": ",,80px,",
         "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
         "mg_mb": ",,50px,",
         "pd_mb": ""
       }

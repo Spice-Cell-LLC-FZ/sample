@@ -626,6 +626,7 @@
         "blocks": {
           "title_config-0": {
             "type": "title",
+            "disabled": true,
             "settings": {
               "color": "#222222",
               "family": "2",
@@ -642,6 +643,7 @@
           },
           "title_config-1": {
             "type": "subtitle",
+            "disabled": true,
             "settings": {
               "italic": true,
               "color": "#878787",
@@ -677,7 +679,7 @@
           "pr_item_config-0": {
             "type": "1",
             "settings": {
-              "heading": "Product desgin 01",
+              "heading": "",
               "addtocart_color": "#ffffff",
               "addtocart_color_hover": "#222222",
               "quickview_color": "#ffffff",
@@ -692,6 +694,7 @@
           },
           "pr_item_config-1": {
             "type": "2",
+            "disabled": true,
             "settings": {
               "heading": "Product desgin 02",
               "addtocart_color": "#ffffff",
@@ -743,6 +746,7 @@
         "blocks": {
           "btn_config-0": {
             "type": "custom1",
+            "disabled": true,
             "settings": {
               "color_primary": "#ffb100",
               "color_second": "#ffffff",
@@ -752,6 +756,7 @@
           },
           "btn_config-1": {
             "type": "custom2",
+            "disabled": true,
             "settings": {
               "color_primary": "#27ae60",
               "color_second": "#ffffff",
@@ -888,7 +893,6 @@
               "collection": "bag",
               "collection_title": "",
               "collection_subtitle": "",
-              "image": "shopify://shop_images/person-backpack2jpg_720x_85203c57-3369-4df0-bfd4-b819f51bfb29.jpg",
               "collection_des": "1",
               "title_cl": "#ffffff",
               "title_cl_hover": "#222222",
@@ -913,10 +917,9 @@
           "95da8d7e-67f2-4ebd-b1ad-e83d518cb37e": {
             "type": "cat",
             "settings": {
-              "collection": "travel-luggage",
+              "collection": "best-seller",
               "collection_title": "",
               "collection_subtitle": "",
-              "image": "shopify://shop_images/02_720x_fc8b8a9d-29a2-49e8-8bf1-31f7faefe9b2.jpg",
               "collection_des": "1",
               "title_cl": "#ffffff",
               "title_cl_hover": "#222222",
@@ -2113,7 +2116,8 @@
               "text": "<p>Go kalles this summer with this vintage navy and white striped v-neck t-shirt from the Nike. Perfect for pairing with denim and white kicks for a stylish kalles vibe.</p>",
               "readm": false,
               "length": 31,
-              "readm_txt": "Read more"
+              "readm_txt": "Read more",
+              "readl_txt": "Read less"
             }
           },
           "main-qv-3": {
@@ -2135,9 +2139,16 @@
               "button_style": "default",
               "button_color": "primary",
               "button_effect": "sweep-to-bottom",
+              "wishlist_color": "#222222",
+              "wishlist_color_hover": "#56cfe1",
+              "wishlist_color_active": "#e81e1e",
+              "compare_color": "#222222",
+              "compare_color_hover": "#56cfe1",
+              "compare_color_active": "#222222",
               "show_dynamic_checkout": true,
               "btn_txt2": "3",
               "button_color_payment": "dark",
+              "show_gift_card_recipient": true,
               "product_list": [],
               "show_product_current": true,
               "qty_val": "0",
@@ -2213,7 +2224,13 @@
           "btn_shape": "round",
           "btn_cl": "dark",
           "btn_size": "small",
-          "btn_hidden_mobile": false
+          "btn_hidden_mobile": false,
+          "nav_dot": false,
+          "dot_owl": "default",
+          "dots_cl": "dark",
+          "dots_round": true,
+          "dots_space": 10,
+          "dots_hidden_mobile": false
         }
       },
       "slider_config": {
@@ -2221,6 +2238,7 @@
         "blocks": {
           "ef55a72d-2a3a-4be2-b303-7904b5feef29": {
             "type": "custom1",
+            "disabled": true,
             "settings": {
               "btn_color_primary": "#abb1b4",
               "btn_color_second": "#ffffff",
@@ -2293,7 +2311,9 @@
           "heading-template-0"
         ],
         "settings": {
+          "heading_fullwidth": false,
           "image": "shopify://shop_images/shopping-cart-head.jpg",
+          "use_specify_image": true,
           "parallax": false,
           "color": "#000000",
           "overlay": 54,
@@ -2321,8 +2341,10 @@
           "main-wishlist-0"
         ],
         "settings": {
+          "product_list": [],
           "product_des": "1",
           "show_vendor": false,
+          "use_cdt": false,
           "image_ratio": "rationt",
           "image_size": "cover",
           "image_position": "8",
@@ -2351,6 +2373,8 @@
           "cl_bg_gradient": "",
           "mg": ",,50px,",
           "pd": "",
+          "mg_tb": "",
+          "pd_tb": "",
           "mg_mb": ",,30px,",
           "pd_mb": ""
         }
@@ -2609,6 +2633,12 @@
               "button_style": "default",
               "button_color": "dark",
               "button_effect": "fade",
+              "wishlist_color": "#222222",
+              "wishlist_color_hover": "#56cfe1",
+              "wishlist_color_active": "#e81e1e",
+              "compare_color": "#222222",
+              "compare_color_hover": "#56cfe1",
+              "compare_color_active": "#222222",
               "show_dynamic_checkout": false,
               "btn_txt2": "3",
               "button_color_payment": "dark"
