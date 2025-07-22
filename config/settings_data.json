@@ -2525,6 +2525,7 @@
         "blocks": {
           "856c887e-4ad7-419d-b631-d8af87a94a83": {
             "type": "newsletter",
+            "disabled": true,
             "settings": {
               "heading": "Sign up our newsletter and save 25% off for the next purchase!",
               "sub_heading": "Subscribe to our newsletters and don’t miss new arrivals, the latest fashion updates and our promotions.",
