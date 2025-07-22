@@ -15,7 +15,7 @@
         "1646794873c20a81c8-0": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify://shop_images/01_1950x_fbce9d23-e66c-4e3e-bc73-8a4043ed2c0b.jpg",
+            "image": "shopify://shop_images/Givenchy-Gentleman-perfume-dscentsation.webp",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "",
@@ -32,8 +32,12 @@
             "bg_opacity": 0,
             "bg_content_cl": "#ffffff",
             "bg_content_op": 0,
+            "content_radius": 0,
+            "box_square": false,
             "content_pd_tb": 20,
             "content_pd_lr": 20,
+            "content_pd_tb_tb": 15,
+            "content_pd_lr_tb": 15,
             "content_pd_tb_mb": 10,
             "content_pd_lr_mb": 10,
             "border_bl": false,
@@ -52,6 +56,7 @@
           "settings": {
             "text": "WE ARE KALLES",
             "remove_br_tag": false,
+            "tag": "p",
             "fontf": "inherit",
             "text_cl": "#ffffff",
             "text_fs": 18,
@@ -74,6 +79,7 @@
           "settings": {
             "text": "No Matter What <br>\n\nLifestyle You Live",
             "remove_br_tag": true,
+            "tag": "p",
             "fontf": "inherit",
             "text_cl": "#ffffff",
             "text_fs": 60,
@@ -142,8 +148,12 @@
             "bg_opacity": 0,
             "bg_content_cl": "#ffffff",
             "bg_content_op": 0,
+            "content_radius": 0,
+            "box_square": false,
             "content_pd_tb": 20,
             "content_pd_lr": 20,
+            "content_pd_tb_tb": 15,
+            "content_pd_lr_tb": 15,
             "content_pd_tb_mb": 10,
             "content_pd_lr_mb": 10,
             "border_bl": false,
@@ -162,6 +172,7 @@
           "settings": {
             "text": "MEMBERS GET",
             "remove_br_tag": false,
+            "tag": "p",
             "fontf": "inherit",
             "text_cl": "#ffffff",
             "text_fs": 18,
@@ -184,6 +195,7 @@
           "settings": {
             "text": "20% OFF<br>\nONE FULL PRICE ITEM",
             "remove_br_tag": true,
+            "tag": "p",
             "fontf": "inherit",
             "text_cl": "#ffffff",
             "text_fs": 60,
@@ -258,12 +270,14 @@
         "nav_btn": false,
         "btn_vi": "hover",
         "btn_owl": "default",
+        "btn_icon": "0",
         "btn_shape": "none",
         "btn_cl": "dark",
         "btn_size": "small",
         "btn_hidden_mobile": false,
         "nav_dot": true,
         "dot_owl": "default",
+        "dots_position": "default",
         "dots_cl": "light",
         "dots_round": true,
         "dots_space": 10,
@@ -273,6 +287,8 @@
         "cl_bg_gradient": "",
         "mg": ",,85px,",
         "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
         "mg_mb": ",,35px,",
         "pd_mb": "",
         "use_cus_css": false,
@@ -293,6 +309,7 @@
             "content_align_tablet": "center",
             "content_align_mobile": "center",
             "padding_inner": "",
+            "padding_inner_tb": "",
             "padding_inner_mb": "",
             "bg_cl": "rgba(0,0,0,0)"
           }
@@ -302,6 +319,7 @@
           "settings": {
             "text": "POWERPLATE COLLECTION",
             "remove_br_tag": false,
+            "tag": "p",
             "fontf": "1",
             "text_cl": "#222222",
             "text_fs": 35,
@@ -323,6 +341,7 @@
           "settings": {
             "text": "DISCOVER OUR BEST PRODUCTS",
             "remove_br_tag": false,
+            "tag": "p",
             "fontf": "inherit",
             "text_cl": "#7b7b7b",
             "text_fs": 14,
@@ -366,15 +385,24 @@
     "1646808724969bcbcf": {
       "type": "featured-collection",
       "settings": {
-        "design_heading": "1",
+        "design_heading": "6",
         "heading_align": "t4s-text-center",
-        "top_heading": "",
+        "top_heading": "{{ section.settings.collection.title }}",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
-        "collection": "bag",
-        "product_des": "1",
-        "show_vendor": false,
+        "head_btn_label": "View All",
+        "head_btn_url": "{{ section.settings.collection.url }}",
+        "head_btn_icon": true,
+        "head_btn_style": "default",
+        "head_btn_size": "medium",
+        "head_btn_cl": "dark",
+        "head_btn_effect": "default",
+        "head_btn_hidden_mb": false,
+        "collection": "niche-emarati-perfumes",
+        "product_des": "2",
+        "show_vendor": true,
+        "use_cdt": true,
         "image_ratio": "rationt",
         "image_size": "cover",
         "image_position": "8",
@@ -391,7 +419,9 @@
         "loop": true,
         "au_time": 0,
         "au_hover": true,
+        "center_slide": false,
         "nav_btn": true,
+        "btns_pos": "default",
         "btn_vi": "hover",
         "btn_owl": "default",
         "btn_shape": "none",
@@ -417,6 +447,8 @@
         "cl_bg_gradient": "",
         "mg": ",,90px,",
         "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
         "mg_mb": ",,90px,",
         "pd_mb": "",
         "use_cus_css": false,
@@ -429,8 +461,8 @@
         "164921486785087092-0": {
           "type": "collection_item",
           "settings": {
-            "collection": "bag",
-            "image": "shopify://shop_images/01_720x_04a3364d-da46-43cd-8506-68a083294ca5.jpg",
+            "collection": "versace",
+            "image": "{{ block.settings.collection.image }}",
             "col_dk": "4",
             "col_tb": "4",
             "col_mb": "6",
@@ -515,6 +547,8 @@
         "cl_bg_gradient": "",
         "mg": ",,90px,",
         "pd": "0,50px,0,50px",
+        "mg_tb": "",
+        "pd_tb": "",
         "mg_mb": ",,50px,",
         "pd_mb": "0,10px,0,10px",
         "use_cus_css": false,
@@ -535,6 +569,7 @@
             "content_align_tablet": "center",
             "content_align_mobile": "center",
             "padding_inner": "",
+            "padding_inner_tb": "",
             "padding_inner_mb": "",
             "bg_cl": "rgba(0,0,0,0)"
           }
@@ -544,6 +579,7 @@
           "settings": {
             "text": "BEST SELLER PRODUCTS",
             "remove_br_tag": false,
+            "tag": "p",
             "fontf": "2",
             "text_cl": "#000000",
             "text_fs": 35,
@@ -565,6 +601,7 @@
           "settings": {
             "text": "BEST SELLING PRODUCTS THIS SEASON",
             "remove_br_tag": true,
+            "tag": "p",
             "fontf": "inherit",
             "text_cl": "#878787",
             "text_fs": 14,
@@ -648,6 +685,7 @@
           "settings": {
             "text": "FEATURED BACKPACK",
             "remove_br_tag": false,
+            "tag": "p",
             "fontf": "inherit",
             "text_cl": "#ffffff",
             "text_fs": 16,
@@ -670,6 +708,7 @@
           "settings": {
             "text": "Urban 80M",
             "remove_br_tag": false,
+            "tag": "p",
             "fontf": "inherit",
             "text_cl": "#ffffff",
             "text_fs": 60,
@@ -713,6 +752,7 @@
             "fsbutton_mb": 14,
             "button_mh_mb": 40,
             "button_pd_lr_mb": 20,
+            "text_ls_mb": 0,
             "button_mgb_mb": 0,
             "animation": "bounceInDown"
           }
@@ -729,6 +769,7 @@
         "collection": "travel-luggage",
         "product_des": "1",
         "show_vendor": false,
+        "use_cdt": false,
         "image_ratio": "ratioadapt",
         "image_size": "cover",
         "image_position": "8",
@@ -763,6 +804,8 @@
         "cl_bg_gradient": "",
         "mg": ",,90px,",
         "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
         "mg_mb": ",,90px,",
         "pd_mb": "",
         "use_cus_css": false,
@@ -783,6 +826,7 @@
             "content_align_tablet": "center",
             "content_align_mobile": "center",
             "padding_inner": "",
+            "padding_inner_tb": "",
             "padding_inner_mb": "",
             "bg_cl": "rgba(0,0,0,0)"
           }
@@ -792,6 +836,7 @@
           "settings": {
             "text": "OUR PARTNERS",
             "remove_br_tag": false,
+            "tag": "p",
             "fontf": "2",
             "text_cl": "#000000",
             "text_fs": 35,
@@ -813,6 +858,7 @@
           "settings": {
             "text": "WHO WE WORK WITH",
             "remove_br_tag": true,
+            "tag": "p",
             "fontf": "inherit",
             "text_cl": "#878787",
             "text_fs": 14,
@@ -978,6 +1024,8 @@
         "cl_bg_gradient": "",
         "mg": ",,70px,",
         "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
         "mg_mb": ",,50px,",
         "pd_mb": "",
         "use_cus_css": false,
@@ -998,6 +1046,7 @@
             "content_align_tablet": "center",
             "content_align_mobile": "center",
             "padding_inner": "",
+            "padding_inner_tb": "",
             "padding_inner_mb": "",
             "bg_cl": "rgba(0,0,0,0)"
           }
@@ -1007,6 +1056,7 @@
           "settings": {
             "text": "HAPPY CUSTOMERS",
             "remove_br_tag": false,
+            "tag": "p",
             "fontf": "2",
             "text_cl": "#000000",
             "text_fs": 35,
@@ -1028,6 +1078,7 @@
           "settings": {
             "text": "WHAT FOLKS ARE SAYING ABOUT US",
             "remove_br_tag": true,
+            "tag": "p",
             "fontf": "inherit",
             "text_cl": "#878787",
             "text_fs": 14,
@@ -1075,6 +1126,7 @@
           "type": "quote",
           "settings": {
             "image_avata": "shopify://shop_images/avar2_200x_914619af-625f-4df7-a50f-5d139b84176b.jpg",
+            "heading": "",
             "content": "<p>Amazing theme and top class support, as I’m a beginner, Luke helped me above and beyond and was more than patient, his responses were quick and he has a genuine care for you to enjoy and move forward with your theme!</p>",
             "title": "Chester Torres",
             "pos": "CEO / Letters Inc",
@@ -1085,6 +1137,7 @@
           "type": "quote",
           "settings": {
             "image_avata": "shopify://shop_images/avar1_200x_2d21ad23-536e-429a-97fc-beaec10c3529.jpg",
+            "heading": "",
             "content": "<p>Amazing theme and top class support, as I’m a beginner, Luke helped me above and beyond and was more than patient, his responses were quick and he has a genuine care for you to enjoy and move forward with your theme!</p>",
             "title": "Annie Quinn",
             "pos": "Co-Founder / April Inc",
@@ -1095,6 +1148,7 @@
           "type": "quote",
           "settings": {
             "image_avata": "shopify://shop_images/avar3_200x_1cb32452-8609-4467-b864-c0e8b8650e0f.jpg",
+            "heading": "",
             "content": "<p>Amazing theme and top class support, as I’m a beginner, Luke helped me above and beyond and was more than patient, his responses were quick and he has a genuine care for you to enjoy and move forward with your theme!</p>",
             "title": "Arthur Hansen",
             "pos": "VP of Product / Local Inc",
@@ -1150,6 +1204,8 @@
         "cl_bg_gradient": "",
         "mg": ",,90px,",
         "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
         "mg_mb": ",,30px,",
         "pd_mb": "",
         "use_cus_css": true,
