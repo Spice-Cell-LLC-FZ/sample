@@ -470,6 +470,18 @@
             "collection_link": ""
           }
         },
+        "collection_item_pgtHdH": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "amouage",
+            "image": "{{ block.settings.collection.image }}",
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "12",
+            "collection_title": "Collection title{{ block.settings.collection.title }}",
+            "collection_link": "{{ block.settings.collection.url }}"
+          }
+        },
         "164921486785087092-1": {
           "type": "collection_item",
           "settings": {
@@ -485,30 +497,31 @@
         "164921486785087092-2": {
           "type": "collection_item",
           "settings": {
-            "collection": "coach",
+            "collection": "givenchy",
             "image": "{{ block.settings.collection.image }}",
             "col_dk": "8",
             "col_tb": "8",
-            "col_mb": "12",
-            "collection_title": "Laptop Bags",
-            "collection_link": ""
+            "col_mb": "9",
+            "collection_title": "{{ block.settings.collection.title }}",
+            "collection_link": "{{ block.settings.collection.url }}"
           }
         },
         "164921486785087092-3": {
           "type": "collection_item",
           "settings": {
-            "collection": "travel-luggage",
-            "image": "shopify://shop_images/person-backpack2jpg_720x_85203c57-3369-4df0-bfd4-b819f51bfb29.jpg",
+            "collection": "billie-eilish",
+            "image": "{{ block.settings.collection.image }}",
             "col_dk": "4",
             "col_tb": "4",
             "col_mb": "12",
-            "collection_title": "Backpack",
-            "collection_link": ""
+            "collection_title": "{{ block.settings.collection.title }}",
+            "collection_link": "{{ block.settings.collection.url }}"
           }
         }
       },
       "block_order": [
         "164921486785087092-0",
+        "collection_item_pgtHdH",
         "164921486785087092-1",
         "164921486785087092-2",
         "164921486785087092-3"
