@@ -478,7 +478,7 @@
             "col_dk": "6",
             "col_tb": "6",
             "col_mb": "12",
-            "collection_title": "Collection title{{ block.settings.collection.title }}",
+            "collection_title": "{{ block.settings.collection.title }}",
             "collection_link": "{{ block.settings.collection.url }}"
           }
         },
@@ -527,7 +527,7 @@
         "164921486785087092-3"
       ],
       "settings": {
-        "design_heading": "1",
+        "design_heading": "6",
         "heading_align": "t4s-text-center",
         "top_heading": "",
         "icon_heading": "",
