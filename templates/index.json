@@ -591,9 +591,9 @@
           "type": "custom_text",
           "settings": {
             "text": "AFNAN",
-            "remove_br_tag": false,
+            "remove_br_tag": true,
             "tag": "p",
-            "fontf": "2",
+            "fontf": "3",
             "text_cl": "#000000",
             "text_fs": 35,
             "text_lh": 50,
