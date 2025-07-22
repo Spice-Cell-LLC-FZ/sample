@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "top": {
@@ -6,70 +15,70 @@
         "69bbe0dd-0a50-42e8-986b-0d5e6c5cfa67": {
           "type": "cat",
           "settings": {
-            "collection": "default-3",
+            "collection": "acqua-di-parma",
             "icon": ""
           }
         },
         "863873b6-012e-4a34-90e3-eead750fa3ce": {
           "type": "cat",
           "settings": {
-            "collection": "bag",
+            "collection": "ahmed-al-maghribi",
             "icon": ""
           }
         },
         "fc07bff9-6d08-423c-8802-9a03c34f3a31": {
           "type": "cat",
           "settings": {
-            "collection": "decor",
+            "collection": "beyonce",
             "icon": ""
           }
         },
         "a286cc0b-0c90-4b1a-862c-a1136f283aac": {
           "type": "cat",
           "settings": {
-            "collection": "default-2",
+            "collection": "carrera-jeans",
             "icon": ""
           }
         },
         "23c84729-8fcb-488c-9541-00e283af6afe": {
           "type": "cat",
           "settings": {
-            "collection": "dress",
+            "collection": "christian-dior",
             "icon": ""
           }
         },
         "5f1d751a-fdac-43d4-ad9d-55da0c297244": {
           "type": "cat",
           "settings": {
-            "collection": "hats",
+            "collection": "gucci",
             "icon": ""
           }
         },
         "0f0e1f7c-788c-46c0-9fb4-1ec7ce88da01": {
           "type": "cat",
           "settings": {
-            "collection": "frontpage",
+            "collection": "tom-ford",
             "icon": ""
           }
         },
         "70189b51-5562-4924-b642-a1deba7741ee": {
           "type": "cat",
           "settings": {
-            "collection": "sale",
+            "collection": "armaf",
             "icon": ""
           }
         },
         "560f5822-3eeb-4070-a2cd-b5738881a4c1": {
           "type": "cat",
           "settings": {
-            "collection": "shoes",
+            "collection": "chopard",
             "icon": ""
           }
         },
         "be9b8b8f-6cac-47ab-b809-a2fe640a75a7": {
           "type": "cat",
           "settings": {
-            "collection": "women",
+            "collection": "lattafa",
             "icon": ""
           }
         }
@@ -282,7 +291,7 @@
             "b_link": "",
             "open_link": "_self",
             "content_align": "center",
-            "date": "2023\/12\/26",
+            "date": "2023/12/26",
             "cdt_des": "1",
             "countdown_pos": "2",
             "cdt_size": "small",

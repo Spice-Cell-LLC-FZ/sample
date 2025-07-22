@@ -899,14 +899,6 @@
               "id": 1
             }
           },
-          "d95fe7d1-b368-4577-b24a-a93d0152aadd": {
-            "type": "html",
-            "settings": {
-              "html": "",
-              "page": "demos-short",
-              "col": "12"
-            }
-          },
           "45fa281e-2be5-4727-bd01-942824713769": {
             "type": "mega",
             "settings": {
@@ -1196,7 +1188,6 @@
         },
         "block_order": [
           "583a30c7-369d-4a64-a51d-ca53c1685206",
-          "d95fe7d1-b368-4577-b24a-a93d0152aadd",
           "45fa281e-2be5-4727-bd01-942824713769",
           "02beea21-3cb9-41ce-a1ab-04ae44b7f47e",
           "ff494243-e58b-40e9-a2ea-e64ccd58a624",
