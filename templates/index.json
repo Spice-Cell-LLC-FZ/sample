@@ -590,7 +590,7 @@
         "16467633536e18ad68-1": {
           "type": "custom_text",
           "settings": {
-            "text": "BEST SELLER PRODUCTS",
+            "text": "AFNAN",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "2",
@@ -661,7 +661,7 @@
         "1646818520199c1536-0": {
           "type": "b_item",
           "settings": {
-            "image": "shopify://shop_images/Banner_720x_97db754b-c296-49fe-9486-07197ec9ae59.jpg",
+            "image": "shopify://shop_images/9pm-100ml-edp-for-men-by-afnan-perfumes-423251.png",
             "b_link": "",
             "open_link": "_self",
             "img_effect": "translateToRight",
@@ -695,12 +695,13 @@
         },
         "1646818520199c1536-1": {
           "type": "custom_text",
+          "disabled": true,
           "settings": {
-            "text": "FEATURED BACKPACK",
+            "text": "Afnan 9PM",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
-            "text_cl": "#ffffff",
+            "text_cl": "#383838",
             "text_fs": 16,
             "text_lh": 0,
             "text_fw": 500,
@@ -719,7 +720,7 @@
         "1646818520199c1536-2": {
           "type": "custom_text",
           "settings": {
-            "text": "Urban 80M",
+            "text": "",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
@@ -745,11 +746,11 @@
             "button_text": "SHOP NOW",
             "button_link": "shopify://collections",
             "target_link": "_self",
-            "fontf": "inherit",
+            "fontf": "1",
             "button_icon_w": 14,
             "button_style": "outline",
             "button_effect": "sweep-to-top",
-            "pri_cl": "#ffffff",
+            "pri_cl": "#222222",
             "second_cl": "",
             "pri_cl_hover": "#c91f28",
             "second_cl_hover": "#ffffff",
@@ -778,11 +779,11 @@
         "b891eaa4-cb2e-46c3-aeaa-205a77795646"
       ],
       "settings": {
-        "coll_pos": "left",
-        "collection": "travel-luggage",
+        "coll_pos": "right",
+        "collection": "afnan",
         "product_des": "1",
-        "show_vendor": false,
-        "use_cdt": false,
+        "show_vendor": true,
+        "use_cdt": true,
         "image_ratio": "ratioadapt",
         "image_size": "cover",
         "image_position": "8",
