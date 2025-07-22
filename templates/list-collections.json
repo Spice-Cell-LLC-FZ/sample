@@ -110,7 +110,7 @@
         "3819762b-01e1-42a2-9ff2-3a58b005b4a6"
       ],
       "settings": {
-        "cat_design": "7",
+        "cat_design": "9",
         "title_cl": "#ffffff",
         "title_cl_hover": "#222222",
         "subtitle_cl": "#222222",
@@ -138,7 +138,7 @@
         "image_position": "t4s_position_8",
         "use_pagination": "load-more",
         "enable_bar_lm": true,
-        "btn_icon": false,
+        "btn_icon": true,
         "button_style": "default",
         "btns_size": "large",
         "btns_cl": "primary",
