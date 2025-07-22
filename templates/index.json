@@ -466,27 +466,27 @@
             "col_dk": "4",
             "col_tb": "4",
             "col_mb": "6",
-            "collection_title": "Messengers",
+            "collection_title": "{{ block.settings.collection.title }}",
             "collection_link": ""
           }
         },
         "164921486785087092-1": {
           "type": "collection_item",
           "settings": {
-            "collection": "travel-luggage",
-            "image": "shopify://shop_images/02_720x_fc8b8a9d-29a2-49e8-8bf1-31f7faefe9b2.jpg",
+            "collection": "gucci",
+            "image": "{{ block.settings.collection.image }}",
             "col_dk": "4",
             "col_tb": "4",
             "col_mb": "6",
-            "collection_title": "Travel & Luggage",
+            "collection_title": "",
             "collection_link": ""
           }
         },
         "164921486785087092-2": {
           "type": "collection_item",
           "settings": {
-            "collection": "bag",
-            "image": "shopify://shop_images/04_1296x_1ee4b6db-25d2-45f5-ad8c-fd28f404f0e6.jpg",
+            "collection": "coach",
+            "image": "{{ block.settings.collection.image }}",
             "col_dk": "8",
             "col_tb": "8",
             "col_mb": "12",
