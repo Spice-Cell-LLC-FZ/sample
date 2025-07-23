@@ -444,10 +444,10 @@
             "button_icon_w": 0,
             "button_style": "default",
             "button_effect": "default",
-            "pri_cl": "#222",
-            "second_cl": "#fff",
+            "pri_cl": "#222222",
+            "second_cl": "#ffffff",
             "pri_cl_hover": "#56cfe1",
-            "second_cl_hover": "#fff",
+            "second_cl_hover": "#ffffff",
             "fsbutton": 14,
             "fwbutton": 400,
             "button_ls": 0,
@@ -489,17 +489,17 @@
         "ch_pos": 50,
         "cv_pos_mb": 50,
         "ch_pos_mb": 50,
-        "bg_overlay": "#000",
+        "bg_overlay": "#000000",
         "bg_opacity": 0,
-        "bg_content_cl": "#fff",
+        "bg_content_cl": "#ffffff",
         "bg_content_op": 0,
         "content_pd_tb": 15,
         "content_pd_lr": 15,
         "content_pd_tb_mb": 10,
         "content_pd_lr_mb": 10,
         "border_bl": false,
-        "br_color": "#222",
-        "br_bg": "#fff",
+        "br_color": "#222222",
+        "br_bg": "#ffffff",
         "br_opacity": 50,
         "br_style": "solid",
         "br_pd": 20,
@@ -722,6 +722,15 @@
     "1646763353af01205b": {
       "type": "custom-section",
       "blocks": {
+        "bn_product_7tne7m": {
+          "type": "bn_product",
+          "settings": {
+            "product": "",
+            "hidden_mobile": false,
+            "mgb": 20,
+            "mgb_mb": 20
+          }
+        },
         "16467633536e18ad68-0": {
           "type": "bl_col",
           "settings": {
@@ -784,6 +793,7 @@
         }
       },
       "block_order": [
+        "bn_product_7tne7m",
         "16467633536e18ad68-0",
         "16467633536e18ad68-1",
         "16467633536e18ad68-2"
@@ -804,6 +814,104 @@
         "pd_mb": "",
         "use_cus_css": false,
         "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "categories_section_gHqHPD": {
+      "type": "categories_section",
+      "blocks": {
+        "collection_item_KLfqY6": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "armaf",
+            "bgr-color-item": "#fefefe",
+            "title": "",
+            "title_cl": "#222222",
+            "show_badge": false,
+            "title_badge": "10% off",
+            "text_badge_color": "#fff",
+            "badge_color": "#000"
+          }
+        },
+        "collection_item_P4tjCb": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "afnan",
+            "image": "{{ block.settings.collection.image }}",
+            "bgr-color-item": "#fefefe",
+            "title": "{{ block.settings.collection.title }}",
+            "title_cl": "#222222",
+            "show_badge": true,
+            "title_badge": "10% off",
+            "text_badge_color": "#fff",
+            "badge_color": "#000"
+          }
+        },
+        "collection_item_UcRGWf": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "versace",
+            "image": "{{ block.settings.collection.image }}",
+            "bgr-color-item": "#fefefe",
+            "title": "{{ block.settings.collection.title }}",
+            "title_cl": "#222222",
+            "show_badge": true,
+            "title_badge": "5%",
+            "text_badge_color": "#fff",
+            "badge_color": "#000"
+          }
+        },
+        "collection_item_DQWLR7": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "rayhaan",
+            "image": "{{ block.settings.collection.image }}",
+            "bgr-color-item": "#fefefe",
+            "title": "{{ block.settings.collection.title }}",
+            "title_cl": "#222222",
+            "show_badge": false,
+            "title_badge": "10% off",
+            "text_badge_color": "#fff",
+            "badge_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "collection_item_KLfqY6",
+        "collection_item_P4tjCb",
+        "collection_item_UcRGWf",
+        "collection_item_DQWLR7"
+      ],
+      "name": "Categories Section",
+      "settings": {
+        "top_heading": "Categories",
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "font_size_item": 16,
+        "limit_desktop": 5,
+        "limit_tablet": 3,
+        "limit_mobile": 3,
+        "space_h_item": "30",
+        "space_h_item_mb": "10",
+        "p_item_des": 30,
+        "nav_dot": false,
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "t4s_show_item_number": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": ",,50px,",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
       }
     },
     "1646818520e0397b1e": {
@@ -1390,6 +1498,7 @@
     "1649214867c14cbf68",
     "image_text_gmYzNx",
     "1646763353af01205b",
+    "categories_section_gHqHPD",
     "1646818520e0397b1e",
     "1646763353af01205d",
     "1646819025fce084cb",
