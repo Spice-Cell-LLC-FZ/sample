@@ -878,12 +878,13 @@
         "collection_item_Gt9GyL": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
+            "collection": "trussardi",
+            "image": "shopify://shop_images/trussardi-amber-oud-100ml-edp-spray-m-209843.jpg",
             "bgr-color-item": "#fefefe",
-            "title": "",
+            "title": "{{ block.settings.collection.title }}",
             "title_cl": "#222222",
-            "show_badge": false,
-            "title_badge": "10% off",
+            "show_badge": true,
+            "title_badge": "5% off",
             "text_badge_color": "#ffffff",
             "badge_color": "#000000"
           }
