@@ -369,16 +369,16 @@
         "tophead_mb": 30,
         "head_btn_label": "View All",
         "head_btn_url": "{{ section.settings.collection.url }}",
-        "head_btn_icon": false,
+        "head_btn_icon": true,
         "head_btn_style": "default",
         "head_btn_size": "medium",
         "head_btn_cl": "dark",
         "head_btn_effect": "default",
-        "head_btn_hidden_mb": false,
-        "collection": "niche-emarati-perfumes",
+        "head_btn_hidden_mb": true,
+        "collection": "best-seller",
         "product_des": "2",
-        "show_vendor": false,
-        "use_cdt": false,
+        "show_vendor": true,
+        "use_cdt": true,
         "image_ratio": "rationt",
         "image_size": "cover",
         "image_position": "8",
@@ -829,8 +829,8 @@
             "title_cl": "#222222",
             "show_badge": false,
             "title_badge": "10% off",
-            "text_badge_color": "#fff",
-            "badge_color": "#000"
+            "text_badge_color": "#ffffff",
+            "badge_color": "#000000"
           }
         },
         "collection_item_9zVQep": {
@@ -899,8 +899,8 @@
             "title_cl": "#222222",
             "show_badge": true,
             "title_badge": "10% off",
-            "text_badge_color": "#fff",
-            "badge_color": "#000"
+            "text_badge_color": "#ffffff",
+            "badge_color": "#000000"
           }
         },
         "collection_item_UcRGWf": {
@@ -913,8 +913,8 @@
             "title_cl": "#222222",
             "show_badge": true,
             "title_badge": "5%",
-            "text_badge_color": "#fff",
-            "badge_color": "#000"
+            "text_badge_color": "#ffffff",
+            "badge_color": "#000000"
           }
         },
         "collection_item_DQWLR7": {
@@ -927,8 +927,8 @@
             "title_cl": "#222222",
             "show_badge": false,
             "title_badge": "10% off",
-            "text_badge_color": "#fff",
-            "badge_color": "#000"
+            "text_badge_color": "#ffffff",
+            "badge_color": "#000000"
           }
         }
       },
