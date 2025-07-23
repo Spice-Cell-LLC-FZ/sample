@@ -823,6 +823,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "armaf",
+            "image": "shopify://shop_images/club-de-nuit-intense-woman-edp-105ml-by-armaf-643356.png",
             "bgr-color-item": "#fefefe",
             "title": "",
             "title_cl": "#222222",
@@ -832,11 +833,66 @@
             "badge_color": "#000"
           }
         },
+        "collection_item_9zVQep": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "rasasi",
+            "image": "shopify://shop_images/daarej-pour-homme-542990.png",
+            "bgr-color-item": "#fefefe",
+            "title": "{{ block.settings.collection.title }}",
+            "title_cl": "#222222",
+            "show_badge": true,
+            "title_badge": "10% off",
+            "text_badge_color": "#ffffff",
+            "badge_color": "#000000"
+          }
+        },
+        "collection_item_RJVz3j": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "desperate-housewives",
+            "image": "shopify://shop_images/desperate-housewives-forbidden-fruit-100ml-edp-spray-w-562026.jpg",
+            "bgr-color-item": "#fefefe",
+            "title": "",
+            "title_cl": "#222222",
+            "show_badge": false,
+            "title_badge": "10% off",
+            "text_badge_color": "#ffffff",
+            "badge_color": "#000000"
+          }
+        },
+        "collection_item_AbyPdd": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "chopard",
+            "image": "shopify://shop_images/chopard-vetiver-dhaiti-au-the-vert-100ml-edp-spray-wm-841954.jpg",
+            "bgr-color-item": "#fefefe",
+            "title": "{{ block.settings.collection.title }}",
+            "title_cl": "#222222",
+            "show_badge": true,
+            "title_badge": "10% off",
+            "text_badge_color": "#ffffff",
+            "badge_color": "#000000"
+          }
+        },
+        "collection_item_Gt9GyL": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "bgr-color-item": "#fefefe",
+            "title": "",
+            "title_cl": "#222222",
+            "show_badge": false,
+            "title_badge": "10% off",
+            "text_badge_color": "#ffffff",
+            "badge_color": "#000000"
+          }
+        },
         "collection_item_P4tjCb": {
           "type": "collection_item",
           "settings": {
             "collection": "afnan",
-            "image": "{{ block.settings.collection.image }}",
+            "image": "shopify://shop_images/9pm-100ml-edp-for-men-by-afnan-perfumes-296812.webp",
             "bgr-color-item": "#fefefe",
             "title": "{{ block.settings.collection.title }}",
             "title_cl": "#222222",
@@ -850,7 +906,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "versace",
-            "image": "{{ block.settings.collection.image }}",
+            "image": "shopify://shop_images/versace-vanitas-100ml-edt-spray-w-294056.png",
             "bgr-color-item": "#fefefe",
             "title": "{{ block.settings.collection.title }}",
             "title_cl": "#222222",
@@ -864,7 +920,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "rayhaan",
-            "image": "{{ block.settings.collection.image }}",
+            "image": "shopify://shop_images/pretty-in-pink-100ml-edp-by-rayhaan-perfumes-774411.webp",
             "bgr-color-item": "#fefefe",
             "title": "{{ block.settings.collection.title }}",
             "title_cl": "#222222",
@@ -877,6 +933,10 @@
       },
       "block_order": [
         "collection_item_KLfqY6",
+        "collection_item_9zVQep",
+        "collection_item_RJVz3j",
+        "collection_item_AbyPdd",
+        "collection_item_Gt9GyL",
         "collection_item_P4tjCb",
         "collection_item_UcRGWf",
         "collection_item_DQWLR7"
